@@ -1,6 +1,6 @@
 ''' Create html files for use by the annotation tool.
 Usage: python create_html.py relative/path/to/article/json
-Saves html file in files/html/{article-publish-year}/{article-filename}.json
+Saves html file in data/html/{article-publish-year}/{article-filename}.json
 Accepts any number of input files
 '''
 
