@@ -6,9 +6,9 @@ Citation & Link
 
 
 ## Contents
-- files/articles/: original news articles  
-- files/annotations/: gold-standard annotations  
-- files/html/: generated html to be used for annotating articles  
+- data/articles/: original news articles  
+- data/annotations/: gold-standard annotations  
+- data/html/: generated html to be used for annotating articles  
 - annotate.js: logic for annotation tool  
 - annotation.css: styling for annotation tool  
 - create_html.py: script converting an article in json format to an html file for the tool  
@@ -34,7 +34,7 @@ Citation & Link
 ## Annotation file creation
 To create your own html file that can be used to annotate {article-name}:
 ```
-python create_html.py files/articles/{article-year}/{article-name}.json
+python create_html.py data/articles/{article-year}/{article-name}.json
 ```
 The generated html file will only work if it's nested 3 directories deep, which is where create_html.py will put it by default.  
 

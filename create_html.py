@@ -16,7 +16,7 @@ from article import Article
 def create(filepath):
     article = Article(filepath)
     document = create_html_utils.generate(article)
-    root = 'files/html/{}'.format(str(article.date.year))
+    root = 'data/html/{}'.format(str(article.date.year))
     if not os.path.exists(root):
         os.makedirs(root)
     with open(os.path.join(root, article.filenameWithoutExtension + '.html'),'w') as f:
