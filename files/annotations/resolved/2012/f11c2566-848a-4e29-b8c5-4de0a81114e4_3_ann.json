@@ -1,0 +1,32 @@
+{
+    "triplet-uuid": "f11c2566-848a-4e29-b8c5-4de0a81114e4",
+    "uuid": "129e1589-1b56-41f7-9f3a-bea6caef5eb3",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_John_Boehner": "neu",
+        "you_feeling_John_Boehner": "neu",
+        "author_feeling_Democrats": "neu",
+        "you_feeling_Democrats": "neu",
+        "author_feeling_Republicans": "neu",
+        "you_feeling_Republicans": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "clinging to a fragile",
+            "id": "p6",
+            "start": 79,
+            "end": 100,
+            "target": "Democrats",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

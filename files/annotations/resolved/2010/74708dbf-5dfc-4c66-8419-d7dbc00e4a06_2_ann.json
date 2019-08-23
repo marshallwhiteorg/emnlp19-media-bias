@@ -1,0 +1,43 @@
+{
+    "triplet-uuid": "74708dbf-5dfc-4c66-8419-d7dbc00e4a06",
+    "uuid": "9913f8f7-a5eb-4c8b-b0e2-278ad440e4ca",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Michael_Steele": "neu",
+        "you_feeling_Michael_Steele": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "But Steele has been unpredictable",
+            "id": "p2",
+            "start": 0,
+            "end": 33,
+            "target": "Michael_Steele",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Critics have described the chairman as gaffe-prone",
+            "id": "p6",
+            "start": 0,
+            "end": 50,
+            "target": "Michael_Steele",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

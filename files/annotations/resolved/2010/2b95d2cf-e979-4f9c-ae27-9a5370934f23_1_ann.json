@@ -1,0 +1,90 @@
+{
+    "triplet-uuid": "2b95d2cf-e979-4f9c-ae27-9a5370934f23",
+    "uuid": "d2e17368-b2da-4ee4-a7d9-8a5cccdebefd",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Michael_Steele": "neu",
+        "you_feeling_Michael_Steele": "neu",
+        "author_feeling_Barack_Obama": "neu",
+        "you_feeling_Barack_Obama": "str-pos",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "fierce",
+            "id": "p0",
+            "start": 81,
+            "end": 87,
+            "target": "Michael_Steele",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "who was trying to be cute",
+            "id": "p2",
+            "start": 22,
+            "end": 47,
+            "target": "Barack_Obama",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Michael_Steele",
+            "notes": ""
+        },
+        {
+            "txt": "Your tenure has, of course, been marked by gaffes and embarrassments",
+            "id": "p9",
+            "start": 1,
+            "end": 69,
+            "target": "Michael_Steele",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "notes": ""
+        },
+        {
+            "txt": "betting against our troops and rooting for failure in Afghanistan",
+            "id": "p14",
+            "start": 88,
+            "end": 153,
+            "target": "Michael_Steele",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "notes": ""
+        },
+        {
+            "txt": "His remarks were the latest in a string of controversial statements that he has made as party chairman.",
+            "id": "p5",
+            "start": 0,
+            "end": 103,
+            "target": "Michael_Steele",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

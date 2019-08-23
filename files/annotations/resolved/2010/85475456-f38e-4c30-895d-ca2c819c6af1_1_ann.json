@@ -1,0 +1,88 @@
+{
+    "triplet-uuid": "85475456-f38e-4c30-895d-ca2c819c6af1",
+    "uuid": "bf45994d-2159-4c28-9d63-ff12c5337bf5",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neg",
+        "author_feeling_Richard_Blumenthal": "neg",
+        "you_feeling_Richard_Blumenthal": "neu",
+        "relative_stance": "conservative",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "enabled him to avoid",
+            "id": "p5",
+            "start": 93,
+            "end": 113,
+            "target": "Richard_Blumenthal",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "like fixing a campground and organizing a Toys for Tots drive",
+            "id": "p8",
+            "start": 104,
+            "end": 165,
+            "target": "Richard_Blumenthal",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "uses language with power and precision",
+            "id": "p23",
+            "start": 89,
+            "end": 127,
+            "target": "Richard_Blumenthal",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": "implies he knew what he was doing when he talked about military service"
+        },
+        {
+            "txt": "with his last deferment in jeopardy",
+            "id": "p7",
+            "start": 9,
+            "end": 44,
+            "target": "Richard_Blumenthal",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "It does not appear that Mr. Blumenthal ever sought to correct those mistakes.",
+            "id": "p31",
+            "start": 0,
+            "end": 77,
+            "target": "Richard_Blumenthal",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

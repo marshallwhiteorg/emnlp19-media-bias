@@ -1,0 +1,88 @@
+{
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Donald_Trump": "neu",
+        "you_feeling_Donald_Trump": "neu",
+        "relative_stance": "conservative",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "dangerous, horrible disaster",
+            "id": "p4",
+            "start": 163,
+            "end": 191,
+            "target": "Donald_Trump",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "the southern border",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Donald_Trump",
+            "indirect-ally-opponent-sentiment": "neg",
+            "notes": ""
+        },
+        {
+            "txt": "after Democrats formally took control of the House of Representatives",
+            "id": "p18",
+            "start": 130,
+            "end": 199,
+            "target": "Donald_Trump",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "Democrats",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "neg",
+            "notes": ""
+        },
+        {
+            "txt": "those present at a meeting Wednesday did not want to hear",
+            "id": "p24",
+            "start": 106,
+            "end": 163,
+            "target": "Donald_Trump",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "Democrats",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "neg",
+            "notes": ""
+        },
+        {
+            "txt": "There is no reason to have workers pay a price with their paycheck",
+            "id": "p30",
+            "start": 1,
+            "end": 67,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "ind_general",
+            "indirect-target-name": "federal employees",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "indirect-ally-opponent-sentiment": "neu",
+            "notes": ""
+        },
+        {
+            "txt": "a time-wasting act of political posturing",
+            "id": "p32",
+            "start": 36,
+            "end": 77,
+            "target": "Donald_Trump",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "Democrats",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_pro",
+            "indirect-ally-opponent-sentiment": "neg",
+            "notes": ""
+        }
+    ],
+    "triplet-uuid": "0d10341a-9dba-4374-a524-814c300d1611",
+    "uuid": "cdaba747-9514-4a92-b1a9-262da1be54ab"
+}

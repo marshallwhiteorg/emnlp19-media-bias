@@ -1,0 +1,90 @@
+{
+    "triplet-uuid": "58f414e5-a122-49f5-819e-512d91069da5",
+    "article-level-annotations": {
+        "author_feeling_Democratic_Lawmakers": "neu",
+        "you_feeling_Republican_Lawmakers": "neu",
+        "author_feeling_main_event": "neg",
+        "you_feeling_Democratic_Lawmakers": "neu",
+        "relative_stance": "liberal",
+        "notes": "\nMain entity: Rare comity at Capitol after shooting doesn't last",
+        "author_feeling_Republican_Lawmakers": "neu"
+    },
+    "uuid": "f2c16873-7db9-4345-b0af-715564e73a7b",
+    "phrase-level-annotations": [
+        {
+            "target": "Democratic_Lawmakers",
+            "end": 137,
+            "aim": "dir",
+            "notes": "",
+            "polarity": "neg",
+            "start": 68,
+            "bias": "inf",
+            "txt": "some of the Democrats in the crowd booed, but less lustily than usual",
+            "quote": "no",
+            "indirect-target-name": "",
+            "speaker": "",
+            "id": "p6",
+            "indirect-ally-opponent-sentiment": ""
+        },
+        {
+            "target": "Republican_Lawmakers",
+            "end": 107,
+            "aim": "ind_pro",
+            "notes": "",
+            "polarity": "neg",
+            "start": 0,
+            "bias": "inf",
+            "txt": "In a Thursday morning tweet, Mr. Trump railed against the \u201cWITCH HUNT\u201d of investigations of his associates.",
+            "quote": "no",
+            "indirect-target-name": "Donald Trump",
+            "speaker": "",
+            "id": "p24",
+            "indirect-ally-opponent-sentiment": "neg"
+        },
+        {
+            "target": "Democratic_Lawmakers",
+            "end": 102,
+            "aim": "ind_pro",
+            "notes": "",
+            "polarity": "neg",
+            "start": 0,
+            "bias": "inf",
+            "txt": "And Ms. Pelosi could not resist suggesting that Republicans were the initiators of the present rancor.",
+            "quote": "no",
+            "indirect-target-name": "Nancy Pelosi",
+            "speaker": "",
+            "id": "p27",
+            "indirect-ally-opponent-sentiment": "neg"
+        },
+        {
+            "target": "Republican_Lawmakers",
+            "end": 97,
+            "aim": "ind_pro",
+            "notes": "",
+            "polarity": "neg",
+            "start": 51,
+            "bias": "inf",
+            "txt": "deploying a rare complimentary double negative",
+            "quote": "no",
+            "indirect-target-name": "Mitch McConnell",
+            "speaker": "",
+            "id": "p38",
+            "indirect-ally-opponent-sentiment": "neg"
+        },
+        {
+            "target": "Republican_Lawmakers",
+            "end": 142,
+            "aim": "ind_pro",
+            "notes": "",
+            "polarity": "neg",
+            "start": 104,
+            "bias": "inf",
+            "txt": "who is not known for bipartisan spirit",
+            "quote": "no",
+            "indirect-target-name": "Rand Paul",
+            "speaker": "",
+            "id": "p26",
+            "indirect-ally-opponent-sentiment": "neg"
+        }
+    ]
+}

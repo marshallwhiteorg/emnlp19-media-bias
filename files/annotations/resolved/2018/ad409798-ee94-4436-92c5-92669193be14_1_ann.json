@@ -1,0 +1,86 @@
+{
+    "article-level-annotations": {
+        "author_feeling_main_event": "pos",
+        "author_feeling_Donald_Trump": "neu",
+        "you_feeling_Donald_Trump": "neu",
+        "author_feeling_social_media_companies": "neg",
+        "you_feeling_social_media_companies": "neu",
+        "relative_stance": "conservative",
+	"notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "A Facebook executive apologized last month for mistreating Diamond and Silk -- two pro-Trump personalities who have long claimed they are being censored by the platform, but the company has also denied being biased against conservatives.",
+            "id": "p15",
+            "start": 0,
+            "end": 237,
+            "target": "social_media_companies",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        },
+        {
+            "txt": "sick",
+            "id": "p20",
+            "start": 106,
+            "end": 110,
+            "target": "social_media_companies",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "lex",
+            "quote": "yes",
+            "speaker": "Donald_Trump",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        },
+        {
+            "txt": "complained",
+            "id": "p6",
+            "start": 25,
+            "end": 35,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "ind_pro",
+            "indirect-target-name": "conservatives",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "neg",
+            "notes": ""
+        },
+        {
+            "txt": "fake",
+            "id": "p19",
+            "start": 118,
+            "end": 122,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        },
+        {
+            "txt": "discriminating",
+            "id": "p0",
+            "start": 70,
+            "end": 84,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        }
+    ],
+    "triplet-uuid": "ad409798-ee94-4436-92c5-92669193be14",
+    "uuid": "a058510f-e08f-40f1-81bb-43878ee41825"
+}

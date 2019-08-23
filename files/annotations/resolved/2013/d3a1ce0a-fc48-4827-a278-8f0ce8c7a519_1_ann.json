@@ -1,0 +1,43 @@
+{
+    "triplet-uuid": "d3a1ce0a-fc48-4827-a278-8f0ce8c7a519",
+    "uuid": "de43e785-3d88-444a-8edd-e503a205ed71",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_William_Cowan": "neu",
+        "you_feeling_William_Cowan": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "I’m not standing here because I’m a person of color, but because (the governor) believes I can do the job",
+            "id": "p16",
+            "start": 1,
+            "end": 106,
+            "target": "William_Cowan",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "William_Cowan",
+            "notes": ""
+        },
+        {
+            "txt": "I am confident this is the right and best choice",
+            "id": "p14",
+            "start": 1,
+            "end": 49,
+            "target": "William_Cowan",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_pro",
+            "notes": ""
+        }
+    ]
+}

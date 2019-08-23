@@ -1,0 +1,56 @@
+{
+    "uuid": "44c70e9c-3ff8-49b2-88a3-ce22bba21449",
+    "triplet-uuid": "6b541575-99b1-40d2-8730-9bb868ee38ed",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Bob_Etheridge": "neg",
+        "you_feeling_Bob_Etheridge": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "dressed in a jacket and tie",
+            "id": "p5",
+            "start": 13,
+            "end": 40,
+            "target": "Bob_Etheridge",
+            "polarity": "neg",
+            "aim": "ind_anti",
+            "indirect-target-name": "young man",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "pos",
+            "notes": ""
+        },
+        {
+            "txt": "Bob Etheridge has lost it",
+            "id": "p13",
+            "start": 1,
+            "end": 26,
+            "target": "Bob_Etheridge",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        },
+        {
+            "txt": "\u201cHis conduct is unbecoming of a member of Congress.\u201d",
+            "id": "p14",
+            "start": 0,
+            "end": 52,
+            "target": "Bob_Etheridge",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        }
+    ]
+}

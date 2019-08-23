@@ -1,0 +1,87 @@
+{
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Michael_Flynn": "neu",
+        "you_feeling_Michael_Flynn": "neu",
+        "author_feeling_Donald_Trump": "pos",
+        "you_feeling_Donald_Trump": "neu",
+        "relative_stance": "right",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "Hillary Clinton lied many times to the FBI, nothing happened to her. Flynn lied and they destroyed his life",
+            "id": "p3",
+            "start": 1,
+            "end": 108,
+            "target": "Michael_Flynn",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "Hillary Clinton",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Donald_Trump",
+            "indirect-ally-opponent-sentiment": "neg",
+            "notes": ""
+        },
+        {
+            "txt": "without offering specifics",
+            "id": "p4",
+            "start": 15,
+            "end": 41,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        },
+        {
+            "txt": "Very unfair",
+            "id": "p5",
+            "start": 73,
+            "end": 84,
+            "target": "Michael_Flynn",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "Hillary Clinton",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Donald_Trump",
+            "indirect-ally-opponent-sentiment": "neg",
+            "notes": ""
+        },
+        {
+            "txt": "It is a shame because his actions during the transition were lawful.",
+            "id": "p13",
+            "start": 0,
+            "end": 68,
+            "target": "Michael_Flynn",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Donald_Trump",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        },
+        {
+            "txt": "though it\u2019s unclear what exactly he might reveal about Trump and his associates",
+            "id": "p23",
+            "start": 106,
+            "end": 185,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        }
+    ],
+    "triplet-uuid": "0c78e748-efbf-417c-a8c1-beeb6480147f",
+    "uuid": "6fdef7db-1260-4505-ade6-94dda1d19569"
+}

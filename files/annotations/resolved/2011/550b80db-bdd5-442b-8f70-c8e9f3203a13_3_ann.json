@@ -1,0 +1,90 @@
+{
+    "pair-uuid": "550b80db-bdd5-442b-8f70-c8e9f3203a13",
+    "article-level-annotations": {
+        "author_feeling_Newsweek": "neg",
+        "author_feeling_main_event": "neu",
+        "notes": "more evidence of bias against republicans",
+        "relative_stance": "conservative",
+        "you_feeling_Newsweek": "neu",
+        "author_feeling_Michele_Bachmann": "neu",
+        "you_feeling_Michele_Bachmann": "neu"
+    },
+    "uuid": "4d662039-ba9a-4321-b624-249a0eb62c75",
+    "phrase-level-annotations": [
+        {
+            "target": "Newsweek",
+            "end": 249,
+            "aim": "dir",
+            "notes": "",
+            "polarity": "neg",
+            "start": 134,
+            "bias": "inf",
+            "txt": "\"Can anyone really say with a straight face that the mainstream media is not totally biased against conservatives?\"",
+            "quote": "yes",
+            "indirect-target-name": "",
+            "speaker": "other_anti",
+            "id": "p4",
+            "indirect-ally-opponent-sentiment": ""
+        },
+        {
+            "target": "Newsweek",
+            "end": 77,
+            "aim": "dir",
+            "notes": "",
+            "polarity": "neg",
+            "start": 0,
+            "bias": "inf",
+            "txt": "It's not the first time Newsweek has faced conservative backlash for a cover.",
+            "quote": "no",
+            "indirect-target-name": "",
+            "speaker": "",
+            "id": "p5",
+            "indirect-ally-opponent-sentiment": ""
+        },
+        {
+            "target": "Newsweek",
+            "end": 106,
+            "aim": "dir",
+            "notes": "",
+            "polarity": "neg",
+            "start": 0,
+            "bias": "inf",
+            "txt": "In June, the magazine portrayed Mitt Romney as one of the stars of the Broadway show \"The Book of Mormon.\"",
+            "quote": "no",
+            "indirect-target-name": "",
+            "speaker": "",
+            "id": "p6",
+            "indirect-ally-opponent-sentiment": ""
+        },
+        {
+            "target": "Newsweek",
+            "end": 88,
+            "aim": "dir",
+            "notes": "",
+            "polarity": "neg",
+            "start": 0,
+            "bias": "inf",
+            "txt": "And, of course, it drew widespread criticism for its infamous Sarah Palin cover in 2009.",
+            "quote": "no",
+            "indirect-target-name": "",
+            "speaker": "",
+            "id": "p7",
+            "indirect-ally-opponent-sentiment": ""
+        },
+        {
+            "target": "Newsweek",
+            "end": 249,
+            "aim": "dir",
+            "notes": "",
+            "polarity": "neg",
+            "start": 0,
+            "bias": "inf",
+            "txt": "Conservative websites are already crying foul over the cover, with some saying it makes Bachmann look \"crazy\" and one blogger asking, \"Can anyone really say with a straight face that the mainstream media is not totally biased against conservatives?\"",
+            "quote": "no",
+            "indirect-target-name": "",
+            "speaker": "",
+            "id": "p4",
+            "indirect-ally-opponent-sentiment": ""
+        }
+    ]
+}

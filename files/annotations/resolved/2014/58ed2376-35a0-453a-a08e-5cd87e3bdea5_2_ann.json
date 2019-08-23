@@ -1,0 +1,90 @@
+{
+    "triplet-uuid": "58ed2376-35a0-453a-a08e-5cd87e3bdea5",
+    "uuid": "37cedba7-4b83-4c10-9707-120e759c5e0c",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Jan_Brewer": "neu",
+        "you_feeling_Jan_Brewer": "neu",
+        "author_feeling_SB_1062_bill": "neu",
+        "you_feeling_SB_1062_bill": "neu",
+        "relative_stance": "left",
+        "notes": "outright calls bill \"discrimination\""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "\"religious freedom\"",
+            "id": "p0",
+            "start": 172,
+            "end": 191,
+            "target": "SB_1062_bill",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": "sarcasm"
+        },
+        {
+            "txt": "discriminate",
+            "id": "p0_1",
+            "start": 230,
+            "end": 242,
+            "target": "SB_1062_bill",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "open discrimination",
+            "id": "p10",
+            "start": 67,
+            "end": 86,
+            "target": "SB_1062_bill",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "\"I have not heard one example where business owners' religious liberty has been violated.\"",
+            "id": "p3",
+            "start": 0,
+            "end": 90,
+            "target": "SB_1062_bill",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Jan_Brewer",
+            "notes": ""
+        },
+        {
+            "txt": "[W]e have heard loud and clear from our various stakeholders that adoption of this legislation would not only run contrary to that goal but deal a significant blow to the state's economic growth potential",
+            "id": "p8",
+            "start": 85,
+            "end": 289,
+            "target": "SB_1062_bill",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "notes": ""
+        }
+    ]
+}

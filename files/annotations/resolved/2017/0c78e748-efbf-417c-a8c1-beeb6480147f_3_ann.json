@@ -1,0 +1,75 @@
+{
+    "triplet-uuid": "0c78e748-efbf-417c-a8c1-beeb6480147f",
+    "article-level-annotations": {
+        "you_feeling_Michael_Flynn": "neu",
+        "author_feeling_Donald_Trump": "neu",
+        "relative_stance": "center",
+        "author_feeling_main_event": "neg",
+        "notes": "",
+        "you_feeling_Donald_Trump": "neu",
+        "author_feeling_Michael_Flynn": "neu"
+    },
+    "uuid": "f404bddb-8ab6-4fc7-a3e4-3622ddf4256f",
+    "phrase-level-annotations": [
+        {
+            "target": "Michael_Flynn",
+            "end": 73,
+            "aim": "ind_general",
+            "notes": "",
+            "polarity": "pos",
+            "start": 0,
+            "bias": "inf",
+            "txt": "\u201cHillary Clinton lied many times to the FBI, and nothing happened to her.",
+            "quote": "yes",
+            "indirect-target-name": "Hillary Clinton",
+            "speaker": "Donald_Trump",
+            "id": "p3",
+            "indirect-ally-opponent-sentiment": "neg"
+        },
+        {
+            "target": "Michael_Flynn",
+            "end": 46,
+            "aim": "dir",
+            "notes": "",
+            "polarity": "neg",
+            "start": 0,
+            "bias": "inf",
+            "txt": "Flynn lied, and it\u2019s like, it ruined his life.",
+            "quote": "yes",
+            "indirect-target-name": "",
+            "speaker": "Donald_Trump",
+            "id": "p5",
+            "indirect-ally-opponent-sentiment": ""
+        },
+        {
+            "target": "Michael_Flynn",
+            "end": 18,
+            "aim": "dir",
+            "notes": "",
+            "polarity": "neg",
+            "start": 0,
+            "bias": "inf",
+            "txt": "It\u2019s very unfair.\u201d",
+            "quote": "yes",
+            "indirect-target-name": "",
+            "speaker": "Donald_Trump",
+            "id": "p6",
+            "indirect-ally-opponent-sentiment": ""
+        },
+        {
+            "target": "Donald_Trump",
+            "end": 99,
+            "aim": "dir",
+            "notes": "",
+            "polarity": "neg",
+            "start": 0,
+            "bias": "inf",
+            "txt": "Flynn\u2019s indictment, however, makes it increasingly difficult for the president to distance himself.",
+            "quote": "no",
+            "indirect-target-name": "",
+            "speaker": "",
+            "id": "p11",
+            "indirect-ally-opponent-sentiment": ""
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "triplet-uuid": "af4a3f41-eeb5-49fa-a276-e97c230b25f0",
+    "uuid": "6222fc9f-4cdf-435f-bbf0-41eff396a3e0",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Mike_Huckabee": "neu",
+        "you_feeling_Mike_Huckabee": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "far right",
+            "id": "p10",
+            "start": 99,
+            "end": 108,
+            "target": "Mike_Huckabee",
+            "polarity": "neg",
+            "aim": "ind_general",
+            "indirect-target-name": "conservatives",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Huckabee, an ordained Southern Baptist minister, is a celebrated figure among evangelical Christians.",
+            "id": "p14",
+            "start": 0,
+            "end": 101,
+            "target": "Mike_Huckabee",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "He was the longest-serving Arkansas governor, from 1996 to 2007.",
+            "id": "p15",
+            "start": 0,
+            "end": 64,
+            "target": "Mike_Huckabee",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "His book, \"Quit Digging Your Grave with a Knife and Fork,\" became a bestseller and he made obesity a major policy initiative as governor.",
+            "id": "p17",
+            "start": 0,
+            "end": 137,
+            "target": "Mike_Huckabee",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "charismatic",
+            "id": "p21",
+            "start": 73,
+            "end": 84,
+            "target": "Mike_Huckabee",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "As governor, Huckabee signed a ban on gay marriage (which was overturned by a federal judge last year), and he has been outspoken in his opposition against states legalizing marriage equality.",
+            "id": "p26",
+            "start": 0,
+            "end": 192,
+            "target": "Mike_Huckabee",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "triplet-uuid": "58f414e5-a122-49f5-819e-512d91069da5",
+    "article-level-annotations": {
+        "author_feeling_Democratic_Lawmakers": "neu",
+        "you_feeling_Republican_Lawmakers": "neu",
+        "you_feeling_Steve_Scalise": "neu",
+        "author_feeling_main_event": "neu",
+        "author_feeling_Steve_Scalise": "neu",
+        "relative_stance": "center",
+        "notes": "this whole triple is very unbiased, maybe not worth including?",
+        "author_feeling_Republican_Lawmakers": "neu",
+        "you_feeling_Democratic_Lawmakers": "neu"
+    },
+    "uuid": "34ed48f7-3ad7-47ee-953d-906aad9b37fd",
+    "phrase-level-annotations": [
+        {
+            "target": "Steve_Scalise",
+            "end": 140,
+            "aim": "dir",
+            "notes": "",
+            "polarity": "pos",
+            "start": 102,
+            "bias": "inf",
+            "txt": "God knows how bad that might have been",
+            "quote": "yes",
+            "indirect-target-name": "",
+            "speaker": "Republican_Lawmakers",
+            "id": "p6",
+            "indirect-ally-opponent-sentiment": ""
+        }
+    ]
+}

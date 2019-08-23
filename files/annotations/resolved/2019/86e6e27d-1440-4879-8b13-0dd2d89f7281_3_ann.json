@@ -1,0 +1,90 @@
+{
+    "triplet-uuid": "86e6e27d-1440-4879-8b13-0dd2d89f7281",
+    "uuid": "d99ee700-99fe-4b79-ab99-89f2dbd52d94",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Nancy_Pelosi": "neu",
+        "you_feeling_Nancy_Pelosi": "neu",
+        "author_feeling_Rashida_Tlaib": "neu",
+        "you_feeling_Rashida_Tlaib": "neu",
+        "relative_stance": "liberal",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "I don\u2019t think it\u2019s any worse than what the president has said",
+            "id": "p5",
+            "start": 5,
+            "end": 66,
+            "target": "Rashida_Tlaib",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "Donald Trump",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Nancy_Pelosi",
+            "notes": ""
+        },
+        {
+            "txt": "infamously bragged",
+            "id": "p6",
+            "start": 6,
+            "end": 24,
+            "target": "Rashida_Tlaib",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "Donald Trump",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Trump infamously bragged about grabbing women \u201cby the pussy\u201d in a leaked tape from 2005; since taking office he has referred to certain other nations as \u201cshithole countries\u201d and slung insults at a wide range of political foes.",
+            "id": "p6_1",
+            "start": 0,
+            "end": 226,
+            "target": "Rashida_Tlaib",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "Donald Trump",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "the crowd erupted into cheers",
+            "id": "p13",
+            "start": 30,
+            "end": 59,
+            "target": "Rashida_Tlaib",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "\u201cI don\u2019t like that language.",
+            "id": "p3",
+            "start": 0,
+            "end": 28,
+            "target": "Rashida_Tlaib",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Nancy_Pelosi",
+            "notes": ""
+        }
+    ]
+}

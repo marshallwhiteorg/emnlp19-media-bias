@@ -1,0 +1,62 @@
+{
+    "triplet-uuid": "2058ec60-5372-4f5f-83a3-da780be3a350",
+    "uuid": "empty",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Walmart": "neu",
+        "you_feeling_Walmart": "neu",
+        "author_feeling_plaintiffs": "neu",
+        "you_feeling_plaintiffs": "neu",
+        "author_feeling_supreme_court": "neu",
+        "you_feeling_supreme_court": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "It seems to me there's an inconsistency there, and I'm just not sure what the unlawful policy is.\"",
+            "id": "p9",
+            "start": 0,
+            "end": 98,
+            "target": "plaintiffs",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_neutral",
+            "notes": ""
+        },
+        {
+            "txt": "making it more difficult for women and minority groups to enjoy equality and fair treatment in the workplace",
+            "id": "p33",
+            "start": 88,
+            "end": 196,
+            "target": "supreme_court",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_neutral",
+            "notes": ""
+        },
+        {
+            "txt": "There is absolutely no way there can be a fair process here",
+            "id": "p23",
+            "start": 1,
+            "end": 60,
+            "target": "plaintiffs",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "notes": ""
+        }
+    ]
+}

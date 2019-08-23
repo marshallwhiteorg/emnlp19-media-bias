@@ -1,0 +1,75 @@
+{
+    "triplet-uuid": "a4f1d515-d7d9-4319-b2e0-4d56e9d45554",
+    "uuid": "6e22e887-b988-4c77-b106-68134ba781da",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_National_Security_Agency_programs": "pos",
+        "you_feeling_National_Security_Agency_programs": "neu",
+        "author_feeling_internet_companies": "pos",
+        "you_feeling_internet_companies": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "prohibited from indiscriminately sifting through the telephony metadata acquired under the program",
+            "id": "p7",
+            "start": 38,
+            "end": 136,
+            "target": "National_Security_Agency_programs",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_pro",
+            "notes": ""
+        },
+        {
+            "txt": "From time to time, people allege that we have created a government 'back door' into our systems, but Google does not have a 'back door' for the government to access private user data",
+            "id": "p32",
+            "start": 1,
+            "end": 183,
+            "target": "internet_companies",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "internet_companies",
+            "notes": ""
+        },
+        {
+            "txt": "If the government has a broader voluntary national security program to gather customer data we don't participate in it",
+            "id": "p38",
+            "start": 1,
+            "end": 119,
+            "target": "internet_companies",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "internet_companies",
+            "notes": ""
+        },
+        {
+            "txt": "We disclose user data to government in accordance with the law, and we review all such requests carefully",
+            "id": "p31",
+            "start": 1,
+            "end": 106,
+            "target": "internet_companies",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "internet_companies",
+            "notes": ""
+        }
+    ]
+}

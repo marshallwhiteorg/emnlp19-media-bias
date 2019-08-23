@@ -1,0 +1,43 @@
+{
+    "triplet-uuid": "6e502405-bc90-4416-a787-3122918aa648",
+    "uuid": "92e5cf7b-f770-4ba1-bbe2-a378a13e21e4",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Hillary_Clinton": "neu",
+        "you_feeling_Hillary_Clinton": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "donated over 10 percent of their income to charity",
+            "id": "p4",
+            "start": 79,
+            "end": 129,
+            "target": "Hillary_Clinton",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "The Clintons have previously released their tax returns dating back to 1977.",
+            "id": "p8",
+            "start": 0,
+            "end": 76,
+            "target": "Hillary_Clinton",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

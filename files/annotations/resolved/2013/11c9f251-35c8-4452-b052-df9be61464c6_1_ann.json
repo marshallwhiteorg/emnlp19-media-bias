@@ -1,0 +1,60 @@
+{
+    "triplet-uuid": "11c9f251-35c8-4452-b052-df9be61464c6",
+    "uuid": "c356e514-a20d-45e3-b1ad-159636013822",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Mary_Cheney": "neu",
+        "you_feeling_Mary_Cheney": "neu",
+        "author_feeling_Liz_Cheney": "neu",
+        "you_feeling_Liz_Cheney": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "sharply",
+            "id": "p0",
+            "start": 75,
+            "end": 82,
+            "target": "Liz_Cheney",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "not shying away",
+            "id": "p10",
+            "start": 30,
+            "end": 45,
+            "target": "Mary_Cheney",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "placate",
+            "id": "p8",
+            "start": 21,
+            "end": 28,
+            "target": "Liz_Cheney",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "uuid": "d607f52a-1c7a-4b7d-bb46-5daedf3be369",
+    "triplet-uuid": "ae243a95-b2c2-410c-9e2b-b083b4b8eb48",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Democrats": "neu",
+        "you_feeling_Democrats": "neu",
+        "author_feeling_Republicans": "neu",
+        "you_feeling_Republicans": "neu",
+        "relative_stance": "liberal",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "That means putting on the backburner a push to repeal the military's policy banning gays from serving openly in the military, a bill giving illegal immigrant students and military members a pathway to legal status and an extension of long-term unemployment benefits.",
+            "id": "p2",
+            "start": 0,
+            "end": 266,
+            "target": "Republicans",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        },
+        {
+            "txt": "vowing to deprive",
+            "id": "p11",
+            "start": 21,
+            "end": 38,
+            "target": "Republicans",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        },
+        {
+            "txt": "which was set exclusively by his party",
+            "id": "p18",
+            "start": 98,
+            "end": 136,
+            "target": "Democrats",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        },
+        {
+            "txt": "ripping",
+            "id": "p18",
+            "start": 68,
+            "end": 75,
+            "target": "Democrats",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        },
+        {
+            "txt": "Democrats want them extended for all but the wealthy",
+            "id": "p7",
+            "start": 0,
+            "end": 52,
+            "target": "Democrats",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": "Lisa: thinks it's more lexical, making the policy sound exclusive and not explaining why"
+        },
+        {
+            "txt": "while Republicans want them extended for everybody",
+            "id": "p7",
+            "start": 54,
+            "end": 104,
+            "target": "Republicans",
+            "polarity": "pos",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        }
+    ]
+}

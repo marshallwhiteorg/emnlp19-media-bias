@@ -1,0 +1,11 @@
+''' Constants for articles '''
+
+MAIN_ENTITIES = 'main-entities'
+TRIPLET_UUID = 'triplet-uuid'
+UUID = 'uuid'
+TITLE = 'title'
+BODY_PARAGRAPHS = 'body-paragraphs'
+DATE = 'date'
+SOURCE = 'source'
+URL = 'url'
+MAIN_EVENT = 'main-event'

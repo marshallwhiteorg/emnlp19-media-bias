@@ -1,0 +1,45 @@
+{
+    "triplet-uuid": "005a2961-0c2e-4575-8eec-770ba52a08e0",
+    "uuid": "2114860f-e96f-41dd-b5e2-56f755b0e6f6",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Donald_Trump": "neu",
+        "you_feeling_Donald_Trump": "neu",
+        "author_feeling_Barack_Obama": "neu",
+        "you_feeling_Barack_Obama": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "The \"Celebrity Apprentice\" star",
+            "id": "p1",
+            "start": 0,
+            "end": 31,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Donald's a really good friend of mine, I don't know that Donald really wants to be president",
+            "id": "p19",
+            "start": 1,
+            "end": 93,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_pro",
+            "notes": ""
+        }
+    ]
+}

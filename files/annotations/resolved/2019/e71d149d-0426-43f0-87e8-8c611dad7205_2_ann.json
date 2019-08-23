@@ -1,0 +1,77 @@
+{
+    "triplet-uuid": "e71d149d-0426-43f0-87e8-8c611dad7205",
+    "uuid": "8de59e52-5a1d-4a68-b65b-003b2b60d2b0",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_William_Barr": "neu",
+        "you_feeling_William_Barr": "neu",
+        "author_feeling_House_Democrats": "neu",
+        "you_feeling_House_Democrats": "neu",
+        "author_feeling_Donald_Trump": "neg",
+        "you_feeling_Donald_Trump": "neu",
+        "relative_stance": "liberal",
+        "notes": "insinuates conspiracy by Trump administration to cover up wrongdoing"
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "before President Donald Trump has a chance to interfere",
+            "id": "p0",
+            "start": 132,
+            "end": 187,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Any attempt by the Trump Administration to cover up the results of this investigation into Russia’s attack on our democracy would be unacceptable.”",
+            "id": "p9",
+            "start": 0,
+            "end": 147,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "ind_pro",
+            "indirect-target-name": "Trump administration",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "House_Democrats",
+            "notes": ""
+        },
+        {
+            "txt": " ‘sneak preview’",
+            "id": "p14",
+            "start": 82,
+            "end": 98,
+            "target": "William_Barr",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "yes",
+            "speaker": "House_Democrats",
+            "notes": "target may be Trump?"
+        },
+        {
+            "txt": "champing at the bit",
+            "id": "p17",
+            "start": 20,
+            "end": 39,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

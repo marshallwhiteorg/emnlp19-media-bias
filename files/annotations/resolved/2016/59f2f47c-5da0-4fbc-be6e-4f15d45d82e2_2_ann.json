@@ -1,0 +1,92 @@
+{
+    "pair-uuid": "59f2f47c-5da0-4fbc-be6e-4f15d45d82e2",
+    "uuid": "8eeda8bb-f396-49ed-b993-f0c6ed36715d",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Donald_Trump": "neu",
+        "you_feeling_Donald_Trump": "neu",
+        "author_feeling_Ted_Cruz": "neu",
+        "you_feeling_Ted_Cruz": "neu",
+        "author_feeling_National_Enquirer": "neu",
+        "you_feeling_National_Enquirer": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "henchmen",
+            "id": "p0",
+            "start": 156,
+            "end": 164,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "yes",
+            "speaker": "Ted_Cruz",
+            "notes": ""
+        },
+        {
+            "txt": "Lyin",
+            "id": "p8",
+            "start": 59,
+            "end": 63,
+            "target": "Ted_Cruz",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "yes",
+            "speaker": "Donald_Trump",
+            "notes": ""
+        },
+        {
+            "txt": "surround myself with political hacks and henchman (sic) and then pretend total innocence",
+            "id": "p8_1",
+            "start": 83,
+            "end": 171,
+            "target": "Ted_Cruz",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Donald_Trump",
+            "notes": ""
+        },
+        {
+            "txt": "Lyin",
+            "id": "p9",
+            "start": 187,
+            "end": 191,
+            "target": "Ted_Cruz",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "yes",
+            "speaker": "Donald_Trump",
+            "notes": ""
+        },
+        {
+            "txt": "these attacks are garbage",
+            "id": "p3",
+            "start": 29,
+            "end": 54,
+            "target": "National_Enquirer",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Ted_Cruz",
+            "notes": ""
+        }
+    ]
+}

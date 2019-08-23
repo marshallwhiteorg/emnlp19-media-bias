@@ -1,0 +1,185 @@
+/* CSS for annotation tool */
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  margin: 0 auto;
+  width: 75%;
+  left: 12.5%;
+  height: 75%;
+  top: 12.5%;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  overflow-y: auto;
+  background-color: white;
+}
+
+/* Add styles to the form container */
+.form-container {
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container textarea {
+  width: 80%;
+  padding: 15px;
+  margin: auto;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.btn {
+     margin-bottom: 16px
+}
+
+/* Add a gray background color to the cancel button */
+.form-container .cancel {
+  background-color: gray;
+}
+
+/* Hidden by default */
+/* Add a red background color to the delete button */
+.form-container .delete {
+  display: none;
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+#error_msg, #import_error, #article-level-form-error-msg {
+  color: red;
+}
+
+.ann_sentence {
+  text-decoration: underline;
+}
+
+.ann_span_lexical {
+  background-color: #d7edc2;
+}
+
+.ann_span_informational {
+  background-color: #8DEEEE;
+}
+
+.ann_span_lexical,
+.ann_span_informational,
+.sent,
+#article-level-button {
+  display: inline;
+  position: relative;
+}
+
+#article-level-button {
+  font-size: 14px;
+}
+
+/* tooltips to see answers while hovering */
+.ann_span_lexical .tooltiptext,
+.ann_span_informational .tooltiptext,
+.sent .tooltiptext,
+#article-level-button .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  max-width: 300px;
+  white-space: pre-line;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* fade in */
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.ann_span_lexical .tooltiptext,
+.ann_span_informational .tooltiptext {
+    font-size: .75em;
+}
+
+.sent .tooltiptext,
+#article-level-button .tooltiptext {
+    font-size: .9em;
+}
+
+.ann_span_lexical:hover .tooltiptext,
+.ann_span_informational:hover .tooltiptext,
+.sent:hover .tooltiptext,
+#article-level-button:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.ann_span_lexical .tooltiptext.bottom,
+.ann_span_informational .tooltiptext.bottom,
+.sent .tooltiptext.bottom,
+#article-level-button .tooltiptext.bottom {
+   bottom: auto;
+   top: 125%;
+ }
+
+ .ann_span_lexical .tooltiptext::after,
+ .ann_span_informational .tooltiptext::after,
+ .sent .tooltiptext::after,
+ #article-level-button .tooltiptext::after {
+   content: "";
+   position: absolute;
+   top: 100%;
+   left: 50%;
+   margin-left: -5px;
+   border-width: 5px;
+   border-style: solid;
+   border-color: #555 transparent transparent transparent;
+ }
+
+/* speaker and indirect target sentiment questions hidden by default*/
+#speaker, #indirect-ally-opponent-sentiment, #indirect-target-name {
+  display: none;
+}

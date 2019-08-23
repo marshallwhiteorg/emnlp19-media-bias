@@ -1,0 +1,182 @@
+
+        <head>
+            <meta charset=UTF-8>
+        	<link rel = "stylesheet" type = "text/css" href = "../../../annotation.css">
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        	<script src="../../../annotate.js"></script>
+        	<script type="text/javascript">
+        		var file_id="8dac6c12-b5ca-468c-a249-7e0ab42f6b52_3";
+                var tripletUuid="8dac6c12-b5ca-468c-a249-7e0ab42f6b52";
+                var uuid="65bb63ac-97df-4ef0-b61e-2946d2ec0003";
+        	</script>
+        </head>
+        <body onload="init()">
+        <i>Title: Hillary Clinton: Obama Should Listen To Nancy Pelosi On Trade</i><br><br>
+        <div id="article" onmouseup="annotate()"><span class="para" id="p0">Democratic presidential hopeful Hillary Clinton encouraged President Barack Obama on Sunday to listen to House Minority Leader Nancy Pelosi (D) on trade.</span>	<button class="sent" id="p0">S</button><br><br>
+
+<span class="para" id="p1">Pelosi took to the House floor Friday to oppose trade legislation Obama had personally lobbied for on Capitol Hill earlier that day.</span>	<button class="sent" id="p1">S</button><br><br>
+
+<span class="para" id="p2">“We have an opportunity to slow down,” Pelosi said.</span>	<button class="sent" id="p2">S</button><br><br>
+
+<span class="para" id="p3">“Whatever the deal is with other countries, we want a better deal for America’s workers.”</span>	<button class="sent" id="p3">S</button><br><br>
+
+<span class="para" id="p4">Following her speech, House Democrats rejected Obama's trade agenda in overwhelming numbers.</span>	<button class="sent" id="p4">S</button><br><br>
+
+<span class="para" id="p5">Obama spent the weekend lobbying members of his party to switch their votes next week.</span>	<button class="sent" id="p5">S</button><br><br>
+
+<span class="para" id="p6">At a rally in Iowa, Clinton said that if the president can't come to terms with Pelosi, there should be no deal.</span>	<button class="sent" id="p6">S</button><br><br>
+
+<span class="para" id="p7">"Here's what I think should happen now," Clinton said.</span>	<button class="sent" id="p7">S</button><br><br>
+
+<span class="para" id="p8">"The president should listen to and work with his allies in Congress, starting with Nancy Pelosi, who have expressed their concerns about the impact that a weak agreement would have on our workers, to make sure we get the best, strongest deal possible and if we don't get it, there should be no deal."</span>	<button class="sent" id="p8">S</button><br><br>
+
+<span class="para" id="p9">Clinton said she wants to "find out what's in it and make it as good as it can be," and pushed for more transparency "so the American people can actually see what will be in a finalized deal."</span>	<button class="sent" id="p9">S</button><br><br>
+
+<span class="para" id="p10">House Democrats rejected Obama's trade agenda Friday by blocking a measure that would have granted him the power to fast-track sweeping, secretive international agreements through Congress.</span>	<button class="sent" id="p10">S</button><br><br>
+
+<span class="para" id="p11">Clinton refrained from mentioning trade in her official campaign kickoff speech that took place at New York City's Roosevelt Island on Saturday.</span>	<button class="sent" id="p11">S</button><br><br>
+
+<span class="para" id="p12">Ahead of her remarks in Iowa on Sunday, her campaign said she would not be taking a position on trade until details of a deal were finalized.</span>	<button class="sent" id="p12">S</button><br><br>
+
+<span class="para" id="p13">However, Clinton appeared to suggest she would seek to negotiate the trade agreement as president.</span>	<button class="sent" id="p13">S</button><br><br>
+
+<span class="para" id="p14">"No president would be a tougher negotiator on behalf of American workers, either with our trading partners or Republicans on Capitol Hill, than I would be," she said.</span>	<button class="sent" id="p14">S</button><br><br>
+
+</div>
+	    <div class="form-popup" id="myForm">
+	    <form class="form-container" id="form_data">
+	    	<h2 id="selected_text"></h2>
+	        <h3>Main Target</h3>
+	    	<label><input type="radio" name="target" value="Hillary_Clinton"> Hillary Clinton</label><br>
+	<label><input type="radio" name="target" value="Nancy_Pelosi"> Nancy Pelosi</label><br>
+	<label><input type="radio" name="target" value="Barack_Obama"> Barack Obama</label><br>
+
+    	<h3>Polarity</h3>
+    	<label><input type="radio" name="polarity" value="pos"> Positive</label><br>
+    	<label><input type="radio" name="polarity" value="neg"> Negative</label><br>
+
+    	<h3>Aim</h3>
+    	<label><input type="radio" name="aim" value="dir" onclick="hideIndirectTargetSentiment()"> Direct</label><br>
+    	<label><input type="radio" name="aim" value="ind_pro" onclick="showIndirectTargetSentiment()"> Indirect (Ally)</label><br>
+    	<label><input type="radio" name="aim" value="ind_anti" onclick="showIndirectTargetSentiment()"> Indirect (Opponent)</label><br>
+        <label><input type="radio" name="aim" value="ind_general" onclick="showIndirectTargetSentiment()"> Indirect (General)</label><br>
+
+        <div id="indirect-target-name">
+    	<h3>Indirect Target:
+        <label><input type="text" name="indirect-target-name" id="indirect-target-name-label"></label></h3>
+        </div>
+
+        <div id="indirect-ally-opponent-sentiment">
+        <h3>Sentiment Towards Indirect Target</h3>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="pos"> Positive</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neg"> Negative</label><br>
+        </div>
+
+    	<h3>Bias Type</h3>
+    	<label><input type="radio" name="bias" value="lex"> Lexical</label><br>
+    	<label><input type="radio" name="bias" value="inf"> Informational</label><br>
+
+    	<h3>Is the bias in a quote?</h3>
+    	<label><input type="radio" name="quote" value="yes" onclick="show_speaker()"> Yes</label><br>
+    	<label><input type="radio" name="quote" value="no" onclick="hide_speaker()" checked> No</label><br>
+
+    	<div id="speaker" style="display:none">
+    	<h3>If yes, who said the quote?</h3>
+    	<label><input type="radio" name="speaker" value="Hillary_Clinton"> Hillary Clinton</label><br>
+	<label><input type="radio" name="speaker" value="Nancy_Pelosi"> Nancy Pelosi</label><br>
+	<label><input type="radio" name="speaker" value="Barack_Obama"> Barack Obama</label><br>
+	<label><input type="radio" name="speaker" value="other_pro"> Other (Pro-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_anti"> Other (Anti-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_neutral"> Other (Neutral)</label><br>
+    	</div>
+
+    	<h3> Additional Notes</h3>
+    	<textarea id="notes"></textarea><br>
+
+    	<div id="error_msg"></div>
+        <button type="button" class="btn submit" id="submit">Submit</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+<button type="button" class="btn delete" id="delete">Delete</button>
+<button type="button" class="btn duplicate" id="duplicate">Duplicate</button>
+    </form>
+    </div>
+    <button type="button" class="btn" id="article-level-button" onclick="showArticleLevelForm()">Article-level annotation</button><br>
+        <div class="form-popup" id="article-level-form-div">
+        <form class="form-container" id="article-level-form">
+        <div class="article-question-div">
+        <h3>Main Event: Hillary Clinton suggests Obama should listen to his allies  on trade</h3>
+        <h4>How do you think the author feels regarding the main event?</h4>
+        <label><input type="radio" name="author_feeling_main_event" value="pos"> Positive</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neg"> Negative</label><br>
+        </div>
+        
+            <div class="article-question-div">
+            <h3>Main Entity: Hillary Clinton</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Hillary_Clinton" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Hillary_Clinton" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Hillary_Clinton" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Hillary_Clinton" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Hillary_Clinton" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Hillary_Clinton" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Hillary_Clinton" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Hillary_Clinton" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+            <div class="article-question-div">
+            <h3>Main Entity: Nancy Pelosi</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Nancy_Pelosi" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Nancy_Pelosi" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Nancy_Pelosi" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Nancy_Pelosi" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Nancy_Pelosi" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Nancy_Pelosi" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Nancy_Pelosi" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Nancy_Pelosi" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+            <div class="article-question-div">
+            <h3>Main Entity: Barack Obama</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Barack_Obama" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Barack_Obama" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Barack_Obama" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Barack_Obama" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Barack_Obama" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Barack_Obama" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Barack_Obama" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Barack_Obama" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+        <h3>Political Stance</h3>
+        <h4 style="margin-bottom:0px">Is this article more left, center, or more right compared to the other articles in the triple?</h4>
+
+        <font size="2">Note: Within a triplet, one should be labeled "More left", one should be labeled "Center", and the other should be labeled "More right".</font><br><br>
+        <label><input type="radio" name="relative_stance" value="left"> More left</label><br>
+        <label><input type="radio" name="relative_stance" value="center"> Center</label><br>
+        <label><input type="radio" name="relative_stance" value="right"> More right</label><br>
+        <h3> Additional Notes</h3>
+        <textarea name="notes" id="article-level-notes"></textarea><br>
+        <div id="article-level-form-error-msg"></div>
+        <button type="button" class="btn submit" id="submit" onclick="submitArticleLevelForm()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeArticleLevelForm()">Cancel</button>
+        </form>
+        </div>
+    
+        <button type="button" class="btn" onclick="download_annotations()">Download annotation file</button>
+        <button id="imp_btn" onclick="document.getElementById('import').click();">Import existing annotation file</button>
+        <input type="file" id="import" style="display:none" onchange="importFile(this.files)">
+        <div id="import_error"></div>
+        </body>

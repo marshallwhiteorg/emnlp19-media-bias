@@ -1,0 +1,60 @@
+{
+    "triplet-uuid": "2153fb3e-6b09-410c-bfea-d095c49a54ba",
+    "uuid": "73e9fe54-0fdd-44ba-b29e-f59572dc47d5",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Barack_Obama": "neu",
+        "you_feeling_Barack_Obama": "neu",
+        "author_feeling_Senate_Republicans": "neu",
+        "you_feeling_Senate_Republicans": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "“And it’s time for folks running around spending all their time talking about what’s wrong with America to spend some time rolling up their sleeves to help us make it right.",
+            "id": "p15",
+            "start": 0,
+            "end": 173,
+            "target": "Senate_Republicans",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Barack_Obama",
+            "notes": ""
+        },
+        {
+            "txt": "Mr. Obama said to their applause",
+            "id": "p5",
+            "start": 147,
+            "end": 179,
+            "target": "Barack_Obama",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "facetiously",
+            "id": "p20",
+            "start": 12,
+            "end": 23,
+            "target": "Senate_Republicans",
+            "polarity": "neg",
+            "aim": "ind_pro",
+            "indirect-target-name": "John Boehner",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

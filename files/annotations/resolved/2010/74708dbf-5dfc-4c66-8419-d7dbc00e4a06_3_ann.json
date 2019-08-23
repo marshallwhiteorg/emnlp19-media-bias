@@ -1,0 +1,43 @@
+{
+    "triplet-uuid": "74708dbf-5dfc-4c66-8419-d7dbc00e4a06",
+    "uuid": "a782d93c-cb4a-4096-873d-716791eedf2a",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Michael_Steele": "neu",
+        "you_feeling_Michael_Steele": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "gaffe-prone",
+            "id": "p6",
+            "start": 9,
+            "end": 20,
+            "target": "Michael_Steele",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "his increasing seclusion and detachment from other Republican advisers",
+            "id": "p3",
+            "start": 78,
+            "end": 148,
+            "target": "Michael_Steele",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

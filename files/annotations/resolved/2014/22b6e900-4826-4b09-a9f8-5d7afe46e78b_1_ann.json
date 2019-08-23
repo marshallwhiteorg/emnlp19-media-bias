@@ -1,0 +1,45 @@
+{
+    "triplet-uuid": "22b6e900-4826-4b09-a9f8-5d7afe46e78b",
+    "uuid": "7a35344d-1a8b-4e96-861f-4f9380342ba8",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Bruce_Braley": "neu",
+        "you_feeling_Bruce_Braley": "neu",
+        "author_feeling_Chuck_Grassley": "neu",
+        "you_feeling_Chuck_Grassley": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "which conducts opposition research on Democrats",
+            "id": "p4",
+            "start": 100,
+            "end": 147,
+            "target": "Bruce_Braley",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "America Rising",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "in an attempt to capitalize on the negative attention focused on Braley",
+            "id": "p5",
+            "start": 115,
+            "end": 186,
+            "target": "Bruce_Braley",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "Mark Jacobs",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

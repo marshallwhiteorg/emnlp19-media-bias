@@ -1,0 +1,166 @@
+
+        <head>
+            <meta charset=UTF-8>
+        	<link rel = "stylesheet" type = "text/css" href = "../../../annotation.css">
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        	<script src="../../../annotate.js"></script>
+        	<script type="text/javascript">
+        		var file_id="29ffd053-7684-469b-a600-97000579bd01_3";
+                var tripletUuid="29ffd053-7684-469b-a600-97000579bd01";
+                var uuid="da1baeca-ebba-4fce-97b4-03a03f8c7601";
+        	</script>
+        </head>
+        <body onload="init()">
+        <i>Title: Georgetown Faculty Latest to Chide Ryan </i><br><br>
+        <div id="article" onmouseup="annotate()"><span class="para" id="p0">Representative Paul D. Ryan, the Republican chairman of the House Budget Committee, has been excoriated by some Roman Catholic leaders ever since he claimed this month that his budget plan, which slashes antipoverty programs, was inspired by the moral teachings of his Catholic faith.</span>	<button class="sent" id="p0">S</button><br><br>
+
+<span class="para" id="p1">The latest criticism comes in a letter released Tuesday and signed by nearly 90 faculty members and priests at Georgetown, the Jesuit university in Washington, in advance of Mr. Ryan’s visit there on Thursday.</span>	<button class="sent" id="p1">S</button><br><br>
+
+<span class="para" id="p2">Mr. Ryan is to deliver the prestigious Whittington Lecture, named for an associate dean who was killed on the airplane that crashed into the Pentagon on Sept. 11, 2001.</span>	<button class="sent" id="p2">S</button><br><br>
+
+<span class="para" id="p3">The letter says, “We would be remiss in our duty to you and our students if we did not challenge your continuing misuse of Catholic teaching to defend a budget plan that decimates food programs for struggling families, radically weakens protections for the elderly and sick, and gives more tax breaks to the wealthiest few.”</span>	<button class="sent" id="p3">S</button><br><br>
+
+<span class="para" id="p4">“Your budget appears to reflect the values of your favorite philosopher, Ayn Rand, rather than the Gospel of Jesus Christ,” says the letter, which the faculty members sent to Mr. Ryan along with a copy of the Vatican’s Compendium of the Social Doctrine of the Church — “to help deepen your understanding of Catholic social teaching.”</span>	<button class="sent" id="p4">S</button><br><br>
+
+<span class="para" id="p5">The pressure on Mr. Ryan is part of an effort by some Catholic leaders who are political independents, liberals and Democrats to make it clear that the Catholic church is not an arm of the Republican Party.</span>	<button class="sent" id="p5">S</button><br><br>
+
+<span class="para" id="p6">In the last year, Catholic bishops have emerged as vocal critics of the Obama administration over what they regard as violations of religious freedom, in particular the mandate that even religious employers must provide health insurance that covers birth control.</span>	<button class="sent" id="p6">S</button><br><br>
+
+<span class="para" id="p7">Their condemnation has grown so heated that this month, Bishop Daniel Jenky, of Peoria, Ill., said in a homily that President Obama was so intolerant of religion that he was “following a similar path” as Hitler and Stalin.</span>	<button class="sent" id="p7">S</button><br><br>
+
+<span class="para" id="p8">Dozens of faculty members at Notre Dame, also a Catholic university, sent a letter to the president and chairman of the board of trustees last Friday asking them to rebuke Bishop Jenky’s comments and seek his resignation from the board.</span>	<button class="sent" id="p8">S</button><br><br>
+
+<span class="para" id="p9">Bishop Jenky has stood by his comments.</span>	<button class="sent" id="p9">S</button><br><br>
+
+<span class="para" id="p10">The budget authored by Mr. Ryan, a rising star among conservatives, has given Catholic leaders an opportunity to distance the church from the Republican Party.</span>	<button class="sent" id="p10">S</button><br><br>
+
+<span class="para" id="p11">In an interview this month on the Christian Broadcasting Network, Mr. Ryan claimed that his budget was consistent with Catholic moral teaching because it pushes the poor to become independent of government assistance.</span>	<button class="sent" id="p11">S</button><br><br>
+
+<span class="para" id="p12">“The preferential option for the poor, which is one of the primary tenants of Catholic social teaching, means don’t keep people poor, don’t make people dependent on government so that they stay stuck at their station in life, help people get out of poverty out onto life of independence,” he said.</span>	<button class="sent" id="p12">S</button><br><br>
+
+<span class="para" id="p13">The letter released Tuesday by the faculty at Georgetown took Mr. Ryan to task for that argument, saying that Catholic teaching calls for government to step in and help when communities “face problems beyond their means to address, such as economic crises, high unemployment, endemic poverty and hunger.”</span>	<button class="sent" id="p13">S</button><br><br>
+
+<span class="para" id="p14">The United States Conference of Catholic Bishops has also issued several letters to members of Congress calling for a budget that prioritizes aid to the poor.</span>	<button class="sent" id="p14">S</button><br><br>
+
+<span class="para" id="p15">Mr. Ryan claimed in a recent interview that those letters did not speak for all bishops, but the conference responded that those letters do indeed represent the bishops’ collective opinion.</span>	<button class="sent" id="p15">S</button><br><br>
+
+</div>
+	    <div class="form-popup" id="myForm">
+	    <form class="form-container" id="form_data">
+	    	<h2 id="selected_text"></h2>
+	        <h3>Main Target</h3>
+	    	<label><input type="radio" name="target" value="Paul_Ryan"> Paul Ryan</label><br>
+	<label><input type="radio" name="target" value="Catholics"> Catholics</label><br>
+
+    	<h3>Polarity</h3>
+    	<label><input type="radio" name="polarity" value="pos"> Positive</label><br>
+    	<label><input type="radio" name="polarity" value="neg"> Negative</label><br>
+
+    	<h3>Aim</h3>
+    	<label><input type="radio" name="aim" value="dir" onclick="hideIndirectTargetSentiment()"> Direct</label><br>
+    	<label><input type="radio" name="aim" value="ind_pro" onclick="showIndirectTargetSentiment()"> Indirect (Ally)</label><br>
+    	<label><input type="radio" name="aim" value="ind_anti" onclick="showIndirectTargetSentiment()"> Indirect (Opponent)</label><br>
+        <label><input type="radio" name="aim" value="ind_general" onclick="showIndirectTargetSentiment()"> Indirect (General)</label><br>
+
+        <div id="indirect-target-name">
+    	<h3>Indirect Target:
+        <label><input type="text" name="indirect-target-name" id="indirect-target-name-label"></label></h3>
+        </div>
+
+        <div id="indirect-ally-opponent-sentiment">
+        <h3>Sentiment Towards Indirect Target</h3>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="pos"> Positive</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neg"> Negative</label><br>
+        </div>
+
+    	<h3>Bias Type</h3>
+    	<label><input type="radio" name="bias" value="lex"> Lexical</label><br>
+    	<label><input type="radio" name="bias" value="inf"> Informational</label><br>
+
+    	<h3>Is the bias in a quote?</h3>
+    	<label><input type="radio" name="quote" value="yes" onclick="show_speaker()"> Yes</label><br>
+    	<label><input type="radio" name="quote" value="no" onclick="hide_speaker()" checked> No</label><br>
+
+    	<div id="speaker" style="display:none">
+    	<h3>If yes, who said the quote?</h3>
+    	<label><input type="radio" name="speaker" value="Paul_Ryan"> Paul Ryan</label><br>
+	<label><input type="radio" name="speaker" value="Catholics"> Catholics</label><br>
+	<label><input type="radio" name="speaker" value="other_pro"> Other (Pro-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_anti"> Other (Anti-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_neutral"> Other (Neutral)</label><br>
+    	</div>
+
+    	<h3> Additional Notes</h3>
+    	<textarea id="notes"></textarea><br>
+
+    	<div id="error_msg"></div>
+        <button type="button" class="btn submit" id="submit">Submit</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+<button type="button" class="btn delete" id="delete">Delete</button>
+<button type="button" class="btn duplicate" id="duplicate">Duplicate</button>
+    </form>
+    </div>
+    <button type="button" class="btn" id="article-level-button" onclick="showArticleLevelForm()">Article-level annotation</button><br>
+        <div class="form-popup" id="article-level-form-div">
+        <form class="form-container" id="article-level-form">
+        <div class="article-question-div">
+        <h3>Main Event: Georgetown Catholics challenge Paul Ryan</h3>
+        <h4>How do you think the author feels regarding the main event?</h4>
+        <label><input type="radio" name="author_feeling_main_event" value="pos"> Positive</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neg"> Negative</label><br>
+        </div>
+        
+            <div class="article-question-div">
+            <h3>Main Entity: Paul Ryan</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Paul_Ryan" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Paul_Ryan" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Paul_Ryan" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Paul_Ryan" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Paul_Ryan" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Paul_Ryan" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Paul_Ryan" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Paul_Ryan" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+            <div class="article-question-div">
+            <h3>Main Entity: Catholics</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Catholics" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Catholics" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Catholics" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Catholics" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Catholics" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Catholics" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Catholics" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Catholics" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+        <h3>Political Stance</h3>
+        <h4 style="margin-bottom:0px">Is this article more left, center, or more right compared to the other articles in the triple?</h4>
+
+        <font size="2">Note: Within a triplet, one should be labeled "More left", one should be labeled "Center", and the other should be labeled "More right".</font><br><br>
+        <label><input type="radio" name="relative_stance" value="left"> More left</label><br>
+        <label><input type="radio" name="relative_stance" value="center"> Center</label><br>
+        <label><input type="radio" name="relative_stance" value="right"> More right</label><br>
+        <h3> Additional Notes</h3>
+        <textarea name="notes" id="article-level-notes"></textarea><br>
+        <div id="article-level-form-error-msg"></div>
+        <button type="button" class="btn submit" id="submit" onclick="submitArticleLevelForm()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeArticleLevelForm()">Cancel</button>
+        </form>
+        </div>
+    
+        <button type="button" class="btn" onclick="download_annotations()">Download annotation file</button>
+        <button id="imp_btn" onclick="document.getElementById('import').click();">Import existing annotation file</button>
+        <input type="file" id="import" style="display:none" onchange="importFile(this.files)">
+        <div id="import_error"></div>
+        </body>

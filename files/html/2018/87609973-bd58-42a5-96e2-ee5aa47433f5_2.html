@@ -1,0 +1,170 @@
+
+        <head>
+            <meta charset=UTF-8>
+        	<link rel = "stylesheet" type = "text/css" href = "../../../annotation.css">
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        	<script src="../../../annotate.js"></script>
+        	<script type="text/javascript">
+        		var file_id="87609973-bd58-42a5-96e2-ee5aa47433f5_2";
+                var tripletUuid="87609973-bd58-42a5-96e2-ee5aa47433f5";
+                var uuid="2eb35726-5228-4b2b-bf07-4710316916f2";
+        	</script>
+        </head>
+        <body onload="init()">
+        <i>Title: Trump Accuses Former Clinton Aide of Failing to Follow Security Protocols</i><br><br>
+        <div id="article" onmouseup="annotate()"><span class="para" id="p0">Trump Accuses Former Clinton Aide of Failing to Follow Security Protocols</span>	<button class="sent" id="p0">S</button><br><br>
+
+<span class="para" id="p1">WASHINGTON — President Trump made his first “Crooked Hillary” Twitter post less than 48 hours into the new year on Tuesday, accusing a former Clinton aide of “disregarding basic security protocols,” and calling his own Justice Department a “deep state.”</span>	<button class="sent" id="p1">S</button><br><br>
+
+<span class="para" id="p2">Attacking Hillary Clinton, his former Democratic opponent from the 2016 presidential election, and taking aim at his own Justice Department struck familiar tones for the new year.</span>	<button class="sent" id="p2">S</button><br><br>
+
+<span class="para" id="p3">Almost 14 months after the election, Mr. Trump has kept up a regular drumbeat of attacks on Mrs. Clinton.</span>	<button class="sent" id="p3">S</button><br><br>
+
+<span class="para" id="p4">Last year, Mr. Trump also criticized the Justice Department and Attorney General Jeff Sessions for not pursuing investigations of his political opponents.</span>	<button class="sent" id="p4">S</button><br><br>
+
+<span class="para" id="p5">The Twitter post on Tuesday morning followed an article in The Daily Caller, a conservative publication that Mr. Trump closely monitors.</span>	<button class="sent" id="p5">S</button><br><br>
+
+<span class="para" id="p6">The article said the aide, Huma Abedin, forwarded some government passwords to her private Yahoo email account in 2009, when Mrs. Clinton was secretary of state.</span>	<button class="sent" id="p6">S</button><br><br>
+
+<span class="para" id="p7">Yahoo was hacked in 2013, which affected all three billion of its accounts.</span>	<button class="sent" id="p7">S</button><br><br>
+
+<span class="para" id="p8">After the breach, the data was offered for sale by a hacking collective based in Eastern Europe.</span>	<button class="sent" id="p8">S</button><br><br>
+
+<span class="para" id="p9">Mr. Trump also implored his administration to investigate Ms. Abedin.</span>	<button class="sent" id="p9">S</button><br><br>
+
+<span class="para" id="p10">The term “deep state” typically refers to a shadow government of agency officials who secretly plot to influence policy; they are usually associated with countries that have authoritarian elements that undercut democratically elected leaders.</span>	<button class="sent" id="p10">S</button><br><br>
+
+<span class="para" id="p11">On Friday, the State Department released about 3,000 of Ms. Abedin’s work-related emails.</span>	<button class="sent" id="p11">S</button><br><br>
+
+<span class="para" id="p12">The emails were found on the laptop of Ms. Abedin’s now estranged husband, Anthony D. Weiner, and were released as part of a public records request.</span>	<button class="sent" id="p12">S</button><br><br>
+
+<span class="para" id="p13">The emails found on Mr. Weiner’s computer are a sore spot for Mrs. Clinton.</span>	<button class="sent" id="p13">S</button><br><br>
+
+<span class="para" id="p14">James B. Comey, the former F.B.I. director, had notified Congress shortly before the 2016 election about the existence of newly discovered emails that could be relevant to the closed investigation into Mrs. Clinton’s use of a private email server while secretary of state.</span>	<button class="sent" id="p14">S</button><br><br>
+
+<span class="para" id="p15">Mrs. Clinton, in a book released last year, said Mr. Comey’s disclosure hurt her campaign’s momentum and helped Mr. Trump win the election.</span>	<button class="sent" id="p15">S</button><br><br>
+
+<span class="para" id="p16">In his Twitter post, Mr. Trump also referred to the case of a Navy sailor who was jailed for taking pictures inside a military submarine.</span>	<button class="sent" id="p16">S</button><br><br>
+
+<span class="para" id="p17">According to a report in Fox News, the sailor had hoped to receive a pardon from the president, but has not.</span>	<button class="sent" id="p17">S</button><br><br>
+
+</div>
+	    <div class="form-popup" id="myForm">
+	    <form class="form-container" id="form_data">
+	    	<h2 id="selected_text"></h2>
+	        <h3>Main Target</h3>
+	    	<label><input type="radio" name="target" value="Donald_Trump"> Donald Trump</label><br>
+	<label><input type="radio" name="target" value="Hillary_Clinton"> Hillary Clinton</label><br>
+
+    	<h3>Polarity</h3>
+    	<label><input type="radio" name="polarity" value="pos"> Positive</label><br>
+    	<label><input type="radio" name="polarity" value="neg"> Negative</label><br>
+
+    	<h3>Aim</h3>
+    	<label><input type="radio" name="aim" value="dir" onclick="hideIndirectTargetSentiment()"> Direct</label><br>
+    	<label><input type="radio" name="aim" value="ind_pro" onclick="showIndirectTargetSentiment()"> Indirect (Ally)</label><br>
+    	<label><input type="radio" name="aim" value="ind_anti" onclick="showIndirectTargetSentiment()"> Indirect (Opponent)</label><br>
+        <label><input type="radio" name="aim" value="ind_general" onclick="showIndirectTargetSentiment()"> Indirect (General)</label><br>
+
+        <div id="indirect-target-name">
+    	<h3>Indirect Target:
+        <label><input type="text" name="indirect-target-name" id="indirect-target-name-label"></label></h3>
+        </div>
+
+        <div id="indirect-ally-opponent-sentiment">
+        <h3>Sentiment Towards Indirect Target</h3>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="pos"> Positive</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neg"> Negative</label><br>
+        </div>
+
+    	<h3>Bias Type</h3>
+    	<label><input type="radio" name="bias" value="lex"> Lexical</label><br>
+    	<label><input type="radio" name="bias" value="inf"> Informational</label><br>
+
+    	<h3>Is the bias in a quote?</h3>
+    	<label><input type="radio" name="quote" value="yes" onclick="show_speaker()"> Yes</label><br>
+    	<label><input type="radio" name="quote" value="no" onclick="hide_speaker()" checked> No</label><br>
+
+    	<div id="speaker" style="display:none">
+    	<h3>If yes, who said the quote?</h3>
+    	<label><input type="radio" name="speaker" value="Donald_Trump"> Donald Trump</label><br>
+	<label><input type="radio" name="speaker" value="Hillary_Clinton"> Hillary Clinton</label><br>
+	<label><input type="radio" name="speaker" value="other_pro"> Other (Pro-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_anti"> Other (Anti-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_neutral"> Other (Neutral)</label><br>
+    	</div>
+
+    	<h3> Additional Notes</h3>
+    	<textarea id="notes"></textarea><br>
+
+    	<div id="error_msg"></div>
+        <button type="button" class="btn submit" id="submit">Submit</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+<button type="button" class="btn delete" id="delete">Delete</button>
+<button type="button" class="btn duplicate" id="duplicate">Duplicate</button>
+    </form>
+    </div>
+    <button type="button" class="btn" id="article-level-button" onclick="showArticleLevelForm()">Article-level annotation</button><br>
+        <div class="form-popup" id="article-level-form-div">
+        <form class="form-container" id="article-level-form">
+        <div class="article-question-div">
+        <h3>Main Event: Trump Accuses Former Clinton Aide of Failing to Follow Security Protocols</h3>
+        <h4>How do you think the author feels regarding the main event?</h4>
+        <label><input type="radio" name="author_feeling_main_event" value="pos"> Positive</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neg"> Negative</label><br>
+        </div>
+        
+            <div class="article-question-div">
+            <h3>Main Entity: Donald Trump</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+            <div class="article-question-div">
+            <h3>Main Entity: Hillary Clinton</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Hillary_Clinton" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Hillary_Clinton" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Hillary_Clinton" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Hillary_Clinton" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Hillary_Clinton" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Hillary_Clinton" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Hillary_Clinton" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Hillary_Clinton" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+        <h3>Political Stance</h3>
+        <h4 style="margin-bottom:0px">Is this article more left, center, or more right compared to the other articles in the triple?</h4>
+
+        <font size="2">Note: Within a triplet, one should be labeled "More left", one should be labeled "Center", and the other should be labeled "More right".</font><br><br>
+        <label><input type="radio" name="relative_stance" value="left"> More left</label><br>
+        <label><input type="radio" name="relative_stance" value="center"> Center</label><br>
+        <label><input type="radio" name="relative_stance" value="right"> More right</label><br>
+        <h3> Additional Notes</h3>
+        <textarea name="notes" id="article-level-notes"></textarea><br>
+        <div id="article-level-form-error-msg"></div>
+        <button type="button" class="btn submit" id="submit" onclick="submitArticleLevelForm()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeArticleLevelForm()">Cancel</button>
+        </form>
+        </div>
+    
+        <button type="button" class="btn" onclick="download_annotations()">Download annotation file</button>
+        <button id="imp_btn" onclick="document.getElementById('import').click();">Import existing annotation file</button>
+        <input type="file" id="import" style="display:none" onchange="importFile(this.files)">
+        <div id="import_error"></div>
+        </body>

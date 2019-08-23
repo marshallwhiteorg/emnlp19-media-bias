@@ -1,0 +1,45 @@
+{
+    "pair-uuid": "59f2f47c-5da0-4fbc-be6e-4f15d45d82e2",
+    "uuid": "180f27cd-7dce-467b-bf2a-459029e6f3ea",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Donald_Trump": "neu",
+        "you_feeling_Donald_Trump": "neu",
+        "author_feeling_Ted_Cruz": "neu",
+        "you_feeling_Ted_Cruz": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "sniveling coward",
+            "id": "p9",
+            "start": 21,
+            "end": 37,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Ted_Cruz",
+            "notes": ""
+        },
+        {
+            "txt": "escalated",
+            "id": "p1",
+            "start": 31,
+            "end": 40,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": "puts the responsibility on Trump"
+        }
+    ]
+}

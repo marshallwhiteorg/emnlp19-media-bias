@@ -1,0 +1,90 @@
+{
+    "triplet-uuid": "dd1e6e3b-f36c-4064-8ef9-940984e9afa2",
+    "uuid": "a2d858d3-d70a-4d6f-a7a5-f2f68c5f03f6",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Donald_Trump_Jr.": "neu",
+        "you_feeling_Donald_Trump_Jr.": "neu",
+        "author_feeling_WikiLeaks": "neu",
+        "you_feeling_WikiLeaks": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "How ironic",
+            "id": "p2",
+            "start": 0,
+            "end": 10,
+            "target": "Donald_Trump_Jr.",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "congressional committee",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Donald_Trump_Jr.",
+            "notes": ""
+        },
+        {
+            "txt": "Trump Jr. seemed to ignore many of the messages",
+            "id": "p18",
+            "start": 112,
+            "end": 159,
+            "target": "Donald_Trump_Jr.",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "(he did)",
+            "id": "p27",
+            "start": 149,
+            "end": 157,
+            "target": "Donald_Trump_Jr.",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_neutral",
+            "notes": ""
+        },
+        {
+            "txt": "In June 2016, Trump Jr. accepted a now-highly scrutinized meeting with Russian attorney Natalia Veselnitskaya, after he allegedly was promised “dirt” on Hillary Clinton.",
+            "id": "p31",
+            "start": 0,
+            "end": 169,
+            "target": "Donald_Trump_Jr.",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "This is not the first time that Trump Jr. has been in the spotlight, and has had his actions brought into question amid the larger probe into Russian meddling and potential collusion with Trump campaign associates in the 2016 presidential election.",
+            "id": "p30",
+            "start": 0,
+            "end": 248,
+            "target": "Donald_Trump_Jr.",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

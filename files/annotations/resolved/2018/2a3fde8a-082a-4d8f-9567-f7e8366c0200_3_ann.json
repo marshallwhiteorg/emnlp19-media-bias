@@ -1,0 +1,75 @@
+{
+    "triplet-uuid": "2a3fde8a-082a-4d8f-9567-f7e8366c0200",
+    "uuid": "e2782a75-581f-41e3-9fd3-a1c5e7ec4cf0",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Donald_Trump": "neu",
+        "you_feeling_Donald_Trump": "neu",
+        "author_feeling_Peter_Strzok": "neu",
+        "you_feeling_Peter_Strzok": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "\u201cThis decision should be deeply troubling to all Americans.",
+            "id": "p3",
+            "start": 0,
+            "end": 59,
+            "target": "Peter_Strzok",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "FBI",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_pro",
+            "notes": ""
+        },
+        {
+            "txt": "the decision to terminate was taken in response to political pressure, and to punish Special Agent Strzok for political speech protected by the First Amendment, not on a fair and independent examination of the facts",
+            "id": "p5",
+            "start": 171,
+            "end": 386,
+            "target": "Peter_Strzok",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_pro",
+            "notes": ""
+        },
+        {
+            "txt": "It is a decision that produces only one winner \u2015 those who seek to harm our country and weaken our democracy.\u201d",
+            "id": "p6",
+            "start": 0,
+            "end": 110,
+            "target": "Peter_Strzok",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "FBI",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_pro",
+            "notes": ""
+        },
+        {
+            "txt": "The precise justification for Bowdich\u2019s decision to fire Strzok despite the recommendation of the FBI\u2019s Office of Professional Responsibility is unclear.",
+            "id": "p12",
+            "start": 0,
+            "end": 153,
+            "target": "Peter_Strzok",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "FBI",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

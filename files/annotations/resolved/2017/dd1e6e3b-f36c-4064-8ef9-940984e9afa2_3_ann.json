@@ -1,0 +1,60 @@
+{
+    "triplet-uuid": "dd1e6e3b-f36c-4064-8ef9-940984e9afa2",
+    "uuid": "5eeaf107-771b-4c4d-be7c-4304d4c75a6e",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Donald_Trump_Jr.": "neu",
+        "you_feeling_Donald_Trump_Jr.": "neu",
+        "author_feeling_WikiLeaks": "neg",
+        "you_feeling_WikiLeaks": "neu",
+        "relative_stance": "right",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "Trump Jr. became embroiled in the Russia investigation after it was revealed he and other campaign officials met with a Kremlin-backed attorney in June 2016 who had promised damaging information about Clinton.",
+            "id": "p21",
+            "start": 0,
+            "end": 209,
+            "target": "Donald_Trump_Jr.",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "(Federal officials believe WikiLeaks published material, including emails from the Democratic National Committee’s servers, that had been obtained via Russian hackers.)",
+            "id": "p4",
+            "start": 0,
+            "end": 168,
+            "target": "WikiLeaks",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "To the extent they had information concerning the fitness, character or qualifications of a presidential candidate, I believed that I should at least hear them out",
+            "id": "p23",
+            "start": 1,
+            "end": 164,
+            "target": "WikiLeaks",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Donald_Trump_Jr.",
+            "notes": ""
+        }
+    ]
+}

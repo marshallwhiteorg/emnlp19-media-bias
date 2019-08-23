@@ -1,0 +1,58 @@
+{
+    "triplet-uuid": "af4a3f41-eeb5-49fa-a276-e97c230b25f0",
+    "uuid": "9d39afe0-4041-4e06-86e5-ff2a92a08a32",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Mike_Huckabee": "neu",
+        "you_feeling_Mike_Huckabee": "neu",
+        "relative_stance": "right",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "A leader only starts a fight he's prepared to finish",
+            "id": "p20",
+            "start": 0,
+            "end": 52,
+            "target": "Mike_Huckabee",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Mike_Huckabee",
+            "notes": ""
+        },
+        {
+            "txt": "But whatever the issue, Huckabee, also an author, wraps his appeal as a pitch to everyday Americans who he says \"don't feel like anybody understands or knows who they are, much less cares what's happening to them.\"",
+            "id": "p31",
+            "start": 0,
+            "end": 214,
+            "target": "Mike_Huckabee",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": "supports the everyday Americans?"
+        },
+        {
+            "txt": "took a swipe",
+            "id": "p10",
+            "start": 8,
+            "end": 20,
+            "target": "Mike_Huckabee",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

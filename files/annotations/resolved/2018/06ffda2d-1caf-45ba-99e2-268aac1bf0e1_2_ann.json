@@ -1,0 +1,58 @@
+{
+    "triplet-uuid": "06ffda2d-1caf-45ba-99e2-268aac1bf0e1",
+    "uuid": "369ffb5e-a8bd-4a00-b3d1-92261ba8ed6a",
+    "article-level-annotations": {
+        "author_feeling_main_event": "pos",
+        "author_feeling_Blake_Farenthold": "neg",
+        "you_feeling_Blake_Farenthold": "neu",
+        "relative_stance": "center",
+        "notes": "This article gives quotes by republicans condemning Farenthold. Therefore it pits Farenthold against the republicans (as opposed to the first article, which doesn't make a distinction)"
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "used $84,000 in taxpayer funds",
+            "id": "p2",
+            "start": 71,
+            "end": 101,
+            "target": "Blake_Farenthold",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "already notorious for a heavily circulated photograph of him in duck pajamas",
+            "id": "p6",
+            "start": 52,
+            "end": 128,
+            "target": "Blake_Farenthold",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "describing a congressman with a harsh temper who made sexually explicit jokes and engaged in casual sexual banter",
+            "id": "p17",
+            "start": 114,
+            "end": 227,
+            "target": "Blake_Farenthold",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

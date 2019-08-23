@@ -1,0 +1,58 @@
+{
+    "pair-uuid": "c21cb217-3e2c-49bd-884d-5c74a165ef10",
+    "uuid": "af996942-a8ed-489c-b641-c16a5f8f804b",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Anthony_Weiner": "neu",
+        "you_feeling_Anthony_Weiner": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "A day after telling reporters that he's \"not going to talk about this anymore,\"",
+            "id": "p0",
+            "start": 0,
+            "end": 79,
+            "target": "Anthony_Weiner",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "usual partisan edge",
+            "id": "p26",
+            "start": 123,
+            "end": 142,
+            "target": "Anthony_Weiner",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "The woman told the New York Daily News that she had never met Weiner, and that there had \"never been any inappropriate exchanges\" between her and the congressman.",
+            "id": "p23",
+            "start": 0,
+            "end": 162,
+            "target": "Anthony_Weiner",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

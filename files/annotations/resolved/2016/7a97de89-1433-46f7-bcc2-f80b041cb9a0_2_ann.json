@@ -1,0 +1,73 @@
+{
+    "pair-uuid": "7a97de89-1433-46f7-bcc2-f80b041cb9a0",
+    "uuid": "d0e3873f-ce2a-44cc-95db-7b1598f2a0b7",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neg",
+        "author_feeling_Paul_LePage": "neg",
+        "you_feeling_Paul_LePage": "neu",
+        "relative_stance": "conservative",
+        "notes": "doesn't go into as much detail about controversy"
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "state lawmakers — Democrats and Senate Republicans — exasperated after six years of political controversies and what they saw as erratic behavior",
+            "id": "p5",
+            "start": 19,
+            "end": 164,
+            "target": "Paul_LePage",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Even as he fueled outrage among Democrats and angst among many moderate Republicans",
+            "id": "p24",
+            "start": 0,
+            "end": 83,
+            "target": "Paul_LePage",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "he wanted Mr. LePage to get “a competent evaluation and follow the recommendations of the evaluator.”",
+            "id": "p20",
+            "start": 101,
+            "end": 202,
+            "target": "Paul_LePage",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "“I didn’t use racially charged language,” Mr. LePage claimed, although he also said, “Let’s leave ethnicity out of it.”",
+            "id": "p30",
+            "start": 0,
+            "end": 119,
+            "target": "Paul_LePage",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

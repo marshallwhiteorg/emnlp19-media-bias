@@ -1,0 +1,45 @@
+{
+    "triplet-uuid": "9879bbc0-eab3-482f-bf6b-a4b519393986",
+    "uuid": "ae5815f3-c056-4ed0-83b7-9a5a25d86c7b",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Hillary_Clinton": "neu",
+        "you_feeling_Hillary_Clinton": "neu",
+        "author_feeling_Benghazi_attacks": "neg",
+        "you_feeling_Benghazi_attacks": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "That the administration wavered over its public declarations of the cause of the assault -- repeatedly citing the video before eventually confirming that it was clearly an act of terrorism -- was widely interpreted among critics as evidence of a desire to suppress or conceal the truth.",
+            "id": "p5",
+            "start": 0,
+            "end": 286,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "ind_pro",
+            "indirect-target-name": "Obama's administration",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "The added complexity wasn't always satisfying to the legislators who grilled her Wednesday.",
+            "id": "p12",
+            "start": 0,
+            "end": 91,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

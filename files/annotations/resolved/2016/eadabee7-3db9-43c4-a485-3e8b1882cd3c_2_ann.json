@@ -1,0 +1,92 @@
+{
+    "pair-uuid": "eadabee7-3db9-43c4-a485-3e8b1882cd3c",
+    "uuid": "6871de7a-47d9-4401-915c-9f75f50c3e9e",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Barack_Obama": "neu",
+        "you_feeling_Barack_Obama": "neu",
+        "author_feeling_Bernie_Sanders": "neu",
+        "you_feeling_Bernie_Sanders": "neu",
+        "author_feeling_Hillary_Clinton": "neu",
+        "you_feeling_Hillary_Clinton": "neu",
+        "relative_stance": "conservative",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "courage",
+            "id": "p0",
+            "start": 114,
+            "end": 121,
+            "target": "Hillary_Clinton",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "yes",
+            "speaker": "Barack_Obama",
+            "notes": ""
+        },
+        {
+            "txt": "I don’t think there’s ever been someone so qualified to hold this office",
+            "id": "p3",
+            "start": 10,
+            "end": 82,
+            "target": "Hillary_Clinton",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Barack_Obama",
+            "notes": ""
+        },
+        {
+            "txt": "compared with his defiant speech early Wednesday after Clinton clinched the Democratic nomination",
+            "id": "p19",
+            "start": 14,
+            "end": 111,
+            "target": "Bernie_Sanders",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "a last-ditch bid to somehow deny Clinton the nomination",
+            "id": "p30",
+            "start": 63,
+            "end": 118,
+            "target": "Bernie_Sanders",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "strong",
+            "id": "p20",
+            "start": 109,
+            "end": 115,
+            "target": "Hillary_Clinton",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "yes",
+            "speaker": "Bernie_Sanders",
+            "notes": ""
+        }
+    ]
+}

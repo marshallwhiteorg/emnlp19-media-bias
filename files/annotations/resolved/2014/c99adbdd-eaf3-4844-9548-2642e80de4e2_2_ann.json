@@ -1,0 +1,75 @@
+{
+    "triplet-uuid": "c99adbdd-eaf3-4844-9548-2642e80de4e2",
+    "uuid": "d03a3271-44ac-4059-85c0-8d45cc2b1d2c",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Raul_Labrador": "neu",
+        "you_feeling_Raul_Labrador": "neu",
+        "author_feeling_Kevil_McCarthy": "neu",
+        "you_feeling_Kevil_McCarthy": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "It's a long shot bid.",
+            "id": "p2",
+            "start": 0,
+            "end": 21,
+            "target": "Raul_Labrador",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "peel off",
+            "id": "p5",
+            "start": 83,
+            "end": 91,
+            "target": "Raul_Labrador",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Labrador is an ambitious, sometimes savvy politician.",
+            "id": "p29",
+            "start": 0,
+            "end": 53,
+            "target": "Raul_Labrador",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Americans are looking for a change in the status quo",
+            "id": "p9",
+            "start": 41,
+            "end": 93,
+            "target": "Raul_Labrador",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

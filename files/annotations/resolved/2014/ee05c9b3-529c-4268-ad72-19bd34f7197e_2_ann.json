@@ -1,0 +1,45 @@
+{
+    "triplet-uuid": "ee05c9b3-529c-4268-ad72-19bd34f7197e",
+    "uuid": "empty",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Eric_Cantor": "neu",
+        "you_feeling_Eric_Cantor": "neu",
+        "author_feeling_David_Brat": "neu",
+        "you_feeling_David_Brat": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "stunning",
+            "id": "p0",
+            "start": 25,
+            "end": 33,
+            "target": "David_Brat",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "shied away",
+            "id": "p8",
+            "start": 5,
+            "end": 15,
+            "target": "David_Brat",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

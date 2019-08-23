@@ -1,0 +1,88 @@
+{
+    "triplet-uuid": "a4edca3f-931f-4785-8c3f-f3d8fa84cbec",
+    "uuid": "e8ddc809-1dc1-4ca6-8959-7ddd142dba1c",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Hillary_Clinton": "neg",
+        "you_feeling_Hillary_Clinton": "neu",
+        "relative_stance": "right",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "exclusively",
+            "id": "p0",
+            "start": 75,
+            "end": 86,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "It is not clear how many total emails from that period were in Clinton's personal account, nor is it clear how Clinton's advisers decided which emails to hand over to the State Department.",
+            "id": "p5",
+            "start": 0,
+            "end": 188,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "The use of a personal e-mail address to skirt public records laws, aside from failing to meet the security standards one would expect of the nation's top diplomat, enabled Clinton to shield her official communications from scrutiny by the media and the American public",
+            "id": "p16",
+            "start": 1,
+            "end": 269,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_neutral",
+            "notes": ""
+        },
+        {
+            "txt": "Former Florida Gov. Jeb Bush, who released 250,000 emails from his gubernatorial tenure this past December, tweeted about the contrast between his disclosures and Clinton's secrecy.",
+            "id": "p26",
+            "start": 0,
+            "end": 181,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Clinton and her aides reportedly did not follow that requirement at the time -- until her office turned over documents.",
+            "id": "p13",
+            "start": 0,
+            "end": 119,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

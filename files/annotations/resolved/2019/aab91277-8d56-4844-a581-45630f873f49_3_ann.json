@@ -1,0 +1,47 @@
+{
+    "triplet-uuid": "aab91277-8d56-4844-a581-45630f873f49",
+    "uuid": "77d6cf0e-fc7d-4aa3-9f2b-e3f8ecb3dea5",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Roger_Stone": "neu",
+        "you_feeling_Roger_Stone": "neu",
+        "author_feeling_Robert_Mueller": "neu",
+        "you_feeling_Robert_Mueller": "neu",
+        "author_feeling_Donald_Trump": "neu",
+        "you_feeling_Donald_Trump": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "with a tattoo of Richard Nixon\u2019s face on his back",
+            "id": "p0",
+            "start": 57,
+            "end": 106,
+            "target": "Roger_Stone",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "eccentric",
+            "id": "p0",
+            "start": 16,
+            "end": 25,
+            "target": "Roger_Stone",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

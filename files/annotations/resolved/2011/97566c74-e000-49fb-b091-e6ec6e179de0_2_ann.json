@@ -1,0 +1,58 @@
+{
+    "triplet-uuid": "97566c74-e000-49fb-b091-e6ec6e179de0",
+    "uuid": "172fb859-4d82-49ec-8fa1-52c3cfd0e645",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Donald_Trump": "neu",
+        "you_feeling_Donald_Trump": "neu",
+        "relative_stance": "conservative",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "threatened",
+            "id": "p5",
+            "start": 169,
+            "end": 179,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "flirted",
+            "id": "p8",
+            "start": 50,
+            "end": 57,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "after most candidates in the field opted not to attend",
+            "id": "p0",
+            "start": 125,
+            "end": 179,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

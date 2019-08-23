@@ -1,0 +1,77 @@
+{
+    "triplet-uuid": "8dac6c12-b5ca-468c-a249-7e0ab42f6b52",
+    "uuid": "0211f3a6-2764-4a25-8635-0939e831feee",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Hillary_Clinton": "neu",
+        "you_feeling_Hillary_Clinton": "neu",
+        "author_feeling_Bernie_Sanders": "neu",
+        "you_feeling_Bernie_Sanders": "neu",
+        "author_feeling_Barack_Obama": "neu",
+        "you_feeling_Barack_Obama": "neu",
+        "relative_stance": "left",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "Mrs. Clinton has been criticized by Republicans and some Democrats for saying little about the Trans-Pacific Partnership deal in recent weeks, especially since she had made favorable comments about it as secretary of state.",
+            "id": "p8",
+            "start": 0,
+            "end": 223,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "far more calibrated",
+            "id": "p1",
+            "start": 169,
+            "end": 188,
+            "target": "Hillary_Clinton",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "She declined to take sides on the Friday vote itself but instead allied herself with Democratic critics of the deal — without actually opposing it.",
+            "id": "p2",
+            "start": 0,
+            "end": 147,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "but otherwise did not delve into details",
+            "id": "p17",
+            "start": 76,
+            "end": 116,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

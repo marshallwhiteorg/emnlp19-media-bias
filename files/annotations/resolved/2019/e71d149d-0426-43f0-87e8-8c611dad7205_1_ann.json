@@ -1,0 +1,92 @@
+{
+    "triplet-uuid": "e71d149d-0426-43f0-87e8-8c611dad7205",
+    "uuid": "a675738a-1b71-41cf-8954-a6c7dbc5e333",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_William_Barr": "neu",
+        "you_feeling_William_Barr": "neu",
+        "author_feeling_House_Democrats": "neu",
+        "you_feeling_House_Democrats": "neu",
+        "author_feeling_Donald_Trump": "neu",
+        "you_feeling_Donald_Trump": "neu",
+        "relative_stance": "center",
+        "notes": "many quotes from Democrats in favor of releasing the report, but #2 insinuates that Trump is guilty"
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "have a president, who in my opinion beyond the shadow of a doubt, sought to, however ham-handedly, collude with the Russian government ― a foreign power ― to undermine and influence our elections",
+            "id": "p3",
+            "start": 200,
+            "end": 395,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "House_Democrats",
+            "notes": ""
+        },
+        {
+            "txt": "one of the most racist and uncivil presidents we have ever had",
+            "id": "p4",
+            "start": 99,
+            "end": 161,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "House_Democrats",
+            "notes": ""
+        },
+        {
+            "txt": "A short letter from Trump's hand-picked Attorney General is not sufficient",
+            "id": "p12",
+            "start": 0,
+            "end": 74,
+            "target": "William_Barr",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "House_Democrats",
+            "notes": "target Trump?"
+        },
+        {
+            "txt": "our democracy depends on it",
+            "id": "p20",
+            "start": 32,
+            "end": 59,
+            "target": "William_Barr",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "House_Democrats",
+            "notes": ""
+        },
+        {
+            "txt": "ham-handedly",
+            "id": "p3_1",
+            "start": 285,
+            "end": 297,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "yes",
+            "speaker": "House_Democrats",
+            "notes": ""
+        }
+    ]
+}

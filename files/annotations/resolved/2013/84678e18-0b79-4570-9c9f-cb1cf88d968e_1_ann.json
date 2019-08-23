@@ -1,0 +1,103 @@
+{
+    "triplet-uuid": "84678e18-0b79-4570-9c9f-cb1cf88d968e",
+    "uuid": "7a1a604b-37ac-476f-8cdb-2e7c98705171",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Lois_Lerner": "neg",
+        "you_feeling_Lois_Lerner": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "The bottom line is you cannot lie to Congress, and you cannot be evasive, you cannot try to mislead Congress",
+            "id": "p11",
+            "start": 1,
+            "end": 109,
+            "target": "Lois_Lerner",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "notes": ""
+        },
+        {
+            "txt": "shocked and appalled",
+            "id": "p15",
+            "start": 59,
+            "end": 79,
+            "target": "Lois_Lerner",
+            "polarity": "neg",
+            "aim": "ind_pro",
+            "indirect-target-name": "Federal Elections Commission",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "lex",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "notes": ""
+        },
+        {
+            "txt": "When Bopp learned years later that Lerner had been promoted to an IRS position, he became concerned.",
+            "id": "p17",
+            "start": 0,
+            "end": 100,
+            "target": "Lois_Lerner",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "maelstrom",
+            "id": "p1",
+            "start": 89,
+            "end": 98,
+            "target": "Lois_Lerner",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "evasive",
+            "id": "p2",
+            "start": 36,
+            "end": 43,
+            "target": "Lois_Lerner",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "She was in effect being promoted for what she had done at the Federal Election Commission and now was going to be expected ... to replicate that at the IRS and now we know that's exactly what happened",
+            "id": "p18",
+            "start": 1,
+            "end": 201,
+            "target": "Lois_Lerner",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "notes": ""
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "triplet-uuid": "8dac6c12-b5ca-468c-a249-7e0ab42f6b52",
+    "uuid": "65bb63ac-97df-4ef0-b61e-2946d2ec0003",
+    "article-level-annotations": {
+        "author_feeling_main_event": "pos",
+        "author_feeling_Hillary_Clinton": "neu",
+        "you_feeling_Hillary_Clinton": "neu",
+        "author_feeling_Nancy_Pelosi": "neu",
+        "you_feeling_Nancy_Pelosi": "neu",
+        "author_feeling_Barack_Obama": "neu",
+        "you_feeling_Barack_Obama": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "“Whatever the deal is with other countries, we want a better deal for America’s workers.”",
+            "id": "p3",
+            "start": 0,
+            "end": 89,
+            "target": "Nancy_Pelosi",
+            "polarity": "pos",
+            "aim": "ind_general",
+            "indirect-target-name": "American workers",
+            "indirect-ally-opponent-sentiment": "pos",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Nancy_Pelosi",
+            "notes": ""
+        },
+        {
+            "txt": "Following her speech, House Democrats rejected Obama's trade agenda in overwhelming numbers.",
+            "id": "p4",
+            "start": 0,
+            "end": 92,
+            "target": "Barack_Obama",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "House Democrats rejected Obama's trade agenda Friday by blocking a measure that would have granted him the power to fast-track sweeping, secretive international agreements through Congress.",
+            "id": "p10",
+            "start": 0,
+            "end": 189,
+            "target": "Barack_Obama",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

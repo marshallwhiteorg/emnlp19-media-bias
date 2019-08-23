@@ -1,0 +1,62 @@
+{
+    "triplet-uuid": "ed8c136f-8d44-4c83-ad05-0dcfc3a0c54a",
+    "uuid": "605bd90c-703d-455b-b4b9-660e0c2847ab",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Eric_Holder": "neu",
+        "you_feeling_Eric_Holder": "neu",
+        "author_feeling_protestors": "neu",
+        "you_feeling_protestors": "neu",
+        "author_feeling_police": "neu",
+        "you_feeling_police": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "wonderful",
+            "id": "p4",
+            "start": 216,
+            "end": 225,
+            "target": "protestors",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "yes",
+            "speaker": "protestors",
+            "notes": ""
+        },
+        {
+            "txt": "Yvette Townsend-Saunders called the meeting “wonderful” and said she was thankful that Holder had come to the town.",
+            "id": "p26",
+            "start": 0,
+            "end": 115,
+            "target": "Eric_Holder",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "“They were really nice and they were really listening.",
+            "id": "p33",
+            "start": 0,
+            "end": 54,
+            "target": "Eric_Holder",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "protestors",
+            "notes": ""
+        }
+    ]
+}

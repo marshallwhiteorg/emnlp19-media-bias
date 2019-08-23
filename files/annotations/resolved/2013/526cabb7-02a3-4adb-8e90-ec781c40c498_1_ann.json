@@ -1,0 +1,90 @@
+{
+    "triplet-uuid": "526cabb7-02a3-4adb-8e90-ec781c40c498",
+    "uuid": "807cd714-a095-45b6-841c-ca2e76640429",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Barack_Obama": "neu",
+        "you_feeling_Barack_Obama": "neu",
+        "author_feeling_White_House_officials_and_lawmakers": "neu",
+        "you_feeling_White_House_officials_and_lawmakers": "neu",
+        "relative_stance": "left",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "embrace",
+            "id": "p1",
+            "start": 44,
+            "end": 51,
+            "target": "Barack_Obama",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "fight",
+            "id": "p2",
+            "start": 163,
+            "end": 168,
+            "target": "Barack_Obama",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "threatened",
+            "id": "p11",
+            "start": 52,
+            "end": 62,
+            "target": "Barack_Obama",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "Steve Stockman",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "He’s putting together a pretty comprehensive list of what could be done to make a difference in this area",
+            "id": "p16",
+            "start": 1,
+            "end": 106,
+            "target": "Barack_Obama",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "White_House_officials_and_lawmakers",
+            "notes": ""
+        },
+        {
+            "txt": "most comprehensive gun safety effort in a generation",
+            "id": "p20",
+            "start": 53,
+            "end": 105,
+            "target": "Barack_Obama",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "White_House_officials_and_lawmakers",
+            "notes": ""
+        }
+    ]
+}

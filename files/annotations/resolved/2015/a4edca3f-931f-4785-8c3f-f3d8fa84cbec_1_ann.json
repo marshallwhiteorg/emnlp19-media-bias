@@ -1,0 +1,75 @@
+{
+    "triplet-uuid": "a4edca3f-931f-4785-8c3f-f3d8fa84cbec",
+    "uuid": "716084b8-2a43-4f01-ad49-7681a0a8a016",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Hillary_Clinton": "neu",
+        "you_feeling_Hillary_Clinton": "neu",
+        "author_feeling_George_W._Bush": "neu",
+        "you_feeling_George_W._Bush": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "He may have a personal fondness for her, but Sen. John McCain (R-Ariz.) suggested Thursday that Hillary Clinton’s exclusive use of personal email while serving as secretary of state was hypocritical.",
+            "id": "p0",
+            "start": 0,
+            "end": 199,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "We know about the secret wiretaps, we know about the secret military tribunals, the secret White House email accounts",
+            "id": "p3",
+            "start": 1,
+            "end": 118,
+            "target": "George_W._Bush",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Hillary_Clinton",
+            "notes": ""
+        },
+        {
+            "txt": "It’s a stunning record of secrecy and corruption, of cronyism run amok",
+            "id": "p4",
+            "start": 1,
+            "end": 71,
+            "target": "George_W._Bush",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Hillary_Clinton",
+            "notes": ""
+        },
+        {
+            "txt": "\"The question that I think's gonna rise over time is, how can we be confident that once she carries out what she tweeted -- that she wants all the emails known -- how are we gonna know that?",
+            "id": "p11",
+            "start": 0,
+            "end": 190,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_neutral",
+            "notes": ""
+        }
+    ]
+}

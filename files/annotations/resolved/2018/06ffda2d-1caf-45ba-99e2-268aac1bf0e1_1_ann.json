@@ -1,0 +1,58 @@
+{
+    "triplet-uuid": "06ffda2d-1caf-45ba-99e2-268aac1bf0e1",
+    "uuid": "c7f8467e-2dca-4ad7-bb2e-52d01356510c",
+    "article-level-annotations": {
+        "author_feeling_main_event": "pos",
+        "author_feeling_Blake_Farenthold": "neg",
+        "you_feeling_Blake_Farenthold": "neu",
+        "relative_stance": "liberal",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "Among other things, Greene claimed Farenthold asked her for a threesome.",
+            "id": "p10",
+            "start": 0,
+            "end": 72,
+            "target": "Blake_Farenthold",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Other staffers accused Farenthold of routinely commenting on the size of women’s breasts and making jokes about being on “redhead patrol” because he was attracted to women with red hair.",
+            "id": "p14",
+            "start": 0,
+            "end": 186,
+            "target": "Blake_Farenthold",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "which ranged from making sexually graphic jokes to verbally abusing his aides",
+            "id": "p13",
+            "start": 151,
+            "end": 228,
+            "target": "Blake_Farenthold",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "triplet-uuid": "6f95dcb9-e960-45ac-8c0e-91b85724c909",
+    "uuid": "40b85964-da38-43b1-82e3-74327c79cb24",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Glenn_Beck": "neu",
+        "you_feeling_Glenn_Beck": "neu",
+        "relative_stance": "center",
+        "notes": "gives Beck credit but not as much as #2"
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "top-rated",
+            "id": "p2",
+            "start": 54,
+            "end": 63,
+            "target": "Glenn_Beck",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "None of this would have happened without Glenn",
+            "id": "p19",
+            "start": 1,
+            "end": 47,
+            "target": "Glenn_Beck",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_pro",
+            "notes": ""
+        },
+        {
+            "txt": "She was at CPAC to see Beck and called him a \"relatable ... everyday guy.\"",
+            "id": "p18",
+            "start": 0,
+            "end": 74,
+            "target": "Glenn_Beck",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

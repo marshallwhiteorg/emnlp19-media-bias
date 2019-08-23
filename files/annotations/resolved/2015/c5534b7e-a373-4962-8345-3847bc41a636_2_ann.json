@@ -1,0 +1,90 @@
+{
+    "triplet-uuid": "c5534b7e-a373-4962-8345-3847bc41a636",
+    "uuid": "6257d6b8-9698-44c9-b320-fe5e18536c42",
+    "article-level-annotations": {
+        "author_feeling_main_event": "pos",
+        "author_feeling_Hillary_Clinton": "neu",
+        "you_feeling_Hillary_Clinton": "neu",
+        "author_feeling_Trey_Gowdy": "neu",
+        "you_feeling_Trey_Gowdy": "neu",
+        "relative_stance": "right",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "As far as I know, he’s not an expert in federal record-keeping law",
+            "id": "p26",
+            "start": 1,
+            "end": 67,
+            "target": "Hillary_Clinton",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "Reince Priebus",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Trey_Gowdy",
+            "notes": ""
+        },
+        {
+            "txt": "And I’m 100 percent positive he is not a member of the executive branch",
+            "id": "p27",
+            "start": 1,
+            "end": 72,
+            "target": "Hillary_Clinton",
+            "polarity": "pos",
+            "aim": "ind_anti",
+            "indirect-target-name": "Reince Priebus",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Trey_Gowdy",
+            "notes": ""
+        },
+        {
+            "txt": "Since the report by The New York Times on March 2 that Mrs. Clinton used only a personal email account and did not even have a government account, she seems to have provided two answers about whether she still has copies of her emails.",
+            "id": "p8",
+            "start": 0,
+            "end": 235,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "is criminal in nature",
+            "id": "p21",
+            "start": 108,
+            "end": 129,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "notes": ""
+        },
+        {
+            "txt": "Even Nixon didn’t destroy the tapes",
+            "id": "p23",
+            "start": 1,
+            "end": 36,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "ind_general",
+            "indirect-target-name": "Richard Nixon",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "notes": ""
+        }
+    ]
+}

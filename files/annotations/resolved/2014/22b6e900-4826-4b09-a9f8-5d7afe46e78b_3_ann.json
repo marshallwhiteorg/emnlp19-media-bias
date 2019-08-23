@@ -1,0 +1,75 @@
+{
+    "triplet-uuid": "22b6e900-4826-4b09-a9f8-5d7afe46e78b",
+    "uuid": "3cee11ac-7cd0-40f3-bbe4-c16ef043b090",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Bruce_Braley": "neg",
+        "you_feeling_Bruce_Braley": "neu",
+        "author_feeling_Chuck_Grassley": "pos",
+        "you_feeling_Chuck_Grassley": "neu",
+        "relative_stance": "right",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "mocking",
+            "id": "p0",
+            "start": 86,
+            "end": 93,
+            "target": "Bruce_Braley",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "“respects”",
+            "id": "p2",
+            "start": 11,
+            "end": 21,
+            "target": "Bruce_Braley",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": "sarcastic quotes"
+        },
+        {
+            "txt": "The spokesperson also touted Grassley’s “strong record” on the judiciary committee.",
+            "id": "p10",
+            "start": 0,
+            "end": 83,
+            "target": "Chuck_Grassley",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Alongside that, Sen. Grassley’s one of only two working family farmers in the United States Senate, where he brings Iowa common sense to work for ag, anti-trust, transportation, environmental, energy, trade, health care, communications, national security, and tax policy that works for all of America",
+            "id": "p11",
+            "start": 1,
+            "end": 301,
+            "target": "Chuck_Grassley",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_pro",
+            "notes": ""
+        }
+    ]
+}

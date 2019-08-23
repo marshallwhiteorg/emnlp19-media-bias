@@ -1,0 +1,88 @@
+{
+    "triplet-uuid": "542cd22c-ea80-4669-995b-6ac6a33823f7",
+    "uuid": "11f3a9af-cabd-4f6c-907e-5e99fcc27f00",
+    "article-level-annotations": {
+        "author_feeling_main_event": "pos",
+        "author_feeling_Donald_Trump": "neu",
+        "you_feeling_Donald_Trump": "neu",
+        "relative_stance": "liberal",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "In the face of widespread public backlash",
+            "id": "p2",
+            "start": 0,
+            "end": 41,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "The Safari Club’s political action committees donated a collective $24,500 to Trump’s presidential campaign and Zinke’s 2014 and 2016 congressional campaigns, according to Federal Election Commission data.",
+            "id": "p11",
+            "start": 0,
+            "end": 205,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "which was believed to be a response to public pressure",
+            "id": "p13",
+            "start": 71,
+            "end": 125,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "encouraging Americans to kill elephants",
+            "id": "p20",
+            "start": 41,
+            "end": 80,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_neutral",
+            "notes": ""
+        },
+        {
+            "txt": "hysterical anti-hunters and news media outlets",
+            "id": "p22",
+            "start": 18,
+            "end": 64,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_neutral",
+            "notes": "target shouldn't be Trump, but not sure who else. In this triple it's hard to say bias is for/against Trump because he reversed his position"
+        }
+    ]
+}

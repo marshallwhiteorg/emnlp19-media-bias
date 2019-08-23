@@ -1,0 +1,111 @@
+{
+    "uuid": "f462327d-7021-486b-a262-a1d2ffc4bc25",
+    "triplet-uuid": "6b541575-99b1-40d2-8730-9bb868ee38ed",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Bob_Etheridge": "neg",
+        "you_feeling_Bob_Etheridge": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "!",
+            "id": "p5",
+            "start": 12,
+            "end": 13,
+            "target": "Bob_Etheridge",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        },
+        {
+            "txt": "demands",
+            "id": "p5",
+            "start": 42,
+            "end": 49,
+            "target": "Bob_Etheridge",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        },
+        {
+            "txt": "\"His conduct is unbecoming of a member of Congress.",
+            "id": "p12",
+            "start": 0,
+            "end": 51,
+            "target": "Bob_Etheridge",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        },
+        {
+            "txt": "It's bad enough that he's joined Obama's assault on North Carolina jobs, but his physical assault on a college student goes beyond the pale.\"",
+            "id": "p13",
+            "start": 0,
+            "end": 141,
+            "target": "Bob_Etheridge",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        },
+        {
+            "txt": "Etheridge is then seen trying to snatch a cell phone camera out of the student's hands. He then grabs the man's wrist and refuses to let go.",
+            "id": "p4",
+            "start": 0,
+            "end": 140,
+            "target": "Bob_Etheridge",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        },
+        {
+            "txt": "When the man asks Etheridge to \"please let go of me,\" the congressman then grabs him by the neck.",
+            "id": "p8",
+            "start": 0,
+            "end": 97,
+            "target": "Bob_Etheridge",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        },
+        {
+            "txt": "\"long day.\"",
+            "id": "p11",
+            "start": 124,
+            "end": 135,
+            "target": "Bob_Etheridge",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": "ironic quotes"
+        }
+    ]
+}

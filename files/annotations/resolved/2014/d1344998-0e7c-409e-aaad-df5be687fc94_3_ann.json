@@ -1,0 +1,88 @@
+{
+    "triplet-uuid": "d1344998-0e7c-409e-aaad-df5be687fc94",
+    "uuid": "f004a025-4a04-4f96-9c6e-31418a55e325",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Chris_Christie": "neg",
+        "you_feeling_Chris_Christie": "neu",
+        "relative_stance": "left",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "political retribution scheme",
+            "id": "p5",
+            "start": 153,
+            "end": 181,
+            "target": "Chris_Christie",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "orchestrated",
+            "id": "p7",
+            "start": 10,
+            "end": 22,
+            "target": "Chris_Christie",
+            "polarity": "neg",
+            "aim": "ind_pro",
+            "indirect-target-name": "David Wildstein",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "scandal",
+            "id": "p0",
+            "start": 245,
+            "end": 252,
+            "target": "Chris_Christie",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "massive",
+            "id": "p6",
+            "start": 49,
+            "end": 56,
+            "target": "Chris_Christie",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "The FBI and the Department of Housing and Urban Development, meanwhile, are looking into separate controversies over whether the Christie administration misused Hurricane Sandy relief dollars.",
+            "id": "p10",
+            "start": 0,
+            "end": 192,
+            "target": "Chris_Christie",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

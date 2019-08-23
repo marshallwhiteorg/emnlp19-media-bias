@@ -1,0 +1,160 @@
+
+        <head>
+            <meta charset=UTF-8>
+        	<link rel = "stylesheet" type = "text/css" href = "../../../annotation.css">
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        	<script src="../../../annotate.js"></script>
+        	<script type="text/javascript">
+        		var file_id="72fa9b13-4e59-4716-8df9-4c3580e7dddf_2";
+                var tripletUuid="72fa9b13-4e59-4716-8df9-4c3580e7dddf";
+                var uuid="a82174d9-e45b-4958-b4c6-545ae992de7c";
+        	</script>
+        </head>
+        <body onload="init()">
+        <i>Title: Joe Lieberman emerges as Trump's top choice for FBI director</i><br><br>
+        <div id="article" onmouseup="annotate()"><span class="para" id="p0">President Trump said Thursday he is “very close” to naming a new FBI director to replace James Comey, and his leading contender is former Democratic Sen. Joe Lieberman.</span>	<button class="sent" id="p0">S</button><br><br>
+
+<span class="para" id="p1">Lieberman, 75, who served in the Senate from 1989-2013, first as a Democrat and then as an independent, met with Trump at the White House on Wednesday afternoon to discuss leading the law enforcement agency.</span>	<button class="sent" id="p1">S</button><br><br>
+
+<span class="para" id="p2">A late and somewhat unlikely addition to Trump's short list, Lieberman is nonetheless the sudden frontrunner.</span>	<button class="sent" id="p2">S</button><br><br>
+
+<span class="para" id="p3">When asked point-blank by a reporter in the Oval Office Thursday if Lieberman was the leading contender, Trump replied, "Yes."</span>	<button class="sent" id="p3">S</button><br><br>
+
+<span class="para" id="p4">Trump also met Wednesday with current acting FBI Director Andrew McCabe, former Oklahoma Gov. Frank Keating and FBI official Richard McFeely.</span>	<button class="sent" id="p4">S</button><br><br>
+
+<span class="para" id="p5">Lieberman’s law enforcement experience stems from his two-term tenure as Connecticut’s attorney general, spanning from 1983 until his resignation in 1989 when he was elected to the U.S. Senate.</span>	<button class="sent" id="p5">S</button><br><br>
+
+<span class="para" id="p6">Lieberman, who ran as vice president on Al Gore's 2000 ticket, became an independent after losing the Democratic primary in 2006.</span>	<button class="sent" id="p6">S</button><br><br>
+
+<span class="para" id="p7">He won re-election, and two years later further angered Democrats when he endorsed John McCain for president against eventual winner Barack Obama, even speaking at the Republican National Convention.</span>	<button class="sent" id="p7">S</button><br><br>
+
+<span class="para" id="p8">Lieberman told Fox Business Network last year that he “never changed parties” and in fact ended up endorsing Hillary Clinton in the 2016 presidential campaign against Trump.</span>	<button class="sent" id="p8">S</button><br><br>
+
+<span class="para" id="p9">Some Republican senators called the idea of Lieberman replacing Comey “intriguing,” but Sen. Claire McCaskill, D-Mo., said it was a “mistake” to nominate him.</span>	<button class="sent" id="p9">S</button><br><br>
+
+<span class="para" id="p10">"Lieberman is probably the only person who can get 100 votes in the Senate," Senate Majority Whip John Cornyn, R-Texas, said on Capitol Hill on Thursday after the closed Senate briefing with Deputy Attorney General Rod Rosenstein.</span>	<button class="sent" id="p10">S</button><br><br>
+
+<span class="para" id="p11">Cornyn was on the White House's shortlist to replace Comey, but withdrew himself from consideration this week.</span>	<button class="sent" id="p11">S</button><br><br>
+
+<span class="para" id="p12">On Thursday morning on the Senate floor, Senate Minority Leader Chuck Schumer, D-N.Y., argued against a “career politician” of either party to lead the FBI, though he did not name Lieberman.</span>	<button class="sent" id="p12">S</button><br><br>
+
+</div>
+	    <div class="form-popup" id="myForm">
+	    <form class="form-container" id="form_data">
+	    	<h2 id="selected_text"></h2>
+	        <h3>Main Target</h3>
+	    	<label><input type="radio" name="target" value="Donald_Trump"> Donald Trump</label><br>
+	<label><input type="radio" name="target" value="Joe_Lieberman"> Joe Lieberman</label><br>
+
+    	<h3>Polarity</h3>
+    	<label><input type="radio" name="polarity" value="pos"> Positive</label><br>
+    	<label><input type="radio" name="polarity" value="neg"> Negative</label><br>
+
+    	<h3>Aim</h3>
+    	<label><input type="radio" name="aim" value="dir" onclick="hideIndirectTargetSentiment()"> Direct</label><br>
+    	<label><input type="radio" name="aim" value="ind_pro" onclick="showIndirectTargetSentiment()"> Indirect (Ally)</label><br>
+    	<label><input type="radio" name="aim" value="ind_anti" onclick="showIndirectTargetSentiment()"> Indirect (Opponent)</label><br>
+        <label><input type="radio" name="aim" value="ind_general" onclick="showIndirectTargetSentiment()"> Indirect (General)</label><br>
+
+        <div id="indirect-target-name">
+    	<h3>Indirect Target:
+        <label><input type="text" name="indirect-target-name" id="indirect-target-name-label"></label></h3>
+        </div>
+
+        <div id="indirect-ally-opponent-sentiment">
+        <h3>Sentiment Towards Indirect Target</h3>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="pos"> Positive</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neg"> Negative</label><br>
+        </div>
+
+    	<h3>Bias Type</h3>
+    	<label><input type="radio" name="bias" value="lex"> Lexical</label><br>
+    	<label><input type="radio" name="bias" value="inf"> Informational</label><br>
+
+    	<h3>Is the bias in a quote?</h3>
+    	<label><input type="radio" name="quote" value="yes" onclick="show_speaker()"> Yes</label><br>
+    	<label><input type="radio" name="quote" value="no" onclick="hide_speaker()" checked> No</label><br>
+
+    	<div id="speaker" style="display:none">
+    	<h3>If yes, who said the quote?</h3>
+    	<label><input type="radio" name="speaker" value="Donald_Trump"> Donald Trump</label><br>
+	<label><input type="radio" name="speaker" value="Joe_Lieberman"> Joe Lieberman</label><br>
+	<label><input type="radio" name="speaker" value="other_pro"> Other (Pro-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_anti"> Other (Anti-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_neutral"> Other (Neutral)</label><br>
+    	</div>
+
+    	<h3> Additional Notes</h3>
+    	<textarea id="notes"></textarea><br>
+
+    	<div id="error_msg"></div>
+        <button type="button" class="btn submit" id="submit">Submit</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+<button type="button" class="btn delete" id="delete">Delete</button>
+<button type="button" class="btn duplicate" id="duplicate">Duplicate</button>
+    </form>
+    </div>
+    <button type="button" class="btn" id="article-level-button" onclick="showArticleLevelForm()">Article-level annotation</button><br>
+        <div class="form-popup" id="article-level-form-div">
+        <form class="form-container" id="article-level-form">
+        <div class="article-question-div">
+        <h3>Main Event: Donald Trump considers Joe Lieberman for FBI Director</h3>
+        <h4>How do you think the author feels regarding the main event?</h4>
+        <label><input type="radio" name="author_feeling_main_event" value="pos"> Positive</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neg"> Negative</label><br>
+        </div>
+        
+            <div class="article-question-div">
+            <h3>Main Entity: Donald Trump</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+            <div class="article-question-div">
+            <h3>Main Entity: Joe Lieberman</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Joe_Lieberman" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Joe_Lieberman" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Joe_Lieberman" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Joe_Lieberman" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Joe_Lieberman" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Joe_Lieberman" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Joe_Lieberman" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Joe_Lieberman" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+        <h3>Political Stance</h3>
+        <h4 style="margin-bottom:0px">Is this article more left, center, or more right compared to the other articles in the triple?</h4>
+
+        <font size="2">Note: Within a triplet, one should be labeled "More left", one should be labeled "Center", and the other should be labeled "More right".</font><br><br>
+        <label><input type="radio" name="relative_stance" value="left"> More left</label><br>
+        <label><input type="radio" name="relative_stance" value="center"> Center</label><br>
+        <label><input type="radio" name="relative_stance" value="right"> More right</label><br>
+        <h3> Additional Notes</h3>
+        <textarea name="notes" id="article-level-notes"></textarea><br>
+        <div id="article-level-form-error-msg"></div>
+        <button type="button" class="btn submit" id="submit" onclick="submitArticleLevelForm()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeArticleLevelForm()">Cancel</button>
+        </form>
+        </div>
+    
+        <button type="button" class="btn" onclick="download_annotations()">Download annotation file</button>
+        <button id="imp_btn" onclick="document.getElementById('import').click();">Import existing annotation file</button>
+        <input type="file" id="import" style="display:none" onchange="importFile(this.files)">
+        <div id="import_error"></div>
+        </body>

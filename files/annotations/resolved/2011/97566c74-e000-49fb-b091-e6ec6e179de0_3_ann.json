@@ -1,0 +1,73 @@
+{
+    "triplet-uuid": "97566c74-e000-49fb-b091-e6ec6e179de0",
+    "uuid": "empty",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neg",
+        "author_feeling_Donald_Trump": "neg",
+        "you_feeling_Donald_Trump": "neu",
+        "relative_stance": "liberal",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "his own",
+            "id": "p0",
+            "start": 61,
+            "end": 68,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "very loudly",
+            "id": "p4",
+            "start": 21,
+            "end": 32,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "the usual share of public ridicule",
+            "id": "p7",
+            "start": 21,
+            "end": 55,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "making noises",
+            "id": "p8",
+            "start": 33,
+            "end": 46,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

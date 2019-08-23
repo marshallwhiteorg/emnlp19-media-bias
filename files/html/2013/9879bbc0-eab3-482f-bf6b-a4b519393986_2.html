@@ -1,0 +1,170 @@
+
+        <head>
+            <meta charset=UTF-8>
+        	<link rel = "stylesheet" type = "text/css" href = "../../../annotation.css">
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        	<script src="../../../annotate.js"></script>
+        	<script type="text/javascript">
+        		var file_id="9879bbc0-eab3-482f-bf6b-a4b519393986_2";
+                var tripletUuid="9879bbc0-eab3-482f-bf6b-a4b519393986";
+                var uuid="ae5815f3-c056-4ed0-83b7-9a5a25d86c7b";
+        	</script>
+        </head>
+        <body onload="init()">
+        <i>Title: Clinton Benghazi Hearings Show Classified Report Could Not Determine Causes Of Attacks</i><br><br>
+        <div id="article" onmouseup="annotate()"><span class="para" id="p0">WASHINGTON -- The classified version of a State Department review of last year's assault on an American compound in Benghazi, Libya, found that it was impossible to say what exactly motivated the attackers, Secretary of State Hillary Clinton revealed Wednesday.</span>	<button class="sent" id="p0">S</button><br><br>
+
+<span class="para" id="p1">Speaking at a pair of hearings on Capitol Hill to examine the Obama administration's handling of and response to the attacks, Clinton repeatedly cited the classified version of the review by a State Department Accountability Review Board, distributed to lawmakers last month.</span>	<button class="sent" id="p1">S</button><br><br>
+
+<span class="para" id="p2">"As the ARB makes clear, after their months of research the picture remains still somewhat complicated," Clinton said, during an exchange with Sen. James Risch (R-Idaho) at the Senate Foreign Relations Committee.</span>	<button class="sent" id="p2">S</button><br><br>
+
+<span class="para" id="p3">"And I say that because in the unclassified ARB, it is -- I quote: 'Key questions surrounding the identity, actions and motivations of the perpetrators remain to be determined.'"</span>	<button class="sent" id="p3">S</button><br><br>
+
+<span class="para" id="p4">The question of what motivated the Benghazi attacks has often been viewed as a duality: Either it was the result of a mob angry over a recently released anti-Islamic video, or it was a terrorist attack.</span>	<button class="sent" id="p4">S</button><br><br>
+
+<span class="para" id="p5">That the administration wavered over its public declarations of the cause of the assault -- repeatedly citing the video before eventually confirming that it was clearly an act of terrorism -- was widely interpreted among critics as evidence of a desire to suppress or conceal the truth.</span>	<button class="sent" id="p5">S</button><br><br>
+
+<span class="para" id="p6">But from the start, the evidence on the scene in Benghazi was more complex.</span>	<button class="sent" id="p6">S</button><br><br>
+
+<span class="para" id="p7">Reporters from The New York Times and Reuters who were on the ground immediately after the attacks relayed that people involved in the mob scene around the compound repeatedly cited the video as a cause of their anger.</span>	<button class="sent" id="p7">S</button><br><br>
+
+<span class="para" id="p8">The Times later stood by that version of events, citing it in its fact-check of Republican attacks on Obama during the presidential campaign.</span>	<button class="sent" id="p8">S</button><br><br>
+
+<span class="para" id="p9">The ARB, in its unclassified form, mentions that the attackers' motivation is the subject of an ongoing FBI investigation.</span>	<button class="sent" id="p9">S</button><br><br>
+
+<span class="para" id="p10">But the classified version, Clinton said, detailed the possible motivations for the attack, and suggested while they were pre-coordinated and deliberate, they were also opportunistic and not planned extensively.</span>	<button class="sent" id="p10">S</button><br><br>
+
+<span class="para" id="p11">In citing the classified report to rebuff congressional queries about the administration's handling of the crisis, Clinton was drawing on a powerful tool of her office, although discussing a classified document is sure to raise further questions.</span>	<button class="sent" id="p11">S</button><br><br>
+
+<span class="para" id="p12">The added complexity wasn't always satisfying to the legislators who grilled her Wednesday.</span>	<button class="sent" id="p12">S</button><br><br>
+
+<span class="para" id="p13">While being questioned at the House Foreign Relations Committee by Rep. Jeff Duncan (R-S.C.), Clinton urged that he read the classified ARB report to find his answers.</span>	<button class="sent" id="p13">S</button><br><br>
+
+<span class="para" id="p14">"There are key questions surrounding the identity, actions and motivations of the perpetrators that remain to be determined," she said.</span>	<button class="sent" id="p14">S</button><br><br>
+
+<span class="para" id="p15">"I recommend that every member read the classified version, which goes into greater detail that I cannot speak to here today.</span>	<button class="sent" id="p15">S</button><br><br>
+
+<span class="para" id="p16">To which Duncan replied: "It was a terrorist attack.</span>	<button class="sent" id="p16">S</button><br><br>
+
+<span class="para" id="p17">It's pretty clear what the motivation was."</span>	<button class="sent" id="p17">S</button><br><br>
+
+</div>
+	    <div class="form-popup" id="myForm">
+	    <form class="form-container" id="form_data">
+	    	<h2 id="selected_text"></h2>
+	        <h3>Main Target</h3>
+	    	<label><input type="radio" name="target" value="Hillary_Clinton"> Hillary Clinton</label><br>
+	<label><input type="radio" name="target" value="Benghazi_attacks"> Benghazi attacks</label><br>
+
+    	<h3>Polarity</h3>
+    	<label><input type="radio" name="polarity" value="pos"> Positive</label><br>
+    	<label><input type="radio" name="polarity" value="neg"> Negative</label><br>
+
+    	<h3>Aim</h3>
+    	<label><input type="radio" name="aim" value="dir" onclick="hideIndirectTargetSentiment()"> Direct</label><br>
+    	<label><input type="radio" name="aim" value="ind_pro" onclick="showIndirectTargetSentiment()"> Indirect (Ally)</label><br>
+    	<label><input type="radio" name="aim" value="ind_anti" onclick="showIndirectTargetSentiment()"> Indirect (Opponent)</label><br>
+        <label><input type="radio" name="aim" value="ind_general" onclick="showIndirectTargetSentiment()"> Indirect (General)</label><br>
+
+        <div id="indirect-target-name">
+    	<h3>Indirect Target:
+        <label><input type="text" name="indirect-target-name" id="indirect-target-name-label"></label></h3>
+        </div>
+
+        <div id="indirect-ally-opponent-sentiment">
+        <h3>Sentiment Towards Indirect Target</h3>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="pos"> Positive</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neg"> Negative</label><br>
+        </div>
+
+    	<h3>Bias Type</h3>
+    	<label><input type="radio" name="bias" value="lex"> Lexical</label><br>
+    	<label><input type="radio" name="bias" value="inf"> Informational</label><br>
+
+    	<h3>Is the bias in a quote?</h3>
+    	<label><input type="radio" name="quote" value="yes" onclick="show_speaker()"> Yes</label><br>
+    	<label><input type="radio" name="quote" value="no" onclick="hide_speaker()" checked> No</label><br>
+
+    	<div id="speaker" style="display:none">
+    	<h3>If yes, who said the quote?</h3>
+    	<label><input type="radio" name="speaker" value="Hillary_Clinton"> Hillary Clinton</label><br>
+	<label><input type="radio" name="speaker" value="Benghazi_attacks"> Benghazi attacks</label><br>
+	<label><input type="radio" name="speaker" value="other_pro"> Other (Pro-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_anti"> Other (Anti-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_neutral"> Other (Neutral)</label><br>
+    	</div>
+
+    	<h3> Additional Notes</h3>
+    	<textarea id="notes"></textarea><br>
+
+    	<div id="error_msg"></div>
+        <button type="button" class="btn submit" id="submit">Submit</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+<button type="button" class="btn delete" id="delete">Delete</button>
+<button type="button" class="btn duplicate" id="duplicate">Duplicate</button>
+    </form>
+    </div>
+    <button type="button" class="btn" id="article-level-button" onclick="showArticleLevelForm()">Article-level annotation</button><br>
+        <div class="form-popup" id="article-level-form-div">
+        <form class="form-container" id="article-level-form">
+        <div class="article-question-div">
+        <h3>Main Event: Clinton Benghazi Hearings Show Classified Report Could Not Determine Causes Of Attacks</h3>
+        <h4>How do you think the author feels regarding the main event?</h4>
+        <label><input type="radio" name="author_feeling_main_event" value="pos"> Positive</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neg"> Negative</label><br>
+        </div>
+        
+            <div class="article-question-div">
+            <h3>Main Entity: Hillary Clinton</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Hillary_Clinton" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Hillary_Clinton" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Hillary_Clinton" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Hillary_Clinton" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Hillary_Clinton" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Hillary_Clinton" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Hillary_Clinton" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Hillary_Clinton" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+            <div class="article-question-div">
+            <h3>Main Entity: Benghazi attacks</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Benghazi_attacks" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Benghazi_attacks" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Benghazi_attacks" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Benghazi_attacks" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Benghazi_attacks" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Benghazi_attacks" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Benghazi_attacks" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Benghazi_attacks" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+        <h3>Political Stance</h3>
+        <h4 style="margin-bottom:0px">Is this article more left, center, or more right compared to the other articles in the triple?</h4>
+
+        <font size="2">Note: Within a triplet, one should be labeled "More left", one should be labeled "Center", and the other should be labeled "More right".</font><br><br>
+        <label><input type="radio" name="relative_stance" value="left"> More left</label><br>
+        <label><input type="radio" name="relative_stance" value="center"> Center</label><br>
+        <label><input type="radio" name="relative_stance" value="right"> More right</label><br>
+        <h3> Additional Notes</h3>
+        <textarea name="notes" id="article-level-notes"></textarea><br>
+        <div id="article-level-form-error-msg"></div>
+        <button type="button" class="btn submit" id="submit" onclick="submitArticleLevelForm()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeArticleLevelForm()">Cancel</button>
+        </form>
+        </div>
+    
+        <button type="button" class="btn" onclick="download_annotations()">Download annotation file</button>
+        <button id="imp_btn" onclick="document.getElementById('import').click();">Import existing annotation file</button>
+        <input type="file" id="import" style="display:none" onchange="importFile(this.files)">
+        <div id="import_error"></div>
+        </body>

@@ -1,0 +1,186 @@
+
+        <head>
+            <meta charset=UTF-8>
+        	<link rel = "stylesheet" type = "text/css" href = "../../../annotation.css">
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        	<script src="../../../annotate.js"></script>
+        	<script type="text/javascript">
+        		var file_id="d4a4bc34-e48b-4485-86b2-f1daf4d464dd_1";
+                var tripletUuid="d4a4bc34-e48b-4485-86b2-f1daf4d464dd";
+                var uuid="9eaef0d4-421f-4eaf-a256-e2494ed0efae";
+        	</script>
+        </head>
+        <body onload="init()">
+        <i>Title: Vicente Fox and Felipe Calderón, 2 Ex-Presidents of Mexico, Say No Way Country Is Paying for Donald Trump's Wall</i><br><br>
+        <div id="article" onmouseup="annotate()"><span class="para" id="p0">At almost all of his campaign rallies, Donald J. Trump leads a familiar refrain as he details his plan to build a giant wall along the border with Mexico.</span>	<button class="sent" id="p0">S</button><br><br>
+
+<span class="para" id="p1">“Who’s gonna pay?” he asks.</span>	<button class="sent" id="p1">S</button><br><br>
+
+<span class="para" id="p2">Without fail, Mr. Trump’s adoring fans reply, “Mexico!”</span>	<button class="sent" id="p2">S</button><br><br>
+
+<span class="para" id="p3">While the Mexican government has said little about Mr. Trump’s plan to beef up border security, two of the country’s former presidents have a message for Mr. Trump: Mexico won’t pay.</span>	<button class="sent" id="p3">S</button><br><br>
+
+<span class="para" id="p4">“I’m not going to pay,” Vicente Fox said, using a profanity to comment about the wall Thursday in an interview with Fusion.</span>	<button class="sent" id="p4">S</button><br><br>
+
+<span class="para" id="p5">“He should pay for it. He’s got the money.”</span>	<button class="sent" id="p5">S</button><br><br>
+
+<span class="para" id="p6">Mr. Fox, who was president of Mexico from 2000 to 2006, was clear in his opposition to Mr. Trump, calling him “egocentric” and lacking in any political values.</span>	<button class="sent" id="p6">S</button><br><br>
+
+<span class="para" id="p7">Mr. Fox also expressed disbelief that Mr. Trump did well with Hispanic voters in the Nevada caucuses on Tuesday and called on them to open their eyes.</span>	<button class="sent" id="p7">S</button><br><br>
+
+<span class="para" id="p8">“I’d like to know who those Hispanics are,” Mr. Fox said.</span>	<button class="sent" id="p8">S</button><br><br>
+
+<span class="para" id="p9">“They are followers of a false prophet.”</span>	<button class="sent" id="p9">S</button><br><br>
+
+<span class="para" id="p10">Mr. Fox’s successor, Felipe Calderón, expressed similar concerns about the wall this month.</span>	<button class="sent" id="p10">S</button><br><br>
+
+<span class="para" id="p11">“Mexican people, we are not going to pay any single cent for such a stupid wall!” Mr. Calderón told CNBC.</span>	<button class="sent" id="p11">S</button><br><br>
+
+<span class="para" id="p12">“And it’s going to be completely useless.”</span>	<button class="sent" id="p12">S</button><br><br>
+
+<span class="para" id="p13">Mr. Calderón, who was president from 2006 until 2012, went on to argue that Mr. Trump was misinformed about the flow of immigrants from Mexico to the United States and that closing the border would harm America’s economy.</span>	<button class="sent" id="p13">S</button><br><br>
+
+<span class="para" id="p14">For his part, Mr. Trump has insisted that as president he would have the leverage to compel Mexico to pay for the wall, which he estimates would cost about $8 billion.</span>	<button class="sent" id="p14">S</button><br><br>
+
+<span class="para" id="p15">On Thursday, however, he appeared to be more angered by Mr. Fox’s tone.</span>	<button class="sent" id="p15">S</button><br><br>
+
+<span class="para" id="p16">Mr. Trump, who has been criticized for lacing his campaign speeches with profanity, called on Mr. Fox to apologize for using foul language when talking about the wall.</span>	<button class="sent" id="p16">S</button><br><br>
+
+</div>
+	    <div class="form-popup" id="myForm">
+	    <form class="form-container" id="form_data">
+	    	<h2 id="selected_text"></h2>
+	        <h3>Main Target</h3>
+	    	<label><input type="radio" name="target" value="Vicente_Fox"> Vicente Fox</label><br>
+	<label><input type="radio" name="target" value="Felipe_Calder"> Felipe Calder</label><br>
+	<label><input type="radio" name="target" value="Donald_Trump"> Donald Trump</label><br>
+
+    	<h3>Polarity</h3>
+    	<label><input type="radio" name="polarity" value="pos"> Positive</label><br>
+    	<label><input type="radio" name="polarity" value="neg"> Negative</label><br>
+
+    	<h3>Aim</h3>
+    	<label><input type="radio" name="aim" value="dir" onclick="hideIndirectTargetSentiment()"> Direct</label><br>
+    	<label><input type="radio" name="aim" value="ind_pro" onclick="showIndirectTargetSentiment()"> Indirect (Ally)</label><br>
+    	<label><input type="radio" name="aim" value="ind_anti" onclick="showIndirectTargetSentiment()"> Indirect (Opponent)</label><br>
+        <label><input type="radio" name="aim" value="ind_general" onclick="showIndirectTargetSentiment()"> Indirect (General)</label><br>
+
+        <div id="indirect-target-name">
+    	<h3>Indirect Target:
+        <label><input type="text" name="indirect-target-name" id="indirect-target-name-label"></label></h3>
+        </div>
+
+        <div id="indirect-ally-opponent-sentiment">
+        <h3>Sentiment Towards Indirect Target</h3>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="pos"> Positive</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neg"> Negative</label><br>
+        </div>
+
+    	<h3>Bias Type</h3>
+    	<label><input type="radio" name="bias" value="lex"> Lexical</label><br>
+    	<label><input type="radio" name="bias" value="inf"> Informational</label><br>
+
+    	<h3>Is the bias in a quote?</h3>
+    	<label><input type="radio" name="quote" value="yes" onclick="show_speaker()"> Yes</label><br>
+    	<label><input type="radio" name="quote" value="no" onclick="hide_speaker()" checked> No</label><br>
+
+    	<div id="speaker" style="display:none">
+    	<h3>If yes, who said the quote?</h3>
+    	<label><input type="radio" name="speaker" value="Vicente_Fox"> Vicente Fox</label><br>
+	<label><input type="radio" name="speaker" value="Felipe_Calder"> Felipe Calder</label><br>
+	<label><input type="radio" name="speaker" value="Donald_Trump"> Donald Trump</label><br>
+	<label><input type="radio" name="speaker" value="other_pro"> Other (Pro-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_anti"> Other (Anti-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_neutral"> Other (Neutral)</label><br>
+    	</div>
+
+    	<h3> Additional Notes</h3>
+    	<textarea id="notes"></textarea><br>
+
+    	<div id="error_msg"></div>
+        <button type="button" class="btn submit" id="submit">Submit</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+<button type="button" class="btn delete" id="delete">Delete</button>
+<button type="button" class="btn duplicate" id="duplicate">Duplicate</button>
+    </form>
+    </div>
+    <button type="button" class="btn" id="article-level-button" onclick="showArticleLevelForm()">Article-level annotation</button><br>
+        <div class="form-popup" id="article-level-form-div">
+        <form class="form-container" id="article-level-form">
+        <div class="article-question-div">
+        <h3>Main Event: Fox and Calder say Mexico isn't paying for border wall</h3>
+        <h4>How do you think the author feels regarding the main event?</h4>
+        <label><input type="radio" name="author_feeling_main_event" value="pos"> Positive</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neg"> Negative</label><br>
+        </div>
+        
+            <div class="article-question-div">
+            <h3>Main Entity: Vicente Fox</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Vicente_Fox" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Vicente_Fox" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Vicente_Fox" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Vicente_Fox" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Vicente_Fox" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Vicente_Fox" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Vicente_Fox" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Vicente_Fox" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+            <div class="article-question-div">
+            <h3>Main Entity: Felipe Calder</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Felipe_Calder" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Felipe_Calder" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Felipe_Calder" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Felipe_Calder" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Felipe_Calder" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Felipe_Calder" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Felipe_Calder" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Felipe_Calder" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+            <div class="article-question-div">
+            <h3>Main Entity: Donald Trump</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+        <h3>Political Stance</h3>
+        <h4 style="margin-bottom:0px">Is this article more left, center, or more right compared to the other articles in the triple?</h4>
+
+        <font size="2">Note: Within a triplet, one should be labeled "More left", one should be labeled "Center", and the other should be labeled "More right".</font><br><br>
+        <label><input type="radio" name="relative_stance" value="left"> More left</label><br>
+        <label><input type="radio" name="relative_stance" value="center"> Center</label><br>
+        <label><input type="radio" name="relative_stance" value="right"> More right</label><br>
+        <h3> Additional Notes</h3>
+        <textarea name="notes" id="article-level-notes"></textarea><br>
+        <div id="article-level-form-error-msg"></div>
+        <button type="button" class="btn submit" id="submit" onclick="submitArticleLevelForm()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeArticleLevelForm()">Cancel</button>
+        </form>
+        </div>
+    
+        <button type="button" class="btn" onclick="download_annotations()">Download annotation file</button>
+        <button id="imp_btn" onclick="document.getElementById('import').click();">Import existing annotation file</button>
+        <input type="file" id="import" style="display:none" onchange="importFile(this.files)">
+        <div id="import_error"></div>
+        </body>

@@ -1,0 +1,162 @@
+
+        <head>
+            <meta charset=UTF-8>
+        	<link rel = "stylesheet" type = "text/css" href = "../../../annotation.css">
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        	<script src="../../../annotate.js"></script>
+        	<script type="text/javascript">
+        		var file_id="59f2f47c-5da0-4fbc-be6e-4f15d45d82e2_1";
+                var tripletUuid="59f2f47c-5da0-4fbc-be6e-4f15d45d82e2";
+                var uuid="180f27cd-7dce-467b-bf2a-459029e6f3ea";
+        	</script>
+        </head>
+        <body onload="init()">
+        <i>Title: Arguments Get Personal Between Donald Trump and Ted Cruz</i><br><br>
+        <div id="article" onmouseup="annotate()"><span class="para" id="p0">From his home at Mar-a-Lago, Donald J. Trump stirred up new controversy this week in the Republican presidential primary — and new alarm among party leaders that the front-runner for the nomination will drive away women from candidates running farther down the ballot in the fall.</span>	<button class="sent" id="p0">S</button><br><br>
+
+<span class="para" id="p1">All week, Mr. Trump has slowly escalated a war of words on Twitter against Senator Ted Cruz of Texas, his main competition in the Republican race, based on an ad by a “super PAC” started by people who want to stop the New York developer from getting the nomination.</span>	<button class="sent" id="p1">S</button><br><br>
+
+<span class="para" id="p2">The spot featured an old nude photo shoot of Mr. Trump’s wife Melania Trump, a former model, posing on his jet.</span>	<button class="sent" id="p2">S</button><br><br>
+
+<span class="para" id="p3">Mr. Cruz has no affiliation with the super PAC, and he has denounced the ad.</span>	<button class="sent" id="p3">S</button><br><br>
+
+<span class="para" id="p4">But Mr. Trump has continued to express disbelief.</span>	<button class="sent" id="p4">S</button><br><br>
+
+<span class="para" id="p5">After threatening to “spill the beans” on Mr. Cruz’s wife, Heidi Cruz, who suffered a bout of depression years ago, he retweeted a post from someone who made a side-by-side photo comparison of Mrs. Cruz at an unflattering angle, and Mrs. Trump.</span>	<button class="sent" id="p5">S</button><br><br>
+
+<span class="para" id="p6">On Wednesday, Mr. Cruz repeatedly quoted from the movie “The American President” to defend his wife, as she held an event and faced questions about Mr. Trump’s threats.</span>	<button class="sent" id="p6">S</button><br><br>
+
+<span class="para" id="p7">But that was before Mr. Trump’s Twitter post with the pictures of the two women.</span>	<button class="sent" id="p7">S</button><br><br>
+
+<span class="para" id="p8">And Mr. Cruz had finally had enough.</span>	<button class="sent" id="p8">S</button><br><br>
+
+<span class="para" id="p9">Calling Mr. Trump a “sniveling coward,” Mr. Cruz told his rival to “leave Heidi the hell alone.”</span>	<button class="sent" id="p9">S</button><br><br>
+
+<span class="para" id="p10">It’s useful to remember the news media outrage in 2012 when Todd Akin, running as the Republican nominee for Senate in Missouri, defended what he called “legitimate rape,” a remark that was overwhelmingly offensive to women.</span>	<button class="sent" id="p10">S</button><br><br>
+
+<span class="para" id="p11">Under pressure from news outlets, the Republican Party tried to cauterize the wound that Mr. Akin had created by isolating him.</span>	<button class="sent" id="p11">S</button><br><br>
+
+<span class="para" id="p12">Spouses are generally seen as off limits.</span>	<button class="sent" id="p12">S</button><br><br>
+
+<span class="para" id="p13">And the responses to Mr. Trump’s comments among news media critics, over time, have been far more subdued.</span>	<button class="sent" id="p13">S</button><br><br>
+
+</div>
+	    <div class="form-popup" id="myForm">
+	    <form class="form-container" id="form_data">
+	    	<h2 id="selected_text"></h2>
+	        <h3>Main Target</h3>
+	    	<label><input type="radio" name="target" value="Donald_Trump"> Donald Trump</label><br>
+	<label><input type="radio" name="target" value="Ted_Cruz"> Ted Cruz</label><br>
+
+    	<h3>Polarity</h3>
+    	<label><input type="radio" name="polarity" value="pos"> Positive</label><br>
+    	<label><input type="radio" name="polarity" value="neg"> Negative</label><br>
+
+    	<h3>Aim</h3>
+    	<label><input type="radio" name="aim" value="dir" onclick="hideIndirectTargetSentiment()"> Direct</label><br>
+    	<label><input type="radio" name="aim" value="ind_pro" onclick="showIndirectTargetSentiment()"> Indirect (Ally)</label><br>
+    	<label><input type="radio" name="aim" value="ind_anti" onclick="showIndirectTargetSentiment()"> Indirect (Opponent)</label><br>
+        <label><input type="radio" name="aim" value="ind_general" onclick="showIndirectTargetSentiment()"> Indirect (General)</label><br>
+
+        <div id="indirect-target-name">
+    	<h3>Indirect Target:
+        <label><input type="text" name="indirect-target-name" id="indirect-target-name-label"></label></h3>
+        </div>
+
+        <div id="indirect-ally-opponent-sentiment">
+        <h3>Sentiment Towards Indirect Target</h3>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="pos"> Positive</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neg"> Negative</label><br>
+        </div>
+
+    	<h3>Bias Type</h3>
+    	<label><input type="radio" name="bias" value="lex"> Lexical</label><br>
+    	<label><input type="radio" name="bias" value="inf"> Informational</label><br>
+
+    	<h3>Is the bias in a quote?</h3>
+    	<label><input type="radio" name="quote" value="yes" onclick="show_speaker()"> Yes</label><br>
+    	<label><input type="radio" name="quote" value="no" onclick="hide_speaker()" checked> No</label><br>
+
+    	<div id="speaker" style="display:none">
+    	<h3>If yes, who said the quote?</h3>
+    	<label><input type="radio" name="speaker" value="Donald_Trump"> Donald Trump</label><br>
+	<label><input type="radio" name="speaker" value="Ted_Cruz"> Ted Cruz</label><br>
+	<label><input type="radio" name="speaker" value="other_pro"> Other (Pro-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_anti"> Other (Anti-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_neutral"> Other (Neutral)</label><br>
+    	</div>
+
+    	<h3> Additional Notes</h3>
+    	<textarea id="notes"></textarea><br>
+
+    	<div id="error_msg"></div>
+        <button type="button" class="btn submit" id="submit">Submit</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+<button type="button" class="btn delete" id="delete">Delete</button>
+<button type="button" class="btn duplicate" id="duplicate">Duplicate</button>
+    </form>
+    </div>
+    <button type="button" class="btn" id="article-level-button" onclick="showArticleLevelForm()">Article-level annotation</button><br>
+        <div class="form-popup" id="article-level-form-div">
+        <form class="form-container" id="article-level-form">
+        <div class="article-question-div">
+        <h3>Main Event: Trump and Cruz argue over personal attacks</h3>
+        <h4>How do you think the author feels regarding the main event?</h4>
+        <label><input type="radio" name="author_feeling_main_event" value="pos"> Positive</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neg"> Negative</label><br>
+        </div>
+        
+            <div class="article-question-div">
+            <h3>Main Entity: Donald Trump</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+            <div class="article-question-div">
+            <h3>Main Entity: Ted Cruz</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Ted_Cruz" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Ted_Cruz" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Ted_Cruz" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Ted_Cruz" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Ted_Cruz" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Ted_Cruz" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Ted_Cruz" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Ted_Cruz" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+        <h3>Political Stance</h3>
+        <h4 style="margin-bottom:0px">Is this article more left, center, or more right compared to the other articles in the triple?</h4>
+
+        <font size="2">Note: Within a triplet, one should be labeled "More left", one should be labeled "Center", and the other should be labeled "More right".</font><br><br>
+        <label><input type="radio" name="relative_stance" value="left"> More left</label><br>
+        <label><input type="radio" name="relative_stance" value="center"> Center</label><br>
+        <label><input type="radio" name="relative_stance" value="right"> More right</label><br>
+        <h3> Additional Notes</h3>
+        <textarea name="notes" id="article-level-notes"></textarea><br>
+        <div id="article-level-form-error-msg"></div>
+        <button type="button" class="btn submit" id="submit" onclick="submitArticleLevelForm()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeArticleLevelForm()">Cancel</button>
+        </form>
+        </div>
+    
+        <button type="button" class="btn" onclick="download_annotations()">Download annotation file</button>
+        <button id="imp_btn" onclick="document.getElementById('import').click();">Import existing annotation file</button>
+        <input type="file" id="import" style="display:none" onchange="importFile(this.files)">
+        <div id="import_error"></div>
+        </body>

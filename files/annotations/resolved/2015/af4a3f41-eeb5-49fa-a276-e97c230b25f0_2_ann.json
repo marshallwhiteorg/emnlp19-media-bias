@@ -1,0 +1,43 @@
+{
+    "triplet-uuid": "af4a3f41-eeb5-49fa-a276-e97c230b25f0",
+    "uuid": "4d51331a-0056-411b-a8e7-effe5f0b33d6",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Mike_Huckabee": "neg",
+        "you_feeling_Mike_Huckabee": "neu",
+        "relative_stance": "left",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "In 2007 Mr. Huckabee was quoted as saying, “Climate change is here, it’s real.” But more recently he has minimized it as a threat, and said he opposes “cap and trade” legislation meant to curtail carbon emissions.",
+            "id": "p8",
+            "start": 0,
+            "end": 213,
+            "target": "Mike_Huckabee",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Mr. Huckabee opposes same-sex marriage, suggesting as recently as February that homosexuality is a lifestyle choice akin to drinking or swearing.",
+            "id": "p10",
+            "start": 0,
+            "end": 145,
+            "target": "Mike_Huckabee",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

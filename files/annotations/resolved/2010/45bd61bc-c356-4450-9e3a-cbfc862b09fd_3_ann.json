@@ -1,0 +1,30 @@
+{
+    "triplet-uuid": "45bd61bc-c356-4450-9e3a-cbfc862b09fd",
+    "uuid": "fb62ca48-9a76-4321-b2be-f13ea6c0100b",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Harry_Reid": "neu",
+        "you_feeling_Harry_Reid": "neu",
+        "author_feeling_Barack_Obama": "neu",
+        "you_feeling_Barack_Obama": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "Reid, after all, only issued the above statement after his Republican opponents began hitting him for going silent on the matter.",
+            "id": "p9",
+            "start": 0,
+            "end": 129,
+            "target": "Harry_Reid",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

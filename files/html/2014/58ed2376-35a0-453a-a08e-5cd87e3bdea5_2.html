@@ -1,0 +1,160 @@
+
+        <head>
+            <meta charset=UTF-8>
+        	<link rel = "stylesheet" type = "text/css" href = "../../../annotation.css">
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        	<script src="../../../annotate.js"></script>
+        	<script type="text/javascript">
+        		var file_id="58ed2376-35a0-453a-a08e-5cd87e3bdea5_2";
+                var tripletUuid="58ed2376-35a0-453a-a08e-5cd87e3bdea5";
+                var uuid="37cedba7-4b83-4c10-9707-120e759c5e0c";
+        	</script>
+        </head>
+        <body onload="init()">
+        <i>Title: Jan Brewer Announces Veto Of Arizona Anti-Gay Bill</i><br><br>
+        <div id="article" onmouseup="annotate()"><span class="para" id="p0">WASHINGTON -- Arizona Gov. Jan Brewer (R) announced her decision to veto legislation on Wednesday that would have allowed businesses to legally refuse service to anyone on "religious freedom" grounds, effectively allowing them to discriminate against same-sex couples.</span>	<button class="sent" id="p0">S</button><br><br>
+
+<span class="para" id="p1">Brewer said the bill had "the potential to create more problems than it purports to solve."</span>	<button class="sent" id="p1">S</button><br><br>
+
+<span class="para" id="p2">"Senate Bill 1062 does not address a specific or present concern related to religious liberty in Arizona," she said.</span>	<button class="sent" id="p2">S</button><br><br>
+
+<span class="para" id="p3">"I have not heard one example where business owners' religious liberty has been violated."</span>	<button class="sent" id="p3">S</button><br><br>
+
+<span class="para" id="p4">The state legislature passed the bill, known as SB 1062, last week.</span>	<button class="sent" id="p4">S</button><br><br>
+
+<span class="para" id="p5">But in recent days, it has come under intense criticism from activists, lawmakers and business interests both in Arizona and nationally.</span>	<button class="sent" id="p5">S</button><br><br>
+
+<span class="para" id="p6">The state's two Republican senators, Jeff Flake and John McCain, called on Brewer to veto it, and major corporations like Marriott, Apple and American Airlines all wrote to the governor and expressed their opposition.</span>	<button class="sent" id="p6">S</button><br><br>
+
+<span class="para" id="p7">Businesses in the Phoenix area were also especially worried, with the Super Bowl set to be held in Glendale, Ariz. in 2015.</span>	<button class="sent" id="p7">S</button><br><br>
+
+<span class="para" id="p8">On Monday, the Arizona Super Bowl Host Committee came out against SB 1062, stating, "[W]e have heard loud and clear from our various stakeholders that adoption of this legislation would not only run contrary to that goal but deal a significant blow to the state's economic growth potential.</span>	<button class="sent" id="p8">S</button><br><br>
+
+<span class="para" id="p9">We do not support this legislation."</span>	<button class="sent" id="p9">S</button><br><br>
+
+<span class="para" id="p10">Arizona hasn't been the only state pushing a bill that would allow open discrimination against same-sex couples; similar bills have been popping up in states including Tennessee, Kansas, South Dakota and Maine.</span>	<button class="sent" id="p10">S</button><br><br>
+
+<span class="para" id="p11">CORRECTION: This article originally said the Super Bowl is set to be held in Tempe, Ariz.</span>	<button class="sent" id="p11">S</button><br><br>
+
+<span class="para" id="p12">It will be held in Glendale, Ariz.</span>	<button class="sent" id="p12">S</button><br><br>
+
+</div>
+	    <div class="form-popup" id="myForm">
+	    <form class="form-container" id="form_data">
+	    	<h2 id="selected_text"></h2>
+	        <h3>Main Target</h3>
+	    	<label><input type="radio" name="target" value="Jan_Brewer"> Jan Brewer</label><br>
+	<label><input type="radio" name="target" value="SB_1062_bill"> SB 1062 bill</label><br>
+
+    	<h3>Polarity</h3>
+    	<label><input type="radio" name="polarity" value="pos"> Positive</label><br>
+    	<label><input type="radio" name="polarity" value="neg"> Negative</label><br>
+
+    	<h3>Aim</h3>
+    	<label><input type="radio" name="aim" value="dir" onclick="hideIndirectTargetSentiment()"> Direct</label><br>
+    	<label><input type="radio" name="aim" value="ind_pro" onclick="showIndirectTargetSentiment()"> Indirect (Ally)</label><br>
+    	<label><input type="radio" name="aim" value="ind_anti" onclick="showIndirectTargetSentiment()"> Indirect (Opponent)</label><br>
+        <label><input type="radio" name="aim" value="ind_general" onclick="showIndirectTargetSentiment()"> Indirect (General)</label><br>
+
+        <div id="indirect-target-name">
+    	<h3>Indirect Target:
+        <label><input type="text" name="indirect-target-name" id="indirect-target-name-label"></label></h3>
+        </div>
+
+        <div id="indirect-ally-opponent-sentiment">
+        <h3>Sentiment Towards Indirect Target</h3>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="pos"> Positive</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neg"> Negative</label><br>
+        </div>
+
+    	<h3>Bias Type</h3>
+    	<label><input type="radio" name="bias" value="lex"> Lexical</label><br>
+    	<label><input type="radio" name="bias" value="inf"> Informational</label><br>
+
+    	<h3>Is the bias in a quote?</h3>
+    	<label><input type="radio" name="quote" value="yes" onclick="show_speaker()"> Yes</label><br>
+    	<label><input type="radio" name="quote" value="no" onclick="hide_speaker()" checked> No</label><br>
+
+    	<div id="speaker" style="display:none">
+    	<h3>If yes, who said the quote?</h3>
+    	<label><input type="radio" name="speaker" value="Jan_Brewer"> Jan Brewer</label><br>
+	<label><input type="radio" name="speaker" value="SB_1062_bill"> SB 1062 bill</label><br>
+	<label><input type="radio" name="speaker" value="other_pro"> Other (Pro-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_anti"> Other (Anti-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_neutral"> Other (Neutral)</label><br>
+    	</div>
+
+    	<h3> Additional Notes</h3>
+    	<textarea id="notes"></textarea><br>
+
+    	<div id="error_msg"></div>
+        <button type="button" class="btn submit" id="submit">Submit</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+<button type="button" class="btn delete" id="delete">Delete</button>
+<button type="button" class="btn duplicate" id="duplicate">Duplicate</button>
+    </form>
+    </div>
+    <button type="button" class="btn" id="article-level-button" onclick="showArticleLevelForm()">Article-level annotation</button><br>
+        <div class="form-popup" id="article-level-form-div">
+        <form class="form-container" id="article-level-form">
+        <div class="article-question-div">
+        <h3>Main Event: Jan Brewer urged to veto gay discrimination bill</h3>
+        <h4>How do you think the author feels regarding the main event?</h4>
+        <label><input type="radio" name="author_feeling_main_event" value="pos"> Positive</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neg"> Negative</label><br>
+        </div>
+        
+            <div class="article-question-div">
+            <h3>Main Entity: Jan Brewer</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Jan_Brewer" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Jan_Brewer" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Jan_Brewer" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Jan_Brewer" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Jan_Brewer" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Jan_Brewer" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Jan_Brewer" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Jan_Brewer" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+            <div class="article-question-div">
+            <h3>Main Entity: SB 1062 bill</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_SB_1062_bill" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_SB_1062_bill" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_SB_1062_bill" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_SB_1062_bill" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_SB_1062_bill" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_SB_1062_bill" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_SB_1062_bill" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_SB_1062_bill" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+        <h3>Political Stance</h3>
+        <h4 style="margin-bottom:0px">Is this article more left, center, or more right compared to the other articles in the triple?</h4>
+
+        <font size="2">Note: Within a triplet, one should be labeled "More left", one should be labeled "Center", and the other should be labeled "More right".</font><br><br>
+        <label><input type="radio" name="relative_stance" value="left"> More left</label><br>
+        <label><input type="radio" name="relative_stance" value="center"> Center</label><br>
+        <label><input type="radio" name="relative_stance" value="right"> More right</label><br>
+        <h3> Additional Notes</h3>
+        <textarea name="notes" id="article-level-notes"></textarea><br>
+        <div id="article-level-form-error-msg"></div>
+        <button type="button" class="btn submit" id="submit" onclick="submitArticleLevelForm()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeArticleLevelForm()">Cancel</button>
+        </form>
+        </div>
+    
+        <button type="button" class="btn" onclick="download_annotations()">Download annotation file</button>
+        <button id="imp_btn" onclick="document.getElementById('import').click();">Import existing annotation file</button>
+        <input type="file" id="import" style="display:none" onchange="importFile(this.files)">
+        <div id="import_error"></div>
+        </body>

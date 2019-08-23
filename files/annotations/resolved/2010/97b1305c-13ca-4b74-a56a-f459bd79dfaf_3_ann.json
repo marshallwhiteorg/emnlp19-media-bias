@@ -1,0 +1,75 @@
+{
+    "triplet-uuid": "97b1305c-13ca-4b74-a56a-f459bd79dfaf",
+    "uuid": "8824d4fb-3b21-4f43-910a-b4399866db9f",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_NAACP": "neu",
+        "you_feeling_NAACP": "neu",
+        "author_feeling_Tea_Party": "neu",
+        "you_feeling_Tea_Party": "neu",
+        "relative_stance": "liberal",
+        "notes": "a few sentences identical to #2 (fox). The Fox article on its website doesn't say it's written by AP. HP link is broken."
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "We have an issue with their acceptance and welcoming of white supremacists into their organizations",
+            "id": "p12",
+            "start": 0,
+            "end": 99,
+            "target": "Tea_Party",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "NAACP",
+            "notes": ""
+        },
+        {
+            "txt": "extremist",
+            "id": "p24",
+            "start": 30,
+            "end": 39,
+            "target": "NAACP",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "yes",
+            "speaker": "Tea_Party",
+            "notes": ""
+        },
+        {
+            "txt": "Cleaver, D-Mo., also said he was spit on.",
+            "id": "p21",
+            "start": 0,
+            "end": 41,
+            "target": "Tea_Party",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "appalling",
+            "id": "p6",
+            "start": 121,
+            "end": 130,
+            "target": "NAACP",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

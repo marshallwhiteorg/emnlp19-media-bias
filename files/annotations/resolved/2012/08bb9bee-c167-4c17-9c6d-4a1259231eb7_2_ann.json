@@ -1,0 +1,90 @@
+{
+    "triplet-uuid": "08bb9bee-c167-4c17-9c6d-4a1259231eb7",
+    "uuid": "4f4dc5fb-84a8-4cd9-bd3a-451bda7a7b70",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Mitt_Romney": "neu",
+        "you_feeling_Mitt_Romney": "neu",
+        "author_feeling_Todd_Akin": "neu",
+        "you_feeling_Todd_Akin": "neu",
+        "relative_stance": "right",
+        "notes": "covers Akin's apology"
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "Todd Akin's comments were offensive and wrong",
+            "id": "p6",
+            "start": 71,
+            "end": 116,
+            "target": "Todd_Akin",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Mitt_Romney",
+            "notes": ""
+        },
+        {
+            "txt": "rebuffed",
+            "id": "p11",
+            "start": 9,
+            "end": 17,
+            "target": "Todd_Akin",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "What he said is just flat wrong in addition to being wildly offensive to any victim of sexual abuse",
+            "id": "p31",
+            "start": 1,
+            "end": 100,
+            "target": "Todd_Akin",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "notes": ""
+        },
+        {
+            "txt": "\"The mistake I made was in the words I said, not in the heart I hold.",
+            "id": "p19",
+            "start": 0,
+            "end": 69,
+            "target": "Todd_Akin",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Todd_Akin",
+            "notes": ""
+        },
+        {
+            "txt": "The video was released after Akin canceled a scheduled television interview Monday night.",
+            "id": "p21",
+            "start": 0,
+            "end": 89,
+            "target": "Todd_Akin",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

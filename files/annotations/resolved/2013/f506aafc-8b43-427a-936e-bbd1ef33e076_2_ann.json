@@ -1,0 +1,58 @@
+{
+    "triplet-uuid": "f506aafc-8b43-427a-936e-bbd1ef33e076",
+    "uuid": "580654bb-eb52-4800-932d-cf00ee661796",
+    "article-level-annotations": {
+        "author_feeling_main_event": "pos",
+        "author_feeling_Jesse_Jackson": "neg",
+        "you_feeling_Jesse_Jackson": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "At one point during the hearing, the judge stopped his questioning of Mr. Jackson, who was crying, so that he could be given a tissue.",
+            "id": "p5",
+            "start": 0,
+            "end": 134,
+            "target": "Jesse_Jackson",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": "make him sound weak"
+        },
+        {
+            "txt": "one of Mr. Jackson’s friends had offered to make a contribution to Mr. Blagojevich’s campaign in exchange for the seat",
+            "id": "p12",
+            "start": 188,
+            "end": 306,
+            "target": "Jesse_Jackson",
+            "polarity": "neg",
+            "aim": "ind_pro",
+            "indirect-target-name": "Jackson's friend",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Since then, Mr. Jackson, who has said he had no knowledge of the offer, has been dogged by questions about his ethics.",
+            "id": "p13",
+            "start": 0,
+            "end": 118,
+            "target": "Jesse_Jackson",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

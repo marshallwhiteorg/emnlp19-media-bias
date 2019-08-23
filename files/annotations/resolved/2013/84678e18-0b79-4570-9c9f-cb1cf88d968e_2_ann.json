@@ -1,0 +1,60 @@
+{
+    "triplet-uuid": "84678e18-0b79-4570-9c9f-cb1cf88d968e",
+    "uuid": "38008490-3272-4f0a-abde-9d82b6df54d7",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Lois_lerner": "neu",
+        "you_feeling_Lois_lerner": "neu",
+        "author_feeling_Internal_Revenue_Service": "neg",
+        "you_feeling_Internal_Revenue_Service": "neu",
+        "relative_stance": "right",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "insist that she made, at best, incomplete statements",
+            "id": "p6",
+            "start": 87,
+            "end": 139,
+            "target": "Lois_lerner",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "I believe there was gross incompetence and mismanagement",
+            "id": "p23",
+            "start": 1,
+            "end": 57,
+            "target": "Internal_Revenue_Service",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "notes": ""
+        },
+        {
+            "txt": "This administration, which told us and told the American people that the attack that killed four Americans in Benghazi was the work, was caused by a video, is now the same administration who expects us to believe that this scandal was just the result of two rogue agents in Cincinnati",
+            "id": "p32",
+            "start": 1,
+            "end": 285,
+            "target": "Internal_Revenue_Service",
+            "polarity": "neg",
+            "aim": "ind_pro",
+            "indirect-target-name": "Obama's administration",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "notes": ""
+        }
+    ]
+}

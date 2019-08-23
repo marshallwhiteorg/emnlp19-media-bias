@@ -1,0 +1,170 @@
+
+        <head>
+            <meta charset=UTF-8>
+        	<link rel = "stylesheet" type = "text/css" href = "../../../annotation.css">
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        	<script src="../../../annotate.js"></script>
+        	<script type="text/javascript">
+        		var file_id="0c78e748-efbf-417c-a8c1-beeb6480147f_3";
+                var tripletUuid="0c78e748-efbf-417c-a8c1-beeb6480147f";
+                var uuid="f404bddb-8ab6-4fc7-a3e4-3622ddf4256f";
+        	</script>
+        </head>
+        <body onload="init()">
+        <i>Title: Donald Trump Defends Michael Flynn By Saying Hillary Clinton Is The Real Liar</i><br><br>
+        <div id="article" onmouseup="annotate()"><span class="para" id="p0">WASHINGTON ― President Donald Trump on Monday defended his former national security adviser, Michael Flynn, by invoking his 2016 election opponent, Hillary Clinton.</span>	<button class="sent" id="p0">S</button><br><br>
+
+<span class="para" id="p1">“I feel very badly for Gen. Flynn,” Trump told reporters before leaving for a trip to Utah, saying that Flynn’s life has been “ruined.”</span>	<button class="sent" id="p1">S</button><br><br>
+
+<span class="para" id="p2">Trump then pivoted to Clinton, apparently referring to the FBI’s investigation into her use of a private email server.</span>	<button class="sent" id="p2">S</button><br><br>
+
+<span class="para" id="p3">“Hillary Clinton lied many times to the FBI, and nothing happened to her.</span>	<button class="sent" id="p3">S</button><br><br>
+
+<span class="para" id="p4">Flynn lied, and it destroyed his life, and I think it’s a shame,” Trump said, before again claiming that Clinton “lied many times, [and] nothing happened to her.</span>	<button class="sent" id="p4">S</button><br><br>
+
+<span class="para" id="p5">Flynn lied, and it’s like, it ruined his life.</span>	<button class="sent" id="p5">S</button><br><br>
+
+<span class="para" id="p6">It’s very unfair.”</span>	<button class="sent" id="p6">S</button><br><br>
+
+<span class="para" id="p7">The president this morning says 'I feel badly for General Flynn.'</span>	<button class="sent" id="p7">S</button><br><br>
+
+<span class="para" id="p8">#MorningJoe pic.twitter.com/tBp5aXWhBj — Morning Joe (@Morning_Joe) December 4, 2017</span>	<button class="sent" id="p8">S</button><br><br>
+
+<span class="para" id="p9">Flynn pleaded guilty on Friday for lying to the FBI in special counsel Robert Mueller’s investigation into possible collusion between Trump’s campaign and Russia, becoming the first former administration official to face charges in the probe.</span>	<button class="sent" id="p9">S</button><br><br>
+
+<span class="para" id="p10">Trump and the White House have long claimed that the investigations into the campaign have nothing to do with Trump himself.</span>	<button class="sent" id="p10">S</button><br><br>
+
+<span class="para" id="p11">Flynn’s indictment, however, makes it increasingly difficult for the president to distance himself.</span>	<button class="sent" id="p11">S</button><br><br>
+
+<span class="para" id="p12">Flynn stepped down in February, saying that he had misled the transition team, including then Vice President-elect Mike Pence, about the extent of his contacts with Russian officials, which included discussing sanctions and the creation of a backchannel with the Kremlin.</span>	<button class="sent" id="p12">S</button><br><br>
+
+<span class="para" id="p13">Trump and his lawyer, John Dowd, now claim that the president already knew about Flynn lying to the FBI, renewing questions of whether Trump obstructed justice in the investigation.</span>	<button class="sent" id="p13">S</button><br><br>
+
+<span class="para" id="p14">In May, Trump told NBC’s Lester Holt that he fired then-FBI Director James Comey with “this Russia thing” in mind.</span>	<button class="sent" id="p14">S</button><br><br>
+
+<span class="para" id="p15">The following month, Comey testified before the Senate that Trump had requested that Comey put an end to the agency’s investigation into Flynn.</span>	<button class="sent" id="p15">S</button><br><br>
+
+<span class="para" id="p16">In an interview with Axios published Monday, Dowd brought out a new defense: Trump isn’t guilty of obstructing justice because he is the president.</span>	<button class="sent" id="p16">S</button><br><br>
+
+<span class="para" id="p17">The “President cannot obstruct justice because he is the chief law enforcement officer under [the Constitution’s Article II] and has every right to express his view of any case,” Dowd said.</span>	<button class="sent" id="p17">S</button><br><br>
+
+</div>
+	    <div class="form-popup" id="myForm">
+	    <form class="form-container" id="form_data">
+	    	<h2 id="selected_text"></h2>
+	        <h3>Main Target</h3>
+	    	<label><input type="radio" name="target" value="Michael_Flynn"> Michael Flynn</label><br>
+	<label><input type="radio" name="target" value="Donald_Trump"> Donald Trump</label><br>
+
+    	<h3>Polarity</h3>
+    	<label><input type="radio" name="polarity" value="pos"> Positive</label><br>
+    	<label><input type="radio" name="polarity" value="neg"> Negative</label><br>
+
+    	<h3>Aim</h3>
+    	<label><input type="radio" name="aim" value="dir" onclick="hideIndirectTargetSentiment()"> Direct</label><br>
+    	<label><input type="radio" name="aim" value="ind_pro" onclick="showIndirectTargetSentiment()"> Indirect (Ally)</label><br>
+    	<label><input type="radio" name="aim" value="ind_anti" onclick="showIndirectTargetSentiment()"> Indirect (Opponent)</label><br>
+        <label><input type="radio" name="aim" value="ind_general" onclick="showIndirectTargetSentiment()"> Indirect (General)</label><br>
+
+        <div id="indirect-target-name">
+    	<h3>Indirect Target:
+        <label><input type="text" name="indirect-target-name" id="indirect-target-name-label"></label></h3>
+        </div>
+
+        <div id="indirect-ally-opponent-sentiment">
+        <h3>Sentiment Towards Indirect Target</h3>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="pos"> Positive</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neg"> Negative</label><br>
+        </div>
+
+    	<h3>Bias Type</h3>
+    	<label><input type="radio" name="bias" value="lex"> Lexical</label><br>
+    	<label><input type="radio" name="bias" value="inf"> Informational</label><br>
+
+    	<h3>Is the bias in a quote?</h3>
+    	<label><input type="radio" name="quote" value="yes" onclick="show_speaker()"> Yes</label><br>
+    	<label><input type="radio" name="quote" value="no" onclick="hide_speaker()" checked> No</label><br>
+
+    	<div id="speaker" style="display:none">
+    	<h3>If yes, who said the quote?</h3>
+    	<label><input type="radio" name="speaker" value="Michael_Flynn"> Michael Flynn</label><br>
+	<label><input type="radio" name="speaker" value="Donald_Trump"> Donald Trump</label><br>
+	<label><input type="radio" name="speaker" value="other_pro"> Other (Pro-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_anti"> Other (Anti-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_neutral"> Other (Neutral)</label><br>
+    	</div>
+
+    	<h3> Additional Notes</h3>
+    	<textarea id="notes"></textarea><br>
+
+    	<div id="error_msg"></div>
+        <button type="button" class="btn submit" id="submit">Submit</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+<button type="button" class="btn delete" id="delete">Delete</button>
+<button type="button" class="btn duplicate" id="duplicate">Duplicate</button>
+    </form>
+    </div>
+    <button type="button" class="btn" id="article-level-button" onclick="showArticleLevelForm()">Article-level annotation</button><br>
+        <div class="form-popup" id="article-level-form-div">
+        <form class="form-container" id="article-level-form">
+        <div class="article-question-div">
+        <h3>Main Event: Flynn pleaded guilty</h3>
+        <h4>How do you think the author feels regarding the main event?</h4>
+        <label><input type="radio" name="author_feeling_main_event" value="pos"> Positive</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neg"> Negative</label><br>
+        </div>
+        
+            <div class="article-question-div">
+            <h3>Main Entity: Michael Flynn</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Michael_Flynn" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Michael_Flynn" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Michael_Flynn" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Michael_Flynn" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Michael_Flynn" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Michael_Flynn" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Michael_Flynn" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Michael_Flynn" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+            <div class="article-question-div">
+            <h3>Main Entity: Donald Trump</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+        <h3>Political Stance</h3>
+        <h4 style="margin-bottom:0px">Is this article more left, center, or more right compared to the other articles in the triple?</h4>
+
+        <font size="2">Note: Within a triplet, one should be labeled "More left", one should be labeled "Center", and the other should be labeled "More right".</font><br><br>
+        <label><input type="radio" name="relative_stance" value="left"> More left</label><br>
+        <label><input type="radio" name="relative_stance" value="center"> Center</label><br>
+        <label><input type="radio" name="relative_stance" value="right"> More right</label><br>
+        <h3> Additional Notes</h3>
+        <textarea name="notes" id="article-level-notes"></textarea><br>
+        <div id="article-level-form-error-msg"></div>
+        <button type="button" class="btn submit" id="submit" onclick="submitArticleLevelForm()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeArticleLevelForm()">Cancel</button>
+        </form>
+        </div>
+    
+        <button type="button" class="btn" onclick="download_annotations()">Download annotation file</button>
+        <button id="imp_btn" onclick="document.getElementById('import').click();">Import existing annotation file</button>
+        <input type="file" id="import" style="display:none" onchange="importFile(this.files)">
+        <div id="import_error"></div>
+        </body>

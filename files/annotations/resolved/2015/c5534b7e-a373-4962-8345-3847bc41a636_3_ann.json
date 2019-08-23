@@ -1,0 +1,60 @@
+{
+    "triplet-uuid": "c5534b7e-a373-4962-8345-3847bc41a636",
+    "uuid": "61809002-229a-45a6-a258-b18490579bc3",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Hillary_Clinton": "neu",
+        "you_feeling_Hillary_Clinton": "neu",
+        "author_feeling_Trey_Gowdy": "neu",
+        "you_feeling_Trey_Gowdy": "neu",
+        "relative_stance": "left",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "She admitted that “looking back,” it would have been better to carry the second phone.",
+            "id": "p12",
+            "start": 0,
+            "end": 86,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Gowdy went on to call Clinton’s email situation “highly unusual, if not unprecedented,” and said it “exacerbates” lawmakers’ needs to “understand what the Secretary did.”",
+            "id": "p10",
+            "start": 0,
+            "end": 170,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "thought it would be easier to carry just one device for my work and for my personal emails instead of two",
+            "id": "p11",
+            "start": 78,
+            "end": 183,
+            "target": "Hillary_Clinton",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Hillary_Clinton",
+            "notes": ""
+        }
+    ]
+}

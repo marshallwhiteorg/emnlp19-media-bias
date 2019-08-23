@@ -1,0 +1,62 @@
+{
+    "triplet-uuid": "ccf19ab6-7878-4378-b99c-2b08cc21371f",
+    "uuid": "e399a140-e496-4f86-acdf-a7f8d95fad57",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Senate_Republicans": "neu",
+        "you_feeling_Senate_Republicans": "neu",
+        "author_feeling_Senate_Democrats": "neu",
+        "you_feeling_Senate_Democrats": "neu",
+        "author_feeling_Barack_Obama": "neu",
+        "you_feeling_Barack_Obama": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "The president’s pathway to citizenship is a stumbling block",
+            "id": "p10",
+            "start": 1,
+            "end": 60,
+            "target": "Barack_Obama",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Senate_Republicans",
+            "notes": ""
+        },
+        {
+            "txt": "The president has shown he’s not willing to work with us on immigration",
+            "id": "p15",
+            "start": 1,
+            "end": 72,
+            "target": "Barack_Obama",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Senate_Republicans",
+            "notes": ""
+        },
+        {
+            "txt": "plot a strategy to torpedo it",
+            "id": "p17",
+            "start": 196,
+            "end": 225,
+            "target": "Senate_Republicans",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+
+        <head>
+            <meta charset=UTF-8>
+        	<link rel = "stylesheet" type = "text/css" href = "../../../annotation.css">
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        	<script src="../../../annotate.js"></script>
+        	<script type="text/javascript">
+        		var file_id="450755dd-30d3-478b-933e-917be5c384ba_1";
+                var tripletUuid="450755dd-30d3-478b-933e-917be5c384ba";
+                var uuid="bf62784f-65d2-44e8-bdc8-4e42257ae8dd";
+        	</script>
+        </head>
+        <body onload="init()">
+        <i>Title: Michele Bachmann Chick-Fil-A Visit: GOP Rep Shows Support For Company Amid Controversy</i><br><br>
+        <div id="article" onmouseup="annotate()"><span class="para" id="p0">Rep. Michele Bachmann (R-Minn.) showed her support for Chick-fil-A Wednesday when she tweeted a photo of her visiting the restaurant.</span>	<button class="sent" id="p0">S</button><br><br>
+
+<span class="para" id="p1">"Have you gone today?"</span>	<button class="sent" id="p1">S</button><br><br>
+
+<span class="para" id="p2">Bachmann asked her followers on what became an unofficial "Chick-fil-A Appreciation Day."</span>	<button class="sent" id="p2">S</button><br><br>
+
+<span class="para" id="p3">The surge of support for the fast-food chain came after Chick-fil-A president Dan Cathy said the Atlanta-based company was "guilty as charged" for backing "the biblical definition of a family."</span>	<button class="sent" id="p3">S</button><br><br>
+
+<span class="para" id="p4">As gay rights groups launched boycotts against the company, prominent conservative figures like former Arkansas Gov. Mike Huckabee, Senator Lindsay Graham (R-S.C.) and former Alaska Gov. Sarah Palin began showing their support by visiting the restaurant.</span>	<button class="sent" id="p4">S</button><br><br>
+
+<span class="para" id="p5">But conservatives weren't the only ones taking sides.</span>	<button class="sent" id="p5">S</button><br><br>
+
+<span class="para" id="p6">House Minority Leader Nancy Pelosi (D-Calif.) tweeted about her opposition to the restaurant, and West Hollywood bar The Abbey introduced a "Chick-for-Gay" sandwich as a protest against the chain.</span>	<button class="sent" id="p6">S</button><br><br>
+
+</div>
+	    <div class="form-popup" id="myForm">
+	    <form class="form-container" id="form_data">
+	    	<h2 id="selected_text"></h2>
+	        <h3>Main Target</h3>
+	    	<label><input type="radio" name="target" value="GOP_leaders"> GOP leaders</label><br>
+	<label><input type="radio" name="target" value="Chick-Fil-A"> Chick-Fil-A</label><br>
+
+    	<h3>Polarity</h3>
+    	<label><input type="radio" name="polarity" value="pos"> Positive</label><br>
+    	<label><input type="radio" name="polarity" value="neg"> Negative</label><br>
+
+    	<h3>Aim</h3>
+    	<label><input type="radio" name="aim" value="dir" onclick="hideIndirectTargetSentiment()"> Direct</label><br>
+    	<label><input type="radio" name="aim" value="ind_pro" onclick="showIndirectTargetSentiment()"> Indirect (Ally)</label><br>
+    	<label><input type="radio" name="aim" value="ind_anti" onclick="showIndirectTargetSentiment()"> Indirect (Opponent)</label><br>
+        <label><input type="radio" name="aim" value="ind_general" onclick="showIndirectTargetSentiment()"> Indirect (General)</label><br>
+
+        <div id="indirect-target-name">
+    	<h3>Indirect Target:
+        <label><input type="text" name="indirect-target-name" id="indirect-target-name-label"></label></h3>
+        </div>
+
+        <div id="indirect-ally-opponent-sentiment">
+        <h3>Sentiment Towards Indirect Target</h3>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="pos"> Positive</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neg"> Negative</label><br>
+        </div>
+
+    	<h3>Bias Type</h3>
+    	<label><input type="radio" name="bias" value="lex"> Lexical</label><br>
+    	<label><input type="radio" name="bias" value="inf"> Informational</label><br>
+
+    	<h3>Is the bias in a quote?</h3>
+    	<label><input type="radio" name="quote" value="yes" onclick="show_speaker()"> Yes</label><br>
+    	<label><input type="radio" name="quote" value="no" onclick="hide_speaker()" checked> No</label><br>
+
+    	<div id="speaker" style="display:none">
+    	<h3>If yes, who said the quote?</h3>
+    	<label><input type="radio" name="speaker" value="GOP_leaders"> GOP leaders</label><br>
+	<label><input type="radio" name="speaker" value="Chick-Fil-A"> Chick-Fil-A</label><br>
+	<label><input type="radio" name="speaker" value="other_pro"> Other (Pro-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_anti"> Other (Anti-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_neutral"> Other (Neutral)</label><br>
+    	</div>
+
+    	<h3> Additional Notes</h3>
+    	<textarea id="notes"></textarea><br>
+
+    	<div id="error_msg"></div>
+        <button type="button" class="btn submit" id="submit">Submit</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+<button type="button" class="btn delete" id="delete">Delete</button>
+<button type="button" class="btn duplicate" id="duplicate">Duplicate</button>
+    </form>
+    </div>
+    <button type="button" class="btn" id="article-level-button" onclick="showArticleLevelForm()">Article-level annotation</button><br>
+        <div class="form-popup" id="article-level-form-div">
+        <form class="form-container" id="article-level-form">
+        <div class="article-question-div">
+        <h3>Main Event: Michele Bachmann and other GOP reps show support for Chick-Fil-A</h3>
+        <h4>How do you think the author feels regarding the main event?</h4>
+        <label><input type="radio" name="author_feeling_main_event" value="pos"> Positive</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neg"> Negative</label><br>
+        </div>
+        
+            <div class="article-question-div">
+            <h3>Main Entity: GOP leaders</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_GOP_leaders" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_GOP_leaders" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_GOP_leaders" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_GOP_leaders" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_GOP_leaders" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_GOP_leaders" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_GOP_leaders" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_GOP_leaders" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+            <div class="article-question-div">
+            <h3>Main Entity: Chick-Fil-A</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Chick-Fil-A" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Chick-Fil-A" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Chick-Fil-A" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Chick-Fil-A" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Chick-Fil-A" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Chick-Fil-A" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Chick-Fil-A" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Chick-Fil-A" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+        <h3>Political Stance</h3>
+        <h4 style="margin-bottom:0px">Is this article more left, center, or more right compared to the other articles in the triple?</h4>
+
+        <font size="2">Note: Within a triplet, one should be labeled "More left", one should be labeled "Center", and the other should be labeled "More right".</font><br><br>
+        <label><input type="radio" name="relative_stance" value="left"> More left</label><br>
+        <label><input type="radio" name="relative_stance" value="center"> Center</label><br>
+        <label><input type="radio" name="relative_stance" value="right"> More right</label><br>
+        <h3> Additional Notes</h3>
+        <textarea name="notes" id="article-level-notes"></textarea><br>
+        <div id="article-level-form-error-msg"></div>
+        <button type="button" class="btn submit" id="submit" onclick="submitArticleLevelForm()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeArticleLevelForm()">Cancel</button>
+        </form>
+        </div>
+    
+        <button type="button" class="btn" onclick="download_annotations()">Download annotation file</button>
+        <button id="imp_btn" onclick="document.getElementById('import').click();">Import existing annotation file</button>
+        <input type="file" id="import" style="display:none" onchange="importFile(this.files)">
+        <div id="import_error"></div>
+        </body>

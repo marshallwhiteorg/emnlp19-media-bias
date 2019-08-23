@@ -1,0 +1,45 @@
+{
+    "triplet-uuid": "97b1305c-13ca-4b74-a56a-f459bd79dfaf",
+    "uuid": "5e64563a-b779-4c45-973e-949f78acef0a",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_NAACP": "neu",
+        "you_feeling_NAACP": "neu",
+        "author_feeling_Tea_Party": "neu",
+        "you_feeling_Tea_Party": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "partisan political attack dog",
+            "id": "p11",
+            "start": 131,
+            "end": 160,
+            "target": "NAACP",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Tea_Party",
+            "notes": ""
+        },
+        {
+            "txt": "The Tea Party movement has been beset with allegations of racism since black members of Congress preparing to vote on health care legislation accused protesters of hurling racial epithets, and in one instance, spitting on a congressman.",
+            "id": "p12",
+            "start": 0,
+            "end": 236,
+            "target": "Tea_Party",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

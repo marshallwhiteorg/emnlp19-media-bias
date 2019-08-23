@@ -1,0 +1,150 @@
+
+        <head>
+            <meta charset=UTF-8>
+        	<link rel = "stylesheet" type = "text/css" href = "../../../annotation.css">
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        	<script src="../../../annotate.js"></script>
+        	<script type="text/javascript">
+        		var file_id="af4a3f41-eeb5-49fa-a276-e97c230b25f0_2";
+                var tripletUuid="af4a3f41-eeb5-49fa-a276-e97c230b25f0";
+                var uuid="4d51331a-0056-411b-a8e7-effe5f0b33d6";
+        	</script>
+        </head>
+        <body onload="init()">
+        <i>Title: Mike Huckabee on the Issues</i><br><br>
+        <div id="article" onmouseup="annotate()"><span class="para" id="p0">Mike Huckabee, a former Republican governor of Arkansas and preacher who has announced his run for the presidency on Tuesday, has been outspoken on a range of matters, particularly foreign policy and social issues like same-sex marriage.</span>	<button class="sent" id="p0">S</button><br><br>
+
+<span class="para" id="p1">Here are his stances on important issues.</span>	<button class="sent" id="p1">S</button><br><br>
+
+<span class="para" id="p2">Mr. Huckabee warns that radical Islam is a grave threat to the United States and says President Obama too frequently defends Islam.</span>	<button class="sent" id="p2">S</button><br><br>
+
+<span class="para" id="p3">He supports forceful military action against the Islamic State.</span>	<button class="sent" id="p3">S</button><br><br>
+
+<span class="para" id="p4">A strong defender of Israel, he has been sharply critical of Mr. Obama’s treatment of Prime Minister Benjamin Netanyahu, and said a proposed nuclear deal with Iran is “terrible” because Iran cannot be trusted.</span>	<button class="sent" id="p4">S</button><br><br>
+
+<span class="para" id="p5">Mr. Huckabee has talked of the possibility of using military force against Iran.</span>	<button class="sent" id="p5">S</button><br><br>
+
+<span class="para" id="p6">As governor of Arkansas in 2002, he called for lifting the economic embargo of Cuba, which would have helped rice farmers in his state.</span>	<button class="sent" id="p6">S</button><br><br>
+
+<span class="para" id="p7">But he now opposes Mr. Obama’s warming of relations with Havana, calling Cuba’s government tyrannical.</span>	<button class="sent" id="p7">S</button><br><br>
+
+<span class="para" id="p8">In 2007 Mr. Huckabee was quoted as saying, “Climate change is here, it’s real.” But more recently he has minimized it as a threat, and said he opposes “cap and trade” legislation meant to curtail carbon emissions.</span>	<button class="sent" id="p8">S</button><br><br>
+
+<span class="para" id="p9">“This kind of mandatory energy policy would have a horrible impact on this nation’s job market,” he said.</span>	<button class="sent" id="p9">S</button><br><br>
+
+<span class="para" id="p10">Mr. Huckabee opposes same-sex marriage, suggesting as recently as February that homosexuality is a lifestyle choice akin to drinking or swearing.</span>	<button class="sent" id="p10">S</button><br><br>
+
+<span class="para" id="p11">Mr. Huckabee said Mr. Obama exceeded his authority by issuing executive actions shielding millions of undocumented immigrants from deportation.</span>	<button class="sent" id="p11">S</button><br><br>
+
+<span class="para" id="p12">But Mr. Huckabee said the immigrant children whose parents brought them into the country illegally should not be deported because “you don’t punish a child for something his parents did.”</span>	<button class="sent" id="p12">S</button><br><br>
+
+<span class="para" id="p13">Mr. Huckabee has focused his economic message on what he calls wage stagnation under Mr. Obama.</span>	<button class="sent" id="p13">S</button><br><br>
+
+<span class="para" id="p14">But the former governor has opposed calls for a higher minimum wage, calling it government intrusion, and he has suggested that policies that encourage a dependency on federal benefits have helped hold wages down.</span>	<button class="sent" id="p14">S</button><br><br>
+
+<span class="para" id="p15">Unlike other Republican candidates, Mr. Huckabee is a strong defender of entitlement programs, opposing plans to raise the retirement age for collecting Social Security and criticizing plans to curtail Medicare.</span>	<button class="sent" id="p15">S</button><br><br>
+
+<span class="para" id="p16">Republicans who back such changes, he said, “are embracing a government that lied to its people — that took money from its people under one pretense and then took it away at the time when they started wanting to actually get what they have paid for all these years.”</span>	<button class="sent" id="p16">S</button><br><br>
+
+</div>
+	    <div class="form-popup" id="myForm">
+	    <form class="form-container" id="form_data">
+	    	<h2 id="selected_text"></h2>
+	        <h3>Main Target</h3>
+	       <label><input type="radio" name="target" value="Mike_Huckabee" checked> Mike Huckabee</label><br>
+
+    	<h3>Polarity</h3>
+    	<label><input type="radio" name="polarity" value="pos"> Positive</label><br>
+    	<label><input type="radio" name="polarity" value="neg"> Negative</label><br>
+
+    	<h3>Aim</h3>
+    	<label><input type="radio" name="aim" value="dir" onclick="hideIndirectTargetSentiment()"> Direct</label><br>
+    	<label><input type="radio" name="aim" value="ind_pro" onclick="showIndirectTargetSentiment()"> Indirect (Ally)</label><br>
+    	<label><input type="radio" name="aim" value="ind_anti" onclick="showIndirectTargetSentiment()"> Indirect (Opponent)</label><br>
+        <label><input type="radio" name="aim" value="ind_general" onclick="showIndirectTargetSentiment()"> Indirect (General)</label><br>
+
+        <div id="indirect-target-name">
+    	<h3>Indirect Target:
+        <label><input type="text" name="indirect-target-name" id="indirect-target-name-label"></label></h3>
+        </div>
+
+        <div id="indirect-ally-opponent-sentiment">
+        <h3>Sentiment Towards Indirect Target</h3>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="pos"> Positive</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neg"> Negative</label><br>
+        </div>
+
+    	<h3>Bias Type</h3>
+    	<label><input type="radio" name="bias" value="lex"> Lexical</label><br>
+    	<label><input type="radio" name="bias" value="inf"> Informational</label><br>
+
+    	<h3>Is the bias in a quote?</h3>
+    	<label><input type="radio" name="quote" value="yes" onclick="show_speaker()"> Yes</label><br>
+    	<label><input type="radio" name="quote" value="no" onclick="hide_speaker()" checked> No</label><br>
+
+    	<div id="speaker" style="display:none">
+    	<h3>If yes, who said the quote?</h3>
+    	<label><input type="radio" name="speaker" value="Mike_Huckabee"> Mike Huckabee</label><br>
+	<label><input type="radio" name="speaker" value="other_pro"> Other (Pro-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_anti"> Other (Anti-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_neutral"> Other (Neutral)</label><br>
+    	</div>
+
+    	<h3> Additional Notes</h3>
+    	<textarea id="notes"></textarea><br>
+
+    	<div id="error_msg"></div>
+        <button type="button" class="btn submit" id="submit">Submit</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+<button type="button" class="btn delete" id="delete">Delete</button>
+<button type="button" class="btn duplicate" id="duplicate">Duplicate</button>
+    </form>
+    </div>
+    <button type="button" class="btn" id="article-level-button" onclick="showArticleLevelForm()">Article-level annotation</button><br>
+        <div class="form-popup" id="article-level-form-div">
+        <form class="form-container" id="article-level-form">
+        <div class="article-question-div">
+        <h3>Main Event: Mike Huckabee announced his run for the presidency</h3>
+        <h4>How do you think the author feels regarding the main event?</h4>
+        <label><input type="radio" name="author_feeling_main_event" value="pos"> Positive</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neg"> Negative</label><br>
+        </div>
+        
+            <div class="article-question-div">
+            <h3>Main Entity: Mike Huckabee</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Mike_Huckabee" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Mike_Huckabee" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Mike_Huckabee" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Mike_Huckabee" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Mike_Huckabee" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Mike_Huckabee" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Mike_Huckabee" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Mike_Huckabee" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+        <h3>Political Stance</h3>
+        <h4 style="margin-bottom:0px">Is this article more left, center, or more right compared to the other articles in the triple?</h4>
+
+        <font size="2">Note: Within a triplet, one should be labeled "More left", one should be labeled "Center", and the other should be labeled "More right".</font><br><br>
+        <label><input type="radio" name="relative_stance" value="left"> More left</label><br>
+        <label><input type="radio" name="relative_stance" value="center"> Center</label><br>
+        <label><input type="radio" name="relative_stance" value="right"> More right</label><br>
+        <h3> Additional Notes</h3>
+        <textarea name="notes" id="article-level-notes"></textarea><br>
+        <div id="article-level-form-error-msg"></div>
+        <button type="button" class="btn submit" id="submit" onclick="submitArticleLevelForm()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeArticleLevelForm()">Cancel</button>
+        </form>
+        </div>
+    
+        <button type="button" class="btn" onclick="download_annotations()">Download annotation file</button>
+        <button id="imp_btn" onclick="document.getElementById('import').click();">Import existing annotation file</button>
+        <input type="file" id="import" style="display:none" onchange="importFile(this.files)">
+        <div id="import_error"></div>
+        </body>

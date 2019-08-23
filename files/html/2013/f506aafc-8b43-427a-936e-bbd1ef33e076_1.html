@@ -1,0 +1,144 @@
+
+        <head>
+            <meta charset=UTF-8>
+        	<link rel = "stylesheet" type = "text/css" href = "../../../annotation.css">
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        	<script src="../../../annotate.js"></script>
+        	<script type="text/javascript">
+        		var file_id="f506aafc-8b43-427a-936e-bbd1ef33e076_1";
+                var tripletUuid="f506aafc-8b43-427a-936e-bbd1ef33e076";
+                var uuid="fc848d52-197e-4f53-a254-03fd7d9c56f6";
+        	</script>
+        </head>
+        <body onload="init()">
+        <i>Title: Jackson Jr. Pleads Guilty</i><br><br>
+        <div id="article" onmouseup="annotate()"><span class="para" id="p0">WASHINGTON -- Former Rep. Jesse Jackson Jr. (D-Ill.) pleaded guilty in a federal courtroom Wednesday morning to using campaign funds to purchase an array of personal items including Bruce Lee memorabilia, a $43,000 Rolex watch and a mink cashmere cape.</span>	<button class="sent" id="p0">S</button><br><br>
+
+<span class="para" id="p1">He pleaded guilty to conspiracy before U.S. District Judge Robert L. Wilkins.</span>	<button class="sent" id="p1">S</button><br><br>
+
+<span class="para" id="p2">His wife, Sandra Jackson, who resigned from her position on Chicago’s city council, is expected to plead guilty to filing false tax returns before the same judge on Wednesday afternoon.</span>	<button class="sent" id="p2">S</button><br><br>
+
+<span class="para" id="p3">Jackson, dressed in a blue tie, blue shirt and a blue suit, looked back in the direction of his father and wife several times during the hearing.</span>	<button class="sent" id="p3">S</button><br><br>
+
+<span class="para" id="p4">At one point he appeared to mouth, "I'm sorry."</span>	<button class="sent" id="p4">S</button><br><br>
+
+<span class="para" id="p5">The former representative, who co-wrote a 1999 book with his father, Rev. Jesse Jackson, titled It's About the Money!: How You Can Get Out of Debt, Build Wealth, and Achieve Your Financial Dreams, was accused of spending $750,000 in campaign funds on personal items for himself and for his wife.</span>	<button class="sent" id="p5">S</button><br><br>
+
+<span class="para" id="p6">Jackson said he was clearheaded and had not been under treatment for alcohol or drug abuse, though he did have a beer last night.</span>	<button class="sent" id="p6">S</button><br><br>
+
+<span class="para" id="p7">He said he had never been more clear in his life, and had read the documents thoroughly and had understood the consequences of his actions.</span>	<button class="sent" id="p7">S</button><br><br>
+
+<span class="para" id="p8">He acknowledged he "used money that shouldn't have been used," calling the government's statement accurate and saying he had "no interest in wasting the taxpayers' time or money."</span>	<button class="sent" id="p8">S</button><br><br>
+
+<span class="para" id="p9">The judge set the sentencing for June 28 at 2 p.m. Jackson will be free to go after he surrenders his passport, and will be restricted to living in the D.C. or Chicago area.</span>	<button class="sent" id="p9">S</button><br><br>
+
+<span class="para" id="p10">The former national co-chairman of President Barack Obama’s 2008 presidential campaign, Jackson was first elected to office in 1995 and resigned from Congress last year amid a federal investigation and his treatment for bipolar disorder.</span>	<button class="sent" id="p10">S</button><br><br>
+
+<span class="para" id="p11">In a statement issued by his lawyers on Friday after court records indicated he planned a guilty plea, Jackson said he had “no excuses” for his conduct and “fully accept my responsibility for the improper decisions and mistakes I have made.”</span>	<button class="sent" id="p11">S</button><br><br>
+
+<span class="para" id="p12">UPDATE 2:52 p.m. -- Additional records disclosed Wednesday revealed that expenses charged by Jackson and his wife to his campaign included $4,272.78 on the Navigator of the Seas cruise, $2,306.08 at Walt Disney World, over $10,000 at Best Buy, over $300 at Build-A-Bear, $3,544.00 at Mariel's Boutique, and $5,687.75 on Martha's Vineyard Holistic Retreat.</span>	<button class="sent" id="p12">S</button><br><br>
+
+<span class="para" id="p13">The personal expenses at nightclubs and lounges topped $60,000, while personal dry-cleaning expenses topped $14,000.</span>	<button class="sent" id="p13">S</button><br><br>
+
+</div>
+	    <div class="form-popup" id="myForm">
+	    <form class="form-container" id="form_data">
+	    	<h2 id="selected_text"></h2>
+	        <h3>Main Target</h3>
+	       <label><input type="radio" name="target" value="Jesse_Jackson" checked> Jesse Jackson</label><br>
+
+    	<h3>Polarity</h3>
+    	<label><input type="radio" name="polarity" value="pos"> Positive</label><br>
+    	<label><input type="radio" name="polarity" value="neg"> Negative</label><br>
+
+    	<h3>Aim</h3>
+    	<label><input type="radio" name="aim" value="dir" onclick="hideIndirectTargetSentiment()"> Direct</label><br>
+    	<label><input type="radio" name="aim" value="ind_pro" onclick="showIndirectTargetSentiment()"> Indirect (Ally)</label><br>
+    	<label><input type="radio" name="aim" value="ind_anti" onclick="showIndirectTargetSentiment()"> Indirect (Opponent)</label><br>
+        <label><input type="radio" name="aim" value="ind_general" onclick="showIndirectTargetSentiment()"> Indirect (General)</label><br>
+
+        <div id="indirect-target-name">
+    	<h3>Indirect Target:
+        <label><input type="text" name="indirect-target-name" id="indirect-target-name-label"></label></h3>
+        </div>
+
+        <div id="indirect-ally-opponent-sentiment">
+        <h3>Sentiment Towards Indirect Target</h3>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="pos"> Positive</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neg"> Negative</label><br>
+        </div>
+
+    	<h3>Bias Type</h3>
+    	<label><input type="radio" name="bias" value="lex"> Lexical</label><br>
+    	<label><input type="radio" name="bias" value="inf"> Informational</label><br>
+
+    	<h3>Is the bias in a quote?</h3>
+    	<label><input type="radio" name="quote" value="yes" onclick="show_speaker()"> Yes</label><br>
+    	<label><input type="radio" name="quote" value="no" onclick="hide_speaker()" checked> No</label><br>
+
+    	<div id="speaker" style="display:none">
+    	<h3>If yes, who said the quote?</h3>
+    	<label><input type="radio" name="speaker" value="Jesse_Jackson"> Jesse Jackson</label><br>
+	<label><input type="radio" name="speaker" value="other_pro"> Other (Pro-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_anti"> Other (Anti-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_neutral"> Other (Neutral)</label><br>
+    	</div>
+
+    	<h3> Additional Notes</h3>
+    	<textarea id="notes"></textarea><br>
+
+    	<div id="error_msg"></div>
+        <button type="button" class="btn submit" id="submit">Submit</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+<button type="button" class="btn delete" id="delete">Delete</button>
+<button type="button" class="btn duplicate" id="duplicate">Duplicate</button>
+    </form>
+    </div>
+    <button type="button" class="btn" id="article-level-button" onclick="showArticleLevelForm()">Article-level annotation</button><br>
+        <div class="form-popup" id="article-level-form-div">
+        <form class="form-container" id="article-level-form">
+        <div class="article-question-div">
+        <h3>Main Event: Jackson pleads guilty over illegal campaign spending spree</h3>
+        <h4>How do you think the author feels regarding the main event?</h4>
+        <label><input type="radio" name="author_feeling_main_event" value="pos"> Positive</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neg"> Negative</label><br>
+        </div>
+        
+            <div class="article-question-div">
+            <h3>Main Entity: Jesse Jackson</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Jesse_Jackson" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Jesse_Jackson" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Jesse_Jackson" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Jesse_Jackson" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Jesse_Jackson" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Jesse_Jackson" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Jesse_Jackson" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Jesse_Jackson" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+        <h3>Political Stance</h3>
+        <h4 style="margin-bottom:0px">Is this article more left, center, or more right compared to the other articles in the triple?</h4>
+
+        <font size="2">Note: Within a triplet, one should be labeled "More left", one should be labeled "Center", and the other should be labeled "More right".</font><br><br>
+        <label><input type="radio" name="relative_stance" value="left"> More left</label><br>
+        <label><input type="radio" name="relative_stance" value="center"> Center</label><br>
+        <label><input type="radio" name="relative_stance" value="right"> More right</label><br>
+        <h3> Additional Notes</h3>
+        <textarea name="notes" id="article-level-notes"></textarea><br>
+        <div id="article-level-form-error-msg"></div>
+        <button type="button" class="btn submit" id="submit" onclick="submitArticleLevelForm()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeArticleLevelForm()">Cancel</button>
+        </form>
+        </div>
+    
+        <button type="button" class="btn" onclick="download_annotations()">Download annotation file</button>
+        <button id="imp_btn" onclick="document.getElementById('import').click();">Import existing annotation file</button>
+        <input type="file" id="import" style="display:none" onchange="importFile(this.files)">
+        <div id="import_error"></div>
+        </body>

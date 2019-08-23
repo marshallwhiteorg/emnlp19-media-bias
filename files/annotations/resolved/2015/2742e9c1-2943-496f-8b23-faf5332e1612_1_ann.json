@@ -1,0 +1,58 @@
+{
+    "triplet-uuid": "2742e9c1-2943-496f-8b23-faf5332e1612",
+    "uuid": "1a70c4b1-dba8-4f9a-8067-7f2293109289",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Asa_Hutchinson": "neu",
+        "you_feeling_Asa_Hutchinson": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "Hutchinson has faced pressure from the state's top employers, including retail giant Wal-Mart, which complained that the measure was discriminatory and would stifle economic development",
+            "id": "p16",
+            "start": 39,
+            "end": 224,
+            "target": "Asa_Hutchinson",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Little Rock's mayor, the city's Chamber of Commerce and Arkansas-based data services company Acxiom all urged the governor to reject the measure in recent days.",
+            "id": "p17",
+            "start": 0,
+            "end": 160,
+            "target": "Asa_Hutchinson",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Hutchinson had initially said he planned to sign the bill but backed off as his state, overnight, became the new focal point of a nationwide backlash over such legislation.",
+            "id": "p1",
+            "start": 0,
+            "end": 172,
+            "target": "Asa_Hutchinson",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

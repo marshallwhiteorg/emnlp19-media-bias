@@ -1,0 +1,88 @@
+{
+    "triplet-uuid": "a4f1d515-d7d9-4319-b2e0-4d56e9d45554",
+    "uuid": "84e2edc9-1315-4bbc-95b6-8a20ace915c7",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_National_Security_Agency_programs": "neu",
+        "you_feeling_National_Security_Agency_programs": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "Lawmakers said that what they knew was vague and broad",
+            "id": "p13",
+            "start": 0,
+            "end": 54,
+            "target": "National_Security_Agency_programs",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "They added that “multiple senior officials have stated that U.S. intelligence agencies do not collect information or dossiers on ‘millions of Americans,’ ” assertions that they believe have been contradicted by revelations of Internet data mining and a court order asking a Verizon subsidiary to turn over logs of telephone calls.",
+            "id": "p22",
+            "start": 0,
+            "end": 330,
+            "target": "National_Security_Agency_programs",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "You can count on two hands the number of people in Congress who really know",
+            "id": "p31",
+            "start": 1,
+            "end": 76,
+            "target": "National_Security_Agency_programs",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_neutral",
+            "notes": ""
+        },
+        {
+            "txt": "simply an “internal government computer system”",
+            "id": "p0",
+            "start": 192,
+            "end": 239,
+            "target": "National_Security_Agency_programs",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "“Rather, the intelligence community is conducting court-authorized intelligence activities pursuant to a public statute, with the knowledge and oversight of Congress and the Intelligence Committees of both houses.”",
+            "id": "p19",
+            "start": 0,
+            "end": 214,
+            "target": "National_Security_Agency_programs",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_pro",
+            "notes": ""
+        }
+    ]
+}

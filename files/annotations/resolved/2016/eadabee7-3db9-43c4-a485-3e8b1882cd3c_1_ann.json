@@ -1,0 +1,77 @@
+{
+    "pair-uuid": "eadabee7-3db9-43c4-a485-3e8b1882cd3c",
+    "uuid": "16e15add-59e5-468a-af38-bfff42466f18",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Barack_Obama": "neu",
+        "you_feeling_Barack_Obama": "neu",
+        "author_feeling_Bernie_Sanders": "neu",
+        "you_feeling_Bernie_Sanders": "neu",
+        "author_feeling_Hillary_Clinton": "neu",
+        "you_feeling_Hillary_Clinton": "neu",
+        "relative_stance": "liberal",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "historic",
+            "id": "p3",
+            "start": 4,
+            "end": 12,
+            "target": "Hillary_Clinton",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "yes",
+            "speaker": "other_pro",
+            "notes": ""
+        },
+        {
+            "txt": "Her historic campaign inspired millions",
+            "id": "p3_1",
+            "start": 0,
+            "end": 39,
+            "target": "Hillary_Clinton",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_pro",
+            "notes": ""
+        },
+        {
+            "txt": "extraordinary",
+            "id": "p6",
+            "start": 116,
+            "end": 129,
+            "target": "Bernie_Sanders",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "yes",
+            "speaker": "other_pro",
+            "notes": ""
+        },
+        {
+            "txt": "\"The President thanked Senator Sanders for energizing millions of Americans with his commitment to issues like fighting economic inequality and special interests' influence on our politics.\"",
+            "id": "p4",
+            "start": 0,
+            "end": 190,
+            "target": "Bernie_Sanders",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_pro",
+            "notes": ""
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+
+        <head>
+            <meta charset=UTF-8>
+        	<link rel = "stylesheet" type = "text/css" href = "../../../annotation.css">
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        	<script src="../../../annotate.js"></script>
+        	<script type="text/javascript">
+        		var file_id="ae243a95-b2c2-410c-9e2b-b083b4b8eb48_3";
+                var tripletUuid="ae243a95-b2c2-410c-9e2b-b083b4b8eb48";
+                var uuid="73fd3350-941b-49f6-9e9e-84dab27234f2";
+        	</script>
+        </head>
+        <body onload="init()">
+        <i>Title: Calling The Senate GOP's Bluff: Multiple Bills Likely To Come Up Before Tax Cuts</i><br><br>
+        <div id="article" onmouseup="annotate()"><span class="para" id="p0">WASHINGTON -- The Senate GOP's threat to filibuster every single piece of legislation until the chamber resolves budget and tax cut measures will likely be tested as soon as Friday.</span>	<button class="sent" id="p0">S</button><br><br>
+
+<span class="para" id="p1">On Wednesday, Senate Majority Leader Harry Reid (D-Nev.) received a letter signed by all 42 Senate Republicans, which stated, "[W]e write to inform you that we will not agree to invoke cloture on the motion to proceed to any legislative item until the Senate has acted to fund the government and we have prevented the tax increase that is currently awaiting all American taxpayers."</span>	<button class="sent" id="p1">S</button><br><br>
+
+<span class="para" id="p2">But Reid plans to file cloture this week on at least three measures: the DREAM Act, collective bargaining for firefighters, and a 9/11 health bill.</span>	<button class="sent" id="p2">S</button><br><br>
+
+<span class="para" id="p3">A senior Democratic staffer told The Huffington Post that it was likely to happen tonight or tomorrow.</span>	<button class="sent" id="p3">S</button><br><br>
+
+<span class="para" id="p4">If it happens tonight, any of the bills could come before the Senate for a vote on proceeding to full debate as soon as Friday or possibly early next week.</span>	<button class="sent" id="p4">S</button><br><br>
+
+<span class="para" id="p5">"It had been my intention to file cloture on both of these bills last evening," said Reid on the Senate floor on Tuesday, "however, supporters of the original bills requested that some modifications be made.</span>	<button class="sent" id="p5">S</button><br><br>
+
+<span class="para" id="p6">These changes are reflected in the bills.</span>	<button class="sent" id="p6">S</button><br><br>
+
+<span class="para" id="p7">I intend to move forward on both of these pieces of legislation.</span>	<button class="sent" id="p7">S</button><br><br>
+
+<span class="para" id="p8">In addition, I intend to file cloture this week on the 9/11 health bill.</span>	<button class="sent" id="p8">S</button><br><br>
+
+<span class="para" id="p9">I'll file cloture on all three of these at the same time."</span>	<button class="sent" id="p9">S</button><br><br>
+
+<span class="para" id="p10">"We already have things on the calendar," said the Democratic staffer, noting that right now, it doesn't appear as if tax cuts will come before these measures that are already in the queue.</span>	<button class="sent" id="p10">S</button><br><br>
+
+<span class="para" id="p11">There could be some cracks in the GOP coalition to stand firm against any non-budget or tax cuts legislation though.</span>	<button class="sent" id="p11">S</button><br><br>
+
+<span class="para" id="p12">Sen. Susan Collins' (R-Maine) is reportedly open to voting to proceed on repealing Don't Ask, Don't Tell, even if the other issues aren't yet resolved.</span>	<button class="sent" id="p12">S</button><br><br>
+
+<span class="para" id="p13">Sen. Scott Brown (R-Mass.) recently introduced a compromise bill on extending unemployment benefits.</span>	<button class="sent" id="p13">S</button><br><br>
+
+<span class="para" id="p14">There's no indication yet that it will make it to the floor anytime soon, but if it did come up before a vote on the Bush tax cuts, it would put Brown in the tough spot of voting against his legislation or breaking with his party.</span>	<button class="sent" id="p14">S</button><br><br>
+
+<span class="para" id="p15">Brown's office did not respond to The Huffington Post's request for comment.</span>	<button class="sent" id="p15">S</button><br><br>
+
+</div>
+	    <div class="form-popup" id="myForm">
+	    <form class="form-container" id="form_data">
+	    	<h2 id="selected_text"></h2>
+	        <h3>Main Target</h3>
+	    	<label><input type="radio" name="target" value="Democrats"> Democrats</label><br>
+	<label><input type="radio" name="target" value="Republicans"> Republicans</label><br>
+
+    	<h3>Polarity</h3>
+    	<label><input type="radio" name="polarity" value="pos"> Positive</label><br>
+    	<label><input type="radio" name="polarity" value="neg"> Negative</label><br>
+
+    	<h3>Aim</h3>
+    	<label><input type="radio" name="aim" value="dir" onclick="hideIndirectTargetSentiment()"> Direct</label><br>
+    	<label><input type="radio" name="aim" value="ind_pro" onclick="showIndirectTargetSentiment()"> Indirect (Ally)</label><br>
+    	<label><input type="radio" name="aim" value="ind_anti" onclick="showIndirectTargetSentiment()"> Indirect (Opponent)</label><br>
+        <label><input type="radio" name="aim" value="ind_general" onclick="showIndirectTargetSentiment()"> Indirect (General)</label><br>
+
+        <div id="indirect-target-name">
+    	<h3>Indirect Target:
+        <label><input type="text" name="indirect-target-name" id="indirect-target-name-label"></label></h3>
+        </div>
+
+        <div id="indirect-ally-opponent-sentiment">
+        <h3>Sentiment Towards Indirect Target</h3>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="pos"> Positive</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neg"> Negative</label><br>
+        </div>
+
+    	<h3>Bias Type</h3>
+    	<label><input type="radio" name="bias" value="lex"> Lexical</label><br>
+    	<label><input type="radio" name="bias" value="inf"> Informational</label><br>
+
+    	<h3>Is the bias in a quote?</h3>
+    	<label><input type="radio" name="quote" value="yes" onclick="show_speaker()"> Yes</label><br>
+    	<label><input type="radio" name="quote" value="no" onclick="hide_speaker()" checked> No</label><br>
+
+    	<div id="speaker" style="display:none">
+    	<h3>If yes, who said the quote?</h3>
+    	<label><input type="radio" name="speaker" value="Democrats"> Democrats</label><br>
+	<label><input type="radio" name="speaker" value="Republicans"> Republicans</label><br>
+	<label><input type="radio" name="speaker" value="other_pro"> Other (Pro-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_anti"> Other (Anti-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_neutral"> Other (Neutral)</label><br>
+    	</div>
+
+    	<h3> Additional Notes</h3>
+    	<textarea id="notes"></textarea><br>
+
+    	<div id="error_msg"></div>
+        <button type="button" class="btn submit" id="submit">Submit</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+<button type="button" class="btn delete" id="delete">Delete</button>
+<button type="button" class="btn duplicate" id="duplicate">Duplicate</button>
+    </form>
+    </div>
+    <button type="button" class="btn" id="article-level-button" onclick="showArticleLevelForm()">Article-level annotation</button><br>
+        <div class="form-popup" id="article-level-form-div">
+        <form class="form-container" id="article-level-form">
+        <div class="article-question-div">
+        <h3>Main Event: Republicans threaten to filibuster legislation until tax cuts are passed</h3>
+        <h4>How do you think the author feels regarding the main event?</h4>
+        <label><input type="radio" name="author_feeling_main_event" value="pos"> Positive</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neg"> Negative</label><br>
+        </div>
+        
+            <div class="article-question-div">
+            <h3>Main Entity: Democrats</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Democrats" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Democrats" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Democrats" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Democrats" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Democrats" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Democrats" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Democrats" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Democrats" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+            <div class="article-question-div">
+            <h3>Main Entity: Republicans</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Republicans" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Republicans" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Republicans" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Republicans" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Republicans" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Republicans" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Republicans" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Republicans" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+        <h3>Political Stance</h3>
+        <h4 style="margin-bottom:0px">Is this article more left, center, or more right compared to the other articles in the triple?</h4>
+
+        <font size="2">Note: Within a triplet, one should be labeled "More left", one should be labeled "Center", and the other should be labeled "More right".</font><br><br>
+        <label><input type="radio" name="relative_stance" value="left"> More left</label><br>
+        <label><input type="radio" name="relative_stance" value="center"> Center</label><br>
+        <label><input type="radio" name="relative_stance" value="right"> More right</label><br>
+        <h3> Additional Notes</h3>
+        <textarea name="notes" id="article-level-notes"></textarea><br>
+        <div id="article-level-form-error-msg"></div>
+        <button type="button" class="btn submit" id="submit" onclick="submitArticleLevelForm()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeArticleLevelForm()">Cancel</button>
+        </form>
+        </div>
+    
+        <button type="button" class="btn" onclick="download_annotations()">Download annotation file</button>
+        <button id="imp_btn" onclick="document.getElementById('import').click();">Import existing annotation file</button>
+        <input type="file" id="import" style="display:none" onchange="importFile(this.files)">
+        <div id="import_error"></div>
+        </body>

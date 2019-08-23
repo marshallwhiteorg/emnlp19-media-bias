@@ -1,0 +1,45 @@
+{
+    "triplet-uuid": "ae243a95-b2c2-410c-9e2b-b083b4b8eb48",
+    "uuid": "73fd3350-941b-49f6-9e9e-84dab27234f2",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Democrats": "neu",
+        "you_feeling_Democrats": "neu",
+        "author_feeling_Republicans": "neg",
+        "you_feeling_Republicans": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "threat",
+            "id": "p0",
+            "start": 31,
+            "end": 37,
+            "target": "Republicans",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Calling The Senate GOP's Bluff",
+            "id": "title",
+            "start": 0,
+            "end": 30,
+            "target": "Republicans",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

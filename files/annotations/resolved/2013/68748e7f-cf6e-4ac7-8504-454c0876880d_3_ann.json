@@ -1,0 +1,30 @@
+{
+    "triplet-uuid": "68748e7f-cf6e-4ac7-8504-454c0876880d",
+    "uuid": "e6007e79-3dca-4a8c-a6a2-46d309a721fe",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Asa_Hutchinson": "neu",
+        "you_feeling_Asa_Hutchinson": "neu",
+        "author_feeling_National_Rifle_Association": "neu",
+        "you_feeling_National_Rifle_Association": "neu",
+        "relative_stance": "right",
+        "notes": "wrt other 2"
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "Mark Mattioli, the father of one Newtown shooting victim, also spoke after Hutchinson's announcement to applaud the review effort.",
+            "id": "p10",
+            "start": 0,
+            "end": 130,
+            "target": "Asa_Hutchinson",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "triplet-uuid": "f11c2566-848a-4e29-b8c5-4de0a81114e4",
+    "uuid": "ddfb315c-8334-44cf-9662-a71e0d9cab85",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_John_Boehner": "neu",
+        "you_feeling_John_Boehner": "neu",
+        "author_feeling_Democrats": "neu",
+        "you_feeling_Democrats": "neu",
+        "author_feeling_Republicans": "neu",
+        "you_feeling_Republicans": "neu",
+        "relative_stance": "right",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "reign of terror",
+            "id": "p7",
+            "start": 123,
+            "end": 138,
+            "target": "Republicans",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "yes",
+            "speaker": "other_anti",
+            "notes": ""
+        },
+        {
+            "txt": "That that is just outrageous talk",
+            "id": "p8",
+            "start": 1,
+            "end": 34,
+            "target": "Democrats",
+            "polarity": "neg",
+            "aim": "ind_pro",
+            "indirect-target-name": "David Axelrod",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "John_Boehner",
+            "notes": ""
+        },
+        {
+            "txt": "the president’s failed economic policies",
+            "id": "p9",
+            "start": 84,
+            "end": 124,
+            "target": "Democrats",
+            "polarity": "neg",
+            "aim": "ind_pro",
+            "indirect-target-name": "Barack Obama",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "John_Boehner",
+            "notes": ""
+        },
+        {
+            "txt": "And so they’re going to look for every boogeyman known to man",
+            "id": "p10",
+            "start": 0,
+            "end": 61,
+            "target": "Democrats",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "John_Boehner",
+            "notes": ""
+        }
+    ]
+}

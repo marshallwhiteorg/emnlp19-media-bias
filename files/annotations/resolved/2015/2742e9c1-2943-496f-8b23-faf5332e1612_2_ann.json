@@ -1,0 +1,73 @@
+{
+    "triplet-uuid": "2742e9c1-2943-496f-8b23-faf5332e1612",
+    "uuid": "a3865e91-25a6-450b-b0c8-db9b37981c29",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Asa_Hutchinson": "neu",
+        "you_feeling_Asa_Hutchinson": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "one day after refusing to sign an earlier version of the bill over concerns about discrimination against lesbian, gay, bisexual and transgender individuals",
+            "id": "p0",
+            "start": 120,
+            "end": 275,
+            "target": "Asa_Hutchinson",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Hutchinson also faced pressure from Walmart, which is headquartered in the state.",
+            "id": "p9",
+            "start": 0,
+            "end": 81,
+            "target": "Asa_Hutchinson",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "CEO Doug McMillon called on the governor to veto the bill, which he said \"threatens to undermine the spirit of inclusion.\"",
+            "id": "p10",
+            "start": 0,
+            "end": 122,
+            "target": "Asa_Hutchinson",
+            "polarity": "neg",
+            "aim": "ind_general",
+            "indirect-target-name": "Arkansas bill",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "And he gave me permission to make that reference, and it shows that families -- and there's a generational difference of opinion on these issues",
+            "id": "p8",
+            "start": 1,
+            "end": 145,
+            "target": "Asa_Hutchinson",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Asa_Hutchinson",
+            "notes": ""
+        }
+    ]
+}

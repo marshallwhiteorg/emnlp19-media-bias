@@ -1,0 +1,77 @@
+{
+    "pair-uuid": "2058ec60-5372-4f5f-83a3-da780be3a350",
+    "uuid": "9eb031dc-8dbb-4004-8f70-63af61d98165",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Walmart": "neu",
+        "you_feeling_Walmart": "neu",
+        "author_feeling_plaintiffs": "neu",
+        "you_feeling_plaintiffs": "neu",
+        "author_feeling_supreme_court": "neu",
+        "you_feeling_supreme_court": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "even Justice Ruth Bader Ginsburg, an ardent defender of women's rights, expressed some concerns about the particulars of the sex discrimination lawsuit",
+            "id": "p1",
+            "start": 54,
+            "end": 205,
+            "target": "plaintiffs",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "I could see the men going forth and the women in the store stayed in the basic positions they were always in",
+            "id": "p13",
+            "start": 1,
+            "end": 109,
+            "target": "Walmart",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "plaintiffs",
+            "notes": ""
+        },
+        {
+            "txt": "If you do wrong, then you should be held accountable.",
+            "id": "p20",
+            "start": 0,
+            "end": 53,
+            "target": "Walmart",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "plaintiffs",
+            "notes": ""
+        },
+        {
+            "txt": "The U.S. Chamber of Commerce and major corporations including Bank of America, General Electric and Microsoft submitted briefs in the case supporting Wal-Mart.",
+            "id": "p23",
+            "start": 0,
+            "end": 159,
+            "target": "Walmart",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

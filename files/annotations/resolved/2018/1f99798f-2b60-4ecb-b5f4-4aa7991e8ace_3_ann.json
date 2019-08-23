@@ -1,0 +1,62 @@
+{
+    "triplet-uuid": "1f99798f-2b60-4ecb-b5f4-4aa7991e8ace",
+    "uuid": "9dd8a512-94fc-4f18-893e-7bcad0e1b078",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Cesar_Sayoc": "neg",
+        "you_feeling_Cesar_Sayoc": "neu",
+        "author_feeling_Law_enforcement/Federal_authorities": "neu",
+        "you_feeling_Law_enforcement/Federal_authorities": "neu",
+        "author_feeling_Donald_Trump": "neg",
+        "you_feeling_Donald_Trump": "neu",
+        "relative_stance": "liberal",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "but refusing to tone down his own inflammatory rhetoric",
+            "id": "p8",
+            "start": 149,
+            "end": 204,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Minutes after addressing the threats to prominent Democrats, Trump claimed Republicans are often attacked for supporting him.",
+            "id": "p9",
+            "start": 0,
+            "end": 125,
+            "target": "Donald_Trump",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "He has a history of multiple arrests, including for felony grand theft and misdemeanor retail theft.",
+            "id": "p31",
+            "start": 0,
+            "end": 100,
+            "target": "Cesar_Sayoc",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

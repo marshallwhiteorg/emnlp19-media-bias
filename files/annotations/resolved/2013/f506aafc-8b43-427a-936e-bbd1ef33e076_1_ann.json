@@ -1,0 +1,43 @@
+{
+    "triplet-uuid": "f506aafc-8b43-427a-936e-bbd1ef33e076",
+    "uuid": "fc848d52-197e-4f53-a254-03fd7d9c56f6",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Jesse_Jackson": "neg",
+        "you_feeling_Jesse_Jackson": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "The former representative, who co-wrote a 1999 book with his father, Rev. Jesse Jackson, titled It's About the Money!: How You Can Get Out of Debt, Build Wealth, and Achieve Your Financial Dreams, was accused of spending $750,000 in campaign funds on personal items for himself and for his wife.",
+            "id": "p5",
+            "start": 0,
+            "end": 295,
+            "target": "Jesse_Jackson",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "though he did have a beer last night",
+            "id": "p6",
+            "start": 92,
+            "end": 128,
+            "target": "Jesse_Jackson",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "uuid": "9db1964a-50a1-41b3-b723-9f6d879363aa",
+    "triplet-uuid": "ae243a95-b2c2-410c-9e2b-b083b4b8eb48",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Democrats": "neg",
+        "you_feeling_Democrats": "neu",
+        "author_feeling_Republicans": "neu",
+        "you_feeling_Republicans": "neu",
+        "relative_stance": "conservative",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "Republicans have simply put in writing their political strategy which they have pursued over the last two years: obstruct and delay action on critical matters, and then blame the Democrats for not addressing the needs of the American people.",
+            "id": "p11",
+            "start": 0,
+            "end": 241,
+            "target": "Republicans",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Democrats",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        },
+        {
+            "txt": "This strategy is very cynical but very obvious and transparent.\u201d",
+            "id": "p12",
+            "start": 0,
+            "end": 64,
+            "target": "Republicans",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Democrats",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        }
+    ]
+}

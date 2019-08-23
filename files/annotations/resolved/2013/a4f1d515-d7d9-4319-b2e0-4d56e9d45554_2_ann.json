@@ -1,0 +1,90 @@
+{
+    "triplet-uuid": "a4f1d515-d7d9-4319-b2e0-4d56e9d45554",
+    "uuid": "2182a499-7e6c-4bad-9cb5-87f564e52a7a",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Barack_Obama": "neu",
+        "you_feeling_Barack_Obama": "neu",
+        "author_feeling_National_Security_Agency_programs": "pos",
+        "you_feeling_National_Security_Agency_programs": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "nobody has listened to the content of people's phone calls",
+            "id": "p10",
+            "start": 64,
+            "end": 122,
+            "target": "National_Security_Agency_programs",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Barack_Obama",
+            "notes": ""
+        },
+        {
+            "txt": "The president's full-throated defense of the programs, albeit with the qualification that he welcomes debate, is unlikely to quell the outrage over the revelations.",
+            "id": "p19",
+            "start": 0,
+            "end": 164,
+            "target": "Barack_Obama",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Obama ran as an antidote to Bush's policies in 2008, but the reports reveal that he has continued many of them, leading to concerns over the reach of the national security state.",
+            "id": "p20",
+            "start": 0,
+            "end": 178,
+            "target": "Barack_Obama",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "forcefully",
+            "id": "p0",
+            "start": 47,
+            "end": 57,
+            "target": "Barack_Obama",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "\"These are programs that have been authored by large bipartisan majorities repeatedly since 2006.\"",
+            "id": "p3",
+            "start": 0,
+            "end": 98,
+            "target": "National_Security_Agency_programs",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "Barack_Obama",
+            "notes": ""
+        }
+    ]
+}

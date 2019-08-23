@@ -1,0 +1,75 @@
+{
+    "pair-uuid": "79bf99c6-6fca-4ce4-8ae1-8771de026142",
+    "uuid": "0e0c9fac-c253-45e6-99fd-b725c84a9b1c",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Nancy_Pelosi": "neu",
+        "you_feeling_Nancy_Pelosi": "neu",
+        "author_feeling_Tim_Ryan": "neu",
+        "you_feeling_Tim_Ryan": "neu",
+        "relative_stance": "liberal",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "a prolific fundraiser",
+            "id": "p28",
+            "start": 45,
+            "end": 66,
+            "target": "Nancy_Pelosi",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "despite her proposals doing little to ensure new blood at the very top or changing the seniority system that has key committees led by lawmakers in their 80s",
+            "id": "p29",
+            "start": 8,
+            "end": 165,
+            "target": "Nancy_Pelosi",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "surviving",
+            "id": "p0",
+            "start": 111,
+            "end": 120,
+            "target": "Nancy_Pelosi",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "interrupting reporters",
+            "id": "p12",
+            "start": 34,
+            "end": 56,
+            "target": "Nancy_Pelosi",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

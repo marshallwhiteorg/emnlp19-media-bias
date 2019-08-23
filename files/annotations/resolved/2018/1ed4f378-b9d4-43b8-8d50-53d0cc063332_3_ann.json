@@ -1,0 +1,75 @@
+{
+    "triplet-uuid": "1ed4f378-b9d4-43b8-8d50-53d0cc063332",
+    "uuid": "71a88bdd-b74b-4d91-8144-c5de8a0550f2",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Democratic_Lawmakers": "neu",
+        "you_feeling_Democratic_Lawmakers": "neu",
+        "author_feeling_Republican_Lawmakers": "neu",
+        "you_feeling_Republican_Lawmakers": "neu",
+        "relative_stance": "liberal",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "serial liars",
+            "id": "p4",
+            "start": 56,
+            "end": 68,
+            "target": "Republican_Lawmakers",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "“This is a bad, outrageous deal.",
+            "id": "p7",
+            "start": 0,
+            "end": 32,
+            "target": "Democratic_Lawmakers",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_neutral",
+            "notes": ""
+        },
+        {
+            "txt": "“It’s official: Chuck Schumer is the worst negotiator in Washington ― even worse than Trump.",
+            "id": "p3",
+            "start": 0,
+            "end": 92,
+            "target": "Democratic_Lawmakers",
+            "polarity": "neg",
+            "aim": "ind_pro",
+            "indirect-target-name": "Chuck Schumer",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "inf",
+            "quote": "yes",
+            "speaker": "other_neutral",
+            "notes": ""
+        },
+        {
+            "txt": "angrily slammed",
+            "id": "p2",
+            "start": 190,
+            "end": 205,
+            "target": "Democratic_Lawmakers",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

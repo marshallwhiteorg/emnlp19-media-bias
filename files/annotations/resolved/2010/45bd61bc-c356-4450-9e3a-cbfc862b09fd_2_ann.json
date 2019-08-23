@@ -1,0 +1,90 @@
+{
+    "triplet-uuid": "45bd61bc-c356-4450-9e3a-cbfc862b09fd",
+    "uuid": "bfb98e01-ba5d-4bef-adb7-01415979a4b8",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Harry_Reid": "neu",
+        "you_feeling_Harry_Reid": "neu",
+        "author_feeling_Barack_Obama": "neu",
+        "you_feeling_Barack_Obama": "neu",
+        "relative_stance": "conservative",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "The prolonged presidential explanation elevated the issue beyond a local dispute and hurled it into the political arena.",
+            "id": "p9",
+            "start": 0,
+            "end": 120,
+            "target": "Barack_Obama",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "The next day, he clarified that he was merely commenting on fundamental religious freedoms -- not specifically on the \"wisdom\" of the mosque project.",
+            "id": "p7",
+            "start": 0,
+            "end": 149,
+            "target": "Barack_Obama",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "reportedly considered carefully",
+            "id": "p12",
+            "start": 168,
+            "end": 199,
+            "target": "Barack_Obama",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "\"pretty fulsome conversation\"",
+            "id": "p34",
+            "start": 119,
+            "end": 148,
+            "target": "Barack_Obama",
+            "polarity": "neg",
+            "aim": "ind_pro",
+            "indirect-target-name": "White House",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "\"pretty full extent.\"",
+            "id": "p34_1",
+            "start": 184,
+            "end": 205,
+            "target": "Barack_Obama",
+            "polarity": "neg",
+            "aim": "ind_pro",
+            "indirect-target-name": "White House",
+            "indirect-ally-opponent-sentiment": "neg",
+            "bias": "lex",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}

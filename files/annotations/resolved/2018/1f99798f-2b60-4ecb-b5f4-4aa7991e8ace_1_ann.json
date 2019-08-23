@@ -1,0 +1,58 @@
+{
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Cesar_Sayoc": "neg",
+        "you_feeling_Cesar_Sayoc": "neu",
+        "author_feeling_Law_enforcement/Federal_authorities": "neu",
+        "you_feeling_Law_enforcement/Federal_authorities": "neu",
+        "relative_stance": "conservative",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "called the devices \u201cMickey Mouse\u201d bombs",
+            "id": "p22",
+            "start": 137,
+            "end": 176,
+            "target": "Cesar_Sayoc",
+            "polarity": "neg",
+            "aim": "ind_pro",
+            "indirect-target-name": "bombs",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "neg",
+            "notes": ""
+        },
+        {
+            "txt": "James Fitzgerald, a retired FBI profiler and forensic linguist who, in 1996, helped catch \"Unabomber\" Ted Kaczynski -- who killed 3 people and injured 23 in bombings between 1978 and 1995 -- told Fox News on Wednesday that the letter sent to John Brennan, the former director of the CIA and a staunch Trump critic, reminded him of something the Unabomber would send because of the number of stamps used on the package.",
+            "id": "p31",
+            "start": 0,
+            "end": 418,
+            "target": "Cesar_Sayoc",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": "connecting Sayoc to the Unabomber"
+        },
+        {
+            "txt": "had prior arrests for terroristic threats",
+            "id": "p2",
+            "start": 126,
+            "end": 167,
+            "target": "Cesar_Sayoc",
+            "polarity": "neg",
+            "aim": "dir",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "indirect-ally-opponent-sentiment": "",
+            "notes": ""
+        }
+    ],
+    "triplet-uuid": "1f99798f-2b60-4ecb-b5f4-4aa7991e8ace",
+    "uuid": "f75f0ffe-9f1d-4b90-8450-804a29544396"
+}

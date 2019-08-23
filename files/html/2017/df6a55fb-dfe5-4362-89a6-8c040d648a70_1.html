@@ -1,0 +1,188 @@
+
+        <head>
+            <meta charset=UTF-8>
+        	<link rel = "stylesheet" type = "text/css" href = "../../../annotation.css">
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        	<script src="../../../annotate.js"></script>
+        	<script type="text/javascript">
+        		var file_id="df6a55fb-dfe5-4362-89a6-8c040d648a70_1";
+                var tripletUuid="df6a55fb-dfe5-4362-89a6-8c040d648a70";
+                var uuid="45d4c618-20d4-4383-980d-cd0da1e4b2f9";
+        	</script>
+        </head>
+        <body onload="init()">
+        <i>Title: Top House Intel Dem: Flynn Not Cooperating With Russia Probe, Subpoenas Coming</i><br><br>
+        <div id="article" onmouseup="annotate()"><span class="para" id="p0">WASHINGTON ― The House intelligence committee is preparing to issue subpoenas against Michael Flynn after the former national security adviser denied a request to voluntarily turn over documents related to the committee’s Russia probe.</span>	<button class="sent" id="p0">S</button><br><br>
+
+<span class="para" id="p1">Rep. Adam Schiff (Calif.), the ranking Democrat on the committee, said on Wednesday that the committee is prepared to use “whatever compulsory process we need” to obtain information from Flynn if he does not cooperate with the subpoenas.</span>	<button class="sent" id="p1">S</button><br><br>
+
+<span class="para" id="p2">He added that the committee could issue additional subpoenas if other witnesses fail to cooperate, but did not name additional individuals.</span>	<button class="sent" id="p2">S</button><br><br>
+
+<span class="para" id="p3">Citing the Fifth Amendment right against self-incrimination, Flynn’s lawyer said on Monday that Flynn would not comply with subpoenas from the Senate intelligence committee, which is conducting its own parallel investigation into Russia’s interference in the election and whether it colluded with President Donald Trump’s associates.</span>	<button class="sent" id="p3">S</button><br><br>
+
+<span class="para" id="p4">The Senate committee responded with two additional subpoenas on Tuesday targeting Flynn’s businesses.</span>	<button class="sent" id="p4">S</button><br><br>
+
+<span class="para" id="p5">The House committee’s subpoenas “will be designed to maximize our chance of getting the information that we need,” Schiff told reporters at a breakfast hosted by the Christian Science Monitor.</span>	<button class="sent" id="p5">S</button><br><br>
+
+<span class="para" id="p6">“We need to use whatever compulsory mechanism necessary to get the information he possesses … the Fifth Amendment right not to provide materials or documents is limited,” he added.</span>	<button class="sent" id="p6">S</button><br><br>
+
+<span class="para" id="p7">Schiff said he is “skeptical” that the committee would agree to grant Flynn immunity in the future in exchange for information.</span>	<button class="sent" id="p7">S</button><br><br>
+
+<span class="para" id="p8">The committee is also looking for ways to obtain documentation of Trump’s conversations with top intelligence and law enforcement officials involved in a separate federal Russia probe.</span>	<button class="sent" id="p8">S</button><br><br>
+
+<span class="para" id="p9">Trump implied earlier this month that he had “tapes” of discussions with recently fired FBI Director James Comey that would be damaging to Comey.</span>	<button class="sent" id="p9">S</button><br><br>
+
+<span class="para" id="p10">And the Washington Post reported earlier this week that Trump asked Director of National Intelligence Dan Coats and National Security Agency Director Mike Rogers to push back on the FBI’s Russia investigation.</span>	<button class="sent" id="p10">S</button><br><br>
+
+<span class="para" id="p11">“That could be further evidence of an attempt to interfere with the investigation,” Schiff said of Trump’s reported request to Coats and Rogers.</span>	<button class="sent" id="p11">S</button><br><br>
+
+<span class="para" id="p12">He also referred to past reports that the White House asked allies on Capitol Hill to refute negative press stories about Trump associates’ ties to Russia.</span>	<button class="sent" id="p12">S</button><br><br>
+
+<span class="para" id="p13">“If all of this is part of a pattern by the White House of interference or worse, that’s something that we have to find out about and it’s something we have to stop,” he said.</span>	<button class="sent" id="p13">S</button><br><br>
+
+<span class="para" id="p14">Despite concerns about Trump interfering with ongoing investigations into his campaign, Schiff warned that it is premature for Democrats on Capitol Hill to push for impeachment.</span>	<button class="sent" id="p14">S</button><br><br>
+
+<span class="para" id="p15">“There’s a legal standard that needs to be met for impeachment and then there’s a very practical standard that has to be met,” Schiff said.</span>	<button class="sent" id="p15">S</button><br><br>
+
+<span class="para" id="p16">Practically speaking, he continued, impeachment is only possible if Republican lawmakers and the general public believe Trump is unfit for office.</span>	<button class="sent" id="p16">S</button><br><br>
+
+<span class="para" id="p17">“If the Republicans in Congress or people at large in the country feel this is simply a way to nullify an election that others didn’t agree with, then you’re not going to meet the practical standards necessary,” Schiff said.</span>	<button class="sent" id="p17">S</button><br><br>
+
+</div>
+	    <div class="form-popup" id="myForm">
+	    <form class="form-container" id="form_data">
+	    	<h2 id="selected_text"></h2>
+	        <h3>Main Target</h3>
+	    	<label><input type="radio" name="target" value="Michael_Flynn"> Michael Flynn</label><br>
+	<label><input type="radio" name="target" value="Adam_Schiff"> Adam Schiff</label><br>
+	<label><input type="radio" name="target" value="Donald_Trump"> Donald Trump</label><br>
+
+    	<h3>Polarity</h3>
+    	<label><input type="radio" name="polarity" value="pos"> Positive</label><br>
+    	<label><input type="radio" name="polarity" value="neg"> Negative</label><br>
+
+    	<h3>Aim</h3>
+    	<label><input type="radio" name="aim" value="dir" onclick="hideIndirectTargetSentiment()"> Direct</label><br>
+    	<label><input type="radio" name="aim" value="ind_pro" onclick="showIndirectTargetSentiment()"> Indirect (Ally)</label><br>
+    	<label><input type="radio" name="aim" value="ind_anti" onclick="showIndirectTargetSentiment()"> Indirect (Opponent)</label><br>
+        <label><input type="radio" name="aim" value="ind_general" onclick="showIndirectTargetSentiment()"> Indirect (General)</label><br>
+
+        <div id="indirect-target-name">
+    	<h3>Indirect Target:
+        <label><input type="text" name="indirect-target-name" id="indirect-target-name-label"></label></h3>
+        </div>
+
+        <div id="indirect-ally-opponent-sentiment">
+        <h3>Sentiment Towards Indirect Target</h3>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="pos"> Positive</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neg"> Negative</label><br>
+        </div>
+
+    	<h3>Bias Type</h3>
+    	<label><input type="radio" name="bias" value="lex"> Lexical</label><br>
+    	<label><input type="radio" name="bias" value="inf"> Informational</label><br>
+
+    	<h3>Is the bias in a quote?</h3>
+    	<label><input type="radio" name="quote" value="yes" onclick="show_speaker()"> Yes</label><br>
+    	<label><input type="radio" name="quote" value="no" onclick="hide_speaker()" checked> No</label><br>
+
+    	<div id="speaker" style="display:none">
+    	<h3>If yes, who said the quote?</h3>
+    	<label><input type="radio" name="speaker" value="Michael_Flynn"> Michael Flynn</label><br>
+	<label><input type="radio" name="speaker" value="Adam_Schiff"> Adam Schiff</label><br>
+	<label><input type="radio" name="speaker" value="Donald_Trump"> Donald Trump</label><br>
+	<label><input type="radio" name="speaker" value="other_pro"> Other (Pro-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_anti"> Other (Anti-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_neutral"> Other (Neutral)</label><br>
+    	</div>
+
+    	<h3> Additional Notes</h3>
+    	<textarea id="notes"></textarea><br>
+
+    	<div id="error_msg"></div>
+        <button type="button" class="btn submit" id="submit">Submit</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+<button type="button" class="btn delete" id="delete">Delete</button>
+<button type="button" class="btn duplicate" id="duplicate">Duplicate</button>
+    </form>
+    </div>
+    <button type="button" class="btn" id="article-level-button" onclick="showArticleLevelForm()">Article-level annotation</button><br>
+        <div class="form-popup" id="article-level-form-div">
+        <form class="form-container" id="article-level-form">
+        <div class="article-question-div">
+        <h3>Main Event: House Intelligence committee prepares to subpoena Michael Flynn</h3>
+        <h4>How do you think the author feels regarding the main event?</h4>
+        <label><input type="radio" name="author_feeling_main_event" value="pos"> Positive</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neg"> Negative</label><br>
+        </div>
+        
+            <div class="article-question-div">
+            <h3>Main Entity: Michael Flynn</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Michael_Flynn" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Michael_Flynn" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Michael_Flynn" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Michael_Flynn" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Michael_Flynn" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Michael_Flynn" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Michael_Flynn" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Michael_Flynn" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+            <div class="article-question-div">
+            <h3>Main Entity: Adam Schiff</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Adam_Schiff" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Adam_Schiff" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Adam_Schiff" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Adam_Schiff" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Adam_Schiff" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Adam_Schiff" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Adam_Schiff" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Adam_Schiff" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+            <div class="article-question-div">
+            <h3>Main Entity: Donald Trump</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Donald_Trump" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Donald_Trump" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+        <h3>Political Stance</h3>
+        <h4 style="margin-bottom:0px">Is this article more left, center, or more right compared to the other articles in the triple?</h4>
+
+        <font size="2">Note: Within a triplet, one should be labeled "More left", one should be labeled "Center", and the other should be labeled "More right".</font><br><br>
+        <label><input type="radio" name="relative_stance" value="left"> More left</label><br>
+        <label><input type="radio" name="relative_stance" value="center"> Center</label><br>
+        <label><input type="radio" name="relative_stance" value="right"> More right</label><br>
+        <h3> Additional Notes</h3>
+        <textarea name="notes" id="article-level-notes"></textarea><br>
+        <div id="article-level-form-error-msg"></div>
+        <button type="button" class="btn submit" id="submit" onclick="submitArticleLevelForm()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeArticleLevelForm()">Cancel</button>
+        </form>
+        </div>
+    
+        <button type="button" class="btn" onclick="download_annotations()">Download annotation file</button>
+        <button id="imp_btn" onclick="document.getElementById('import').click();">Import existing annotation file</button>
+        <input type="file" id="import" style="display:none" onchange="importFile(this.files)">
+        <div id="import_error"></div>
+        </body>

@@ -1,0 +1,170 @@
+
+        <head>
+            <meta charset=UTF-8>
+        	<link rel = "stylesheet" type = "text/css" href = "../../../annotation.css">
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        	<script src="../../../annotate.js"></script>
+        	<script type="text/javascript">
+        		var file_id="ae243a95-b2c2-410c-9e2b-b083b4b8eb48_2";
+                var tripletUuid="ae243a95-b2c2-410c-9e2b-b083b4b8eb48";
+                var uuid="9db1964a-50a1-41b3-b723-9f6d879363aa";
+        	</script>
+        </head>
+        <body onload="init()">
+        <i>Title: Senate Republicans: No Legislation Until After Tax Cut Extension</i><br><br>
+        <div id="article" onmouseup="annotate()"><span class="para" id="p0">Democrats in the Senate hoping to pass nonbudget-related legislation in the lame-duck session were put on notice by their Republican colleagues Wednesday morning: No tax-cut extension? No laws for you!</span>	<button class="sent" id="p0">S</button><br><br>
+
+<span class="para" id="p1">In a letter signed by the 42 members of the Republican caucus, delivered to the Senate majority leader, Harry Reid of Nevada, and mentioned Wednesday on the Senate floor by the minority leader, Mitch McConnell of Kentucky, the Republicans informed their Democratic counterparts that they would not go forward with “any legislative item until the Senate has acted to fund the government and we have prevented the tax increase that is currently awaiting all American taxpayers.”</span>	<button class="sent" id="p1">S</button><br><br>
+
+<span class="para" id="p2">The letter goes on: “With little time left in this Congressional session, legislative scheduling should be focused on these critical priorities.</span>	<button class="sent" id="p2">S</button><br><br>
+
+<span class="para" id="p3">While there are other items that might ultimately be worthy of the Senate’s attention, we cannot agree to prioritize any matters above the critical issues of funding the government and preventing a job-killing tax hike.”</span>	<button class="sent" id="p3">S</button><br><br>
+
+<span class="para" id="p4">Washington is locked in a battle over what to do about the Bush-era tax cuts, which expire at the end of the year.</span>	<button class="sent" id="p4">S</button><br><br>
+
+<span class="para" id="p5">President Obama and Democratic lawmakers want to extend the cuts to all Americans except those with income above $250,000, while Republicans want tax cuts extended to Americans at all income levels.</span>	<button class="sent" id="p5">S</button><br><br>
+
+<span class="para" id="p6">Another idea that has been kicking around over the last few weeks — proposed by some Democrats — is raising the expiration income ceiling to households with at least $1 million in income.</span>	<button class="sent" id="p6">S</button><br><br>
+
+<span class="para" id="p7">At the same time, Congress needs to make a legislative move to keep the government funded before the 112th Congress takes over in January.</span>	<button class="sent" id="p7">S</button><br><br>
+
+<span class="para" id="p8">Democrats were hoping to force a more ambitious agenda into the final weeks, including the ratification of the New Start treaty, a military authorization bill that would repeal the “don’t ask, don’t tell” provision, the extension of unemployment funds and the Dream Act, an immigration bill.</span>	<button class="sent" id="p8">S</button><br><br>
+
+<span class="para" id="p9">“If they really cared about creating jobs, they should stop blocking a preservation of unemployment insurance, which would create or save hundred of thousands of jobs,” Jim Manley, a spokesman for Mr. Reid, said in an e-mail.</span>	<button class="sent" id="p9">S</button><br><br>
+
+<span class="para" id="p10">“Unfortunately this letter is nothing new.</span>	<button class="sent" id="p10">S</button><br><br>
+
+<span class="para" id="p11">Republicans have simply put in writing their political strategy which they have pursued over the last two years: obstruct and delay action on critical matters, and then blame the Democrats for not addressing the needs of the American people.</span>	<button class="sent" id="p11">S</button><br><br>
+
+<span class="para" id="p12">This strategy is very cynical but very obvious and transparent.”</span>	<button class="sent" id="p12">S</button><br><br>
+
+<span class="para" id="p13">This post has been revised to reflect the following correction:</span>	<button class="sent" id="p13">S</button><br><br>
+
+<span class="para" id="p14">Correction: December 1, 2010</span>	<button class="sent" id="p14">S</button><br><br>
+
+<span class="para" id="p15">Because of an editing error, an earlier version of this post said that Senator Harry Reid was from Arizona. He is from Nevada.</span>	<button class="sent" id="p15">S</button><br><br>
+
+<span class="para" id="p16">Senators John McCain and Lindsey Graham, two of the strongest Republican critics of the Obama administration’s handling of the Benghazi attack, offered support nonetheless for the nomination of Victoria Nuland, who helped edit the much-disputed talking points about the incident.</span>	<button class="sent" id="p16">S</button><br><br>
+
+<span class="para" id="p17">President Obama and Gov. Chris Christie, Republican of New Jersey, will reprise their pre-election tour of the coastal areas ravaged by Hurricane Sandy on Tuesday, a White House official said Friday morning.</span>	<button class="sent" id="p17">S</button><br><br>
+
+</div>
+	    <div class="form-popup" id="myForm">
+	    <form class="form-container" id="form_data">
+	    	<h2 id="selected_text"></h2>
+	        <h3>Main Target</h3>
+	    	<label><input type="radio" name="target" value="Democrats"> Democrats</label><br>
+	<label><input type="radio" name="target" value="Republicans"> Republicans</label><br>
+
+    	<h3>Polarity</h3>
+    	<label><input type="radio" name="polarity" value="pos"> Positive</label><br>
+    	<label><input type="radio" name="polarity" value="neg"> Negative</label><br>
+
+    	<h3>Aim</h3>
+    	<label><input type="radio" name="aim" value="dir" onclick="hideIndirectTargetSentiment()"> Direct</label><br>
+    	<label><input type="radio" name="aim" value="ind_pro" onclick="showIndirectTargetSentiment()"> Indirect (Ally)</label><br>
+    	<label><input type="radio" name="aim" value="ind_anti" onclick="showIndirectTargetSentiment()"> Indirect (Opponent)</label><br>
+        <label><input type="radio" name="aim" value="ind_general" onclick="showIndirectTargetSentiment()"> Indirect (General)</label><br>
+
+        <div id="indirect-target-name">
+    	<h3>Indirect Target:
+        <label><input type="text" name="indirect-target-name" id="indirect-target-name-label"></label></h3>
+        </div>
+
+        <div id="indirect-ally-opponent-sentiment">
+        <h3>Sentiment Towards Indirect Target</h3>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="pos"> Positive</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="indirect-ally-opponent-sentiment" value="neg"> Negative</label><br>
+        </div>
+
+    	<h3>Bias Type</h3>
+    	<label><input type="radio" name="bias" value="lex"> Lexical</label><br>
+    	<label><input type="radio" name="bias" value="inf"> Informational</label><br>
+
+    	<h3>Is the bias in a quote?</h3>
+    	<label><input type="radio" name="quote" value="yes" onclick="show_speaker()"> Yes</label><br>
+    	<label><input type="radio" name="quote" value="no" onclick="hide_speaker()" checked> No</label><br>
+
+    	<div id="speaker" style="display:none">
+    	<h3>If yes, who said the quote?</h3>
+    	<label><input type="radio" name="speaker" value="Democrats"> Democrats</label><br>
+	<label><input type="radio" name="speaker" value="Republicans"> Republicans</label><br>
+	<label><input type="radio" name="speaker" value="other_pro"> Other (Pro-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_anti"> Other (Anti-target)</label><br>
+    	<label><input type="radio" name="speaker" value="other_neutral"> Other (Neutral)</label><br>
+    	</div>
+
+    	<h3> Additional Notes</h3>
+    	<textarea id="notes"></textarea><br>
+
+    	<div id="error_msg"></div>
+        <button type="button" class="btn submit" id="submit">Submit</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+<button type="button" class="btn delete" id="delete">Delete</button>
+<button type="button" class="btn duplicate" id="duplicate">Duplicate</button>
+    </form>
+    </div>
+    <button type="button" class="btn" id="article-level-button" onclick="showArticleLevelForm()">Article-level annotation</button><br>
+        <div class="form-popup" id="article-level-form-div">
+        <form class="form-container" id="article-level-form">
+        <div class="article-question-div">
+        <h3>Main Event: Republicans sign letter to stop legislature until tax cut issue is resolved</h3>
+        <h4>How do you think the author feels regarding the main event?</h4>
+        <label><input type="radio" name="author_feeling_main_event" value="pos"> Positive</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neu"> Neutral</label><br>
+        <label><input type="radio" name="author_feeling_main_event" value="neg"> Negative</label><br>
+        </div>
+        
+            <div class="article-question-div">
+            <h3>Main Entity: Democrats</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Democrats" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Democrats" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Democrats" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Democrats" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Democrats" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Democrats" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Democrats" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Democrats" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+            <div class="article-question-div">
+            <h3>Main Entity: Republicans</h3>
+            <h4>How do you think the author feels regarding this main entity?</h4>
+            <label><input type="radio" name="author_feeling_Republicans" value="pos"> Positive</label><br>
+            <label><input type="radio" name="author_feeling_Republicans" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="author_feeling_Republicans" value="neg"> Negative</label><br>
+            </div>
+            <div class="article-question-div">
+            <h4>How did you feel about this main entity prior to reading the article?</h4>
+            <label><input type="radio" name="you_feeling_Republicans" value="str-pos"> Strongly positive</label><br>
+            <label><input type="radio" name="you_feeling_Republicans" value="sli-pos"> Slightly positive</label><br>
+            <label><input type="radio" name="you_feeling_Republicans" value="neu"> Neutral</label><br>
+            <label><input type="radio" name="you_feeling_Republicans" value="sli-neg"> Slightly negative</label><br>
+            <label><input type="radio" name="you_feeling_Republicans" value="str-neg"> Strongly negative</label><br>
+            </div>
+            
+        <h3>Political Stance</h3>
+        <h4 style="margin-bottom:0px">Is this article more left, center, or more right compared to the other articles in the triple?</h4>
+
+        <font size="2">Note: Within a triplet, one should be labeled "More left", one should be labeled "Center", and the other should be labeled "More right".</font><br><br>
+        <label><input type="radio" name="relative_stance" value="left"> More left</label><br>
+        <label><input type="radio" name="relative_stance" value="center"> Center</label><br>
+        <label><input type="radio" name="relative_stance" value="right"> More right</label><br>
+        <h3> Additional Notes</h3>
+        <textarea name="notes" id="article-level-notes"></textarea><br>
+        <div id="article-level-form-error-msg"></div>
+        <button type="button" class="btn submit" id="submit" onclick="submitArticleLevelForm()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeArticleLevelForm()">Cancel</button>
+        </form>
+        </div>
+    
+        <button type="button" class="btn" onclick="download_annotations()">Download annotation file</button>
+        <button id="imp_btn" onclick="document.getElementById('import').click();">Import existing annotation file</button>
+        <input type="file" id="import" style="display:none" onchange="importFile(this.files)">
+        <div id="import_error"></div>
+        </body>

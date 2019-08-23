@@ -1,0 +1,47 @@
+{
+    "triplet-uuid": "ed8c136f-8d44-4c83-ad05-0dcfc3a0c54a",
+    "uuid": "6a2ea823-1d8b-4e82-9c40-23daf0847a47",
+    "article-level-annotations": {
+        "author_feeling_main_event": "neu",
+        "author_feeling_Eric_Holder": "neu",
+        "you_feeling_Eric_Holder": "neu",
+        "author_feeling_protestors": "neu",
+        "you_feeling_protestors": "neu",
+        "author_feeling_police": "neu",
+        "you_feeling_police": "neu",
+        "relative_stance": "center",
+        "notes": ""
+    },
+    "phrase-level-annotations": [
+        {
+            "txt": "pointing a semi-automatic assault rifle at demonstrators, then cursing and threatening to kill one of them",
+            "id": "p27",
+            "start": 60,
+            "end": 166,
+            "target": "police",
+            "polarity": "neg",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        },
+        {
+            "txt": "Holder's visit had let people know their voices had been heard",
+            "id": "p20",
+            "start": 43,
+            "end": 105,
+            "target": "Eric_Holder",
+            "polarity": "pos",
+            "aim": "dir",
+            "indirect-target-name": "",
+            "indirect-ally-opponent-sentiment": "",
+            "bias": "inf",
+            "quote": "no",
+            "speaker": "",
+            "notes": ""
+        }
+    ]
+}
