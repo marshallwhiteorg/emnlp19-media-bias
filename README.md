@@ -40,7 +40,7 @@ The generated html file will only work if it's nested 3 directories deep, which 
 
 
 ## Annotation protocol
-A protocol for annotating the articles is located [here](todo-link-to-guideline).
+A protocol for annotating the articles is located [here](https://github.com/lisafan/emnlp19-BASIL/blob/master/annotation-protocol.pdf).
 
 
 ## Other notes
