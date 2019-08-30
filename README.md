@@ -2,7 +2,23 @@
 
 This repository holds the data and code for the EMNLP 2019 paper "In Plain Sight: Media Bias Through the Lens of Factual Reporting".
 
-Citation & Link
+## Citation and link
+[In Plain Sight: Media Bias Through the Lens of Factual Reporting](arxiv link)
+
+@inproceedings{mediabias2019,
+    title = "In Plain Sight: Media Bias Through the Lens of Factual Reporting",
+    author = "Fan, Lisa  and
+      White, Marshall  and
+      Sharma, Eva  and
+      Su, Ruisi  and
+      Choubey, Prafulla Kumar  and
+      Huang, Ruihong  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing",
+    year = "2019",
+    publisher = "Association for Computational Linguistics"
+}
+
 
 
 ## Contents
