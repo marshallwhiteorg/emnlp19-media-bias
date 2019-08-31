@@ -37,7 +37,7 @@ This repository holds the data and code for the EMNLP 2019 paper "In Plain Sight
 - create_html_utils.py: utils for create_html.py  
 - article.py: model for a news article  
 - constants.py: constants to help load articles  
-
+- emnlp19-BASIL.zip: a version of the dataset that combines articles and their gold-standard annotations for easy processing
 
 ## Annotation tool usage
 - Open a generated html file in your browser to annotate it.  
