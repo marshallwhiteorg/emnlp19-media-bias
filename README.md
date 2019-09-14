@@ -5,7 +5,7 @@ This repository holds the data and code for the EMNLP 2019 paper "In Plain Sight
 
 ## Link
 
-[In Plain Sight: Media Bias Through the Lens of Factual Reporting](arxiv-link)
+[In Plain Sight: Media Bias Through the Lens of Factual Reporting](https://arxiv.org/abs/1909.02670)
 
 
 ## BibTeX
