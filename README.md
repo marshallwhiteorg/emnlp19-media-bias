@@ -73,4 +73,4 @@ A protocol for annotating the articles is located [here](https://github.com/lisa
 
 ## Contact 
 
-For support or questions, please contact Lisa Fan (lisafan38@gmail.com) or Marshall White (marshall@marshallwhite.org).
+For support or questions, please contact Lisa Fan (lisafan38@gmail.com) or Marshall White (mw@marshallwhite.org).
