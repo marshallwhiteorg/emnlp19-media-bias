@@ -1,3 +1,6 @@
+## UPDATE
+2/15/22 - An updated BASIL dataset with some changes to the annotations can be found here: https://github.com/launchnlp/BASIL.
+
 ## About
 
 This repository holds the data and code for the EMNLP 2019 paper "In Plain Sight: Media Bias Through the Lens of Factual Reporting".
